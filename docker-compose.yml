@@ -1,0 +1,91 @@
+# Pre-built images only. No source, schema, or dumps in this folder.
+# Image prefix/tag come from the environment (or app.conf defaults).
+name: team-management
+
+services:
+  db:
+    image: docker.io/library/postgres:16-alpine
+    environment:
+      POSTGRES_USER: teammgmt
+      POSTGRES_PASSWORD: teammgmt
+      POSTGRES_DB: teammgmt
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U teammgmt -d teammgmt"]
+      interval: 2s
+      timeout: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+
+  backend:
+    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/owner/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
+    environment:
+      DJANGO_SETTINGS_MODULE: config.settings.docker
+      DJANGO_SECRET_KEY: "${DJANGO_SECRET_KEY:-dev-insecure-secret-key}"
+      DJANGO_DEBUG: "false"
+      DJANGO_ALLOWED_HOSTS: "*"
+      POSTGRES_HOST: db
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: teammgmt
+      POSTGRES_USER: teammgmt
+      POSTGRES_PASSWORD: teammgmt
+      REDIS_URL: redis://redis:6379/0
+      HUEY_IMMEDIATE: "false"
+      TEAMMGMT_EXPORTS_DIR: /app/exports
+      TEAMMGMT_IMPORT_DIR: /app/import
+      TEAMMGMT_DEMO_DIR: /app/demo
+    env_file:
+      - .env
+    volumes:
+      - ./exports:/app/exports${TEAMMGMT_VOL_OPTS:-}
+      - ./import:/app/import${TEAMMGMT_VOL_OPTS:-}
+      - ./demo:/app/demo${TEAMMGMT_VOL_OPTS_RO:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    expose:
+      - "8000"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/accounts/login/')"
+        ]
+      interval: 2s
+      timeout: 5s
+      retries: 30
+
+  worker:
+    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/owner/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
+    command: python -m huey.bin.huey_consumer config.huey.huey
+    environment:
+      DJANGO_SETTINGS_MODULE: config.settings.docker
+      POSTGRES_HOST: db
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: teammgmt
+      POSTGRES_USER: teammgmt
+      POSTGRES_PASSWORD: teammgmt
+      REDIS_URL: redis://redis:6379/0
+      HUEY_IMMEDIATE: "false"
+    env_file:
+      - .env
+    depends_on:
+      - db
+      - redis
+
+  web:
+    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/owner/team-management}-web:${TEAMMGMT_IMAGE_TAG:-latest}
+    ports:
+      - "${TEAMMGMT_PORT:-8000}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+    name: teammgmt-pg

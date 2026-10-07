@@ -1,0 +1,6 @@
+logs/*.log
+*.log
+.env.local
+registry.env
+exports/
+import/

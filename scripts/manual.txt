@@ -1,0 +1,53 @@
+team-management data manual
+Amateur hockey operations · single team
+Commands:  ./start.sh
+
+────────────────────────────────────────────────────────
+1. Sign in
+
+  Roles:
+
+    admin   everything (people, seasons, money, integrations, data)
+    coach   schedule, attendance, lineups, comments, fees, accounting view
+    player  own attendance and own payments, read team content
+    guest   same as player for now
+
+  Built-in logins (password "changeme", change them in Settings):
+
+    admin@team-management.local     coach@team-management.local
+    player@team-management.local    guest@team-management.local
+
+  Language: Polish is the default. Switch PL / EN / CS in the top bar.
+
+────────────────────────────────────────────────────────
+2. Data export / import / demo
+
+  The app exposes a Data page (admin only) with three actions:
+
+    Export      writes the full dataset as JSON files into
+                ./exports/<timestamp>/ (one file per table)
+
+    Import      replaces the current data from the ./import/ folder.
+                Drop JSON files (same layout as an export) into ./import/
+                and press Import.
+
+    Load demo   replaces the current data with the bundled demo dataset
+                from ./demo/.
+
+  Folders:
+
+    ./exports/   timestamped export folders (gitignored)
+    ./import/    staging folder for imports (gitignored)
+    ./demo/      bundled demo data (committed)
+
+  To import your own data: move its JSON files into ./import/ and press Import.
+
+────────────────────────────────────────────────────────
+3. Lifecycle
+
+    ./start.sh --start          start or resume (build from ../team-management
+                                when the source repo is present)
+    ./start.sh --stop           stop (data kept)
+    ./start.sh --update         rebuild/pull and recreate the app
+    ./start.sh --force-recreate wipe the database and start empty
+    ./start.sh --logs           follow logs

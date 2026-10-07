@@ -1,0 +1,35 @@
+# Publish images template. On push to main, build and push the version + latest
+# tags. Replace APP_ values and the service list.
+name: publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve image prefix
+        run: |
+          echo "MYAPP_IMAGE_PREFIX=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/myapp" >> "$GITHUB_ENV"
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build
+        run: ./build.sh
+      - name: Push
+        run: |
+          VERSION="$(tr -d '[:space:]' < VERSION)"
+          for svc in backend web; do
+            docker push "${MYAPP_IMAGE_PREFIX}-${svc}:${VERSION}"
+            docker push "${MYAPP_IMAGE_PREFIX}-${svc}:latest"
+          done

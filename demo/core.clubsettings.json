@@ -1,0 +1,11 @@
+[
+{
+  "model": "core.clubsettings",
+  "pk": 1,
+  "fields": {
+    "bank_account": "12 3456 7890 1234 5678 9012 3456",
+    "transfer_title_template": "Hokej {season} — {player}",
+    "reminder_hours_before": 24
+  }
+}
+]

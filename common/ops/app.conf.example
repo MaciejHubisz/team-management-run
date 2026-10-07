@@ -1,0 +1,55 @@
+# App identity for the common ops scripts.
+#
+# Copy to <run-repo>/app.conf and edit. Every value has a sensible fallback, so
+# only the identity is required. The scripts read <APP_ENV_PREFIX>_* variables
+# from the environment and pass them through to docker-compose unchanged.
+#
+#   APP_NAME            human name, used in messages and the systemd unit
+#   APP_SLUG            lower-case id: systemd unit, nginx site, AppArmor names
+#   APP_ENV_PREFIX      prefix of every environment variable (RINKDESK, APP, …)
+#   APP_IMAGE_PREFIX    registry/namespace the images are published under
+#   APP_IMAGE_PREFIX    e.g. ghcr.io/owner/myapp -> myapp-backend / myapp-web
+
+APP_NAME="MyApp"
+APP_SLUG="myapp"
+APP_ENV_PREFIX="MYAPP"
+
+APP_IMAGE_PREFIX="ghcr.io/owner/myapp"
+APP_REGISTRY="ghcr.io"
+
+# Compose services and data volumes owned by the stack.
+APP_SERVICES="backend web"
+APP_DATA_VOLUMES="myapp-pg"
+APP_COMPOSE_FILE="docker-compose.yml"
+
+# Host defaults.
+APP_HOST="127.0.0.1"
+APP_PORT="8000"
+APP_PUBLIC_DIR="/"
+
+# Source repo, detected as a sibling when present.
+APP_SRC_ENV="MYAPP_SRC"
+APP_SRC_DIR="myapp"
+APP_BUILD_SCRIPT="build.sh"
+APP_BUILD_GUARD="app/backend"
+APP_RUN_SCRIPT="start.sh"
+APP_RUN_REPO="myapp-run"
+APP_VERSION_FILE="VERSION"
+
+# Host-side paths inside this checkout.
+APP_MANUAL_FILE="scripts/manual.txt"
+APP_PROTOCOLS_DIR="protocols"
+APP_LOGOS_DIR="team-logos"
+APP_EXPORTS_DIR="exports"
+
+# systemd / shell / nginx identity.
+APP_SYSTEMD_UNIT="myapp"
+APP_SYSTEMD_DESCRIPTION="MyApp"
+APP_ALIAS="myapp"
+APP_NGINX_SITE_NAME="myapp"
+APP_ADMIN_ENV="scripts/admin/admin.env"
+APP_NGINX_TEMPLATE="scripts/admin/nginx-site.conf.template"
+APP_DEPLOY_DOC="docs/deploy.md"
+
+# Image used to empty a data volume in place.
+APP_WIPE_IMAGE="docker.io/library/postgres:16-alpine"

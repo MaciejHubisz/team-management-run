@@ -1,0 +1,184 @@
+[
+{
+  "model": "attendance.attendance",
+  "pk": 1,
+  "fields": {
+    "event": 2,
+    "player": 1,
+    "status": "yes",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.015Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 2,
+  "fields": {
+    "event": 2,
+    "player": 2,
+    "status": "yes",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.096Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 3,
+  "fields": {
+    "event": 2,
+    "player": 3,
+    "status": "yes",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.024Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 4,
+  "fields": {
+    "event": 2,
+    "player": 4,
+    "status": "no",
+    "reason": "injury",
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.029Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 5,
+  "fields": {
+    "event": 2,
+    "player": 5,
+    "status": "maybe",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.038Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 6,
+  "fields": {
+    "event": 2,
+    "player": 6,
+    "status": "unanswered",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.042Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 7,
+  "fields": {
+    "event": 2,
+    "player": 7,
+    "status": "yes",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.047Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 8,
+  "fields": {
+    "event": 2,
+    "player": 8,
+    "status": "yes",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.052Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 9,
+  "fields": {
+    "event": 2,
+    "player": 9,
+    "status": "yes",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.056Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 10,
+  "fields": {
+    "event": 2,
+    "player": 10,
+    "status": "yes",
+    "reason": "injury",
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.090Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 11,
+  "fields": {
+    "event": 2,
+    "player": 11,
+    "status": "maybe",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.070Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 12,
+  "fields": {
+    "event": 2,
+    "player": 12,
+    "status": "unanswered",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.075Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 13,
+  "fields": {
+    "event": 2,
+    "player": 13,
+    "status": "yes",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.080Z"
+  }
+},
+{
+  "model": "attendance.attendance",
+  "pk": 14,
+  "fields": {
+    "event": 2,
+    "player": 14,
+    "status": "yes",
+    "reason": null,
+    "session_paid": false,
+    "set_by": null,
+    "updated_at": "2026-10-07T15:30:25.084Z"
+  }
+}
+]

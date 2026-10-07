@@ -1,0 +1,25 @@
+# Public HTTPS site template. The setup script substitutes the placeholders.
+# Exposes only the public path; everything else returns 404.
+server {
+    listen 80;
+    server_name __DOMAIN__;
+
+    # Nothing except the public page is reachable through the public hostname.
+    location / {
+        return 404;
+    }
+
+    location = / {
+        return 302 __PUBLIC_DIR__;
+    }
+
+    location __PUBLIC_DIR__ {
+        proxy_pass http://127.0.0.1:__PORT__;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Cookie $http_cookie;
+        proxy_pass_header Set-Cookie;
+    }
+}

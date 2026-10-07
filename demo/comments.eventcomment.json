@@ -1,0 +1,22 @@
+[
+{
+  "model": "comments.eventcomment",
+  "pk": 1,
+  "fields": {
+    "event": 2,
+    "author": 2,
+    "body": "Bring both jerseys.",
+    "created_at": "2026-10-07T15:30:25.101Z"
+  }
+},
+{
+  "model": "comments.eventcomment",
+  "pk": 2,
+  "fields": {
+    "event": 2,
+    "author": 1,
+    "body": "Ice is booked at 20:00.",
+    "created_at": "2026-10-07T15:30:25.106Z"
+  }
+}
+]

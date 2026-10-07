@@ -1,0 +1,62 @@
+[
+{
+  "model": "events.event",
+  "pk": 1,
+  "fields": {
+    "title": "Tuesday training",
+    "event_type": "training",
+    "season": 1,
+    "starts_at": "2026-10-09T15:30:24.794Z",
+    "ends_at": null,
+    "location": "Main rink",
+    "description": "",
+    "opponent": "",
+    "home_score": null,
+    "away_score": null,
+    "session_fee": null,
+    "status": "scheduled",
+    "series": null,
+    "revision": 0
+  }
+},
+{
+  "model": "events.event",
+  "pk": 2,
+  "fields": {
+    "title": "Friendly vs Bears",
+    "event_type": "game",
+    "season": 1,
+    "starts_at": "2026-10-12T15:30:24.794Z",
+    "ends_at": null,
+    "location": "Main rink",
+    "description": "",
+    "opponent": "Bears",
+    "home_score": null,
+    "away_score": null,
+    "session_fee": 3000,
+    "status": "scheduled",
+    "series": null,
+    "revision": 0
+  }
+},
+{
+  "model": "events.event",
+  "pk": 3,
+  "fields": {
+    "title": "Old training",
+    "event_type": "training",
+    "season": 2,
+    "starts_at": "2026-09-27T15:30:24.794Z",
+    "ends_at": null,
+    "location": "",
+    "description": "",
+    "opponent": "",
+    "home_score": null,
+    "away_score": null,
+    "session_fee": null,
+    "status": "cancelled",
+    "series": null,
+    "revision": 0
+  }
+}
+]

@@ -1,0 +1,65 @@
+[
+{
+  "model": "formations.formationunit",
+  "pk": 1,
+  "fields": {
+    "unit_type": "defense",
+    "name": "Defense pair 1",
+    "status": "active"
+  }
+},
+{
+  "model": "formations.formationunit",
+  "pk": 2,
+  "fields": {
+    "unit_type": "defense",
+    "name": "Defense pair 2",
+    "status": "active"
+  }
+},
+{
+  "model": "formations.formationunit",
+  "pk": 3,
+  "fields": {
+    "unit_type": "defense",
+    "name": "Defense pair 3",
+    "status": "active"
+  }
+},
+{
+  "model": "formations.formationunit",
+  "pk": 4,
+  "fields": {
+    "unit_type": "attack",
+    "name": "Attack line 1",
+    "status": "active"
+  }
+},
+{
+  "model": "formations.formationunit",
+  "pk": 5,
+  "fields": {
+    "unit_type": "attack",
+    "name": "Attack line 2",
+    "status": "active"
+  }
+},
+{
+  "model": "formations.formationunit",
+  "pk": 6,
+  "fields": {
+    "unit_type": "attack",
+    "name": "Attack line 3",
+    "status": "active"
+  }
+},
+{
+  "model": "formations.formationunit",
+  "pk": 7,
+  "fields": {
+    "unit_type": "goalie",
+    "name": "Goalies",
+    "status": "active"
+  }
+}
+]

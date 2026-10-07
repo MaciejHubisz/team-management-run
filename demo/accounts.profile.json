@@ -1,0 +1,242 @@
+[
+{
+  "model": "accounts.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "role": "admin",
+    "language": "en",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "role": "coach",
+    "language": "pl",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "role": "player",
+    "language": "pl",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "role": "guest",
+    "language": "en",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "role": "player",
+    "language": "pl",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "role": "player",
+    "language": "pl",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 7,
+  "fields": {
+    "user": 7,
+    "role": "player",
+    "language": "cs",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 8,
+  "fields": {
+    "user": 8,
+    "role": "player",
+    "language": "en",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 9,
+  "fields": {
+    "user": 9,
+    "role": "player",
+    "language": "cs",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 10,
+  "fields": {
+    "user": 10,
+    "role": "player",
+    "language": "cs",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 11,
+  "fields": {
+    "user": 11,
+    "role": "player",
+    "language": "pl",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 12,
+  "fields": {
+    "user": 12,
+    "role": "player",
+    "language": "pl",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 13,
+  "fields": {
+    "user": 13,
+    "role": "guest",
+    "language": "en",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 14,
+  "fields": {
+    "user": 14,
+    "role": "guest",
+    "language": "pl",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 15,
+  "fields": {
+    "user": 15,
+    "role": "guest",
+    "language": "cs",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 16,
+  "fields": {
+    "user": 16,
+    "role": "guest",
+    "language": "cs",
+    "theme": "light",
+    "phone": "",
+    "notify_email": true,
+    "notify_sms": false,
+    "callup_email_locked": false,
+    "callup_sms_locked": false
+  }
+}
+]

@@ -1,0 +1,56 @@
+# Run-only stack template: prebuilt images, no source, no dumps.
+# Copy to <run-repo>/docker-compose.yml and replace APP_ placeholders.
+name: myapp
+
+services:
+  db:
+    image: docker.io/library/postgres:16-alpine
+    environment:
+      POSTGRES_USER: myapp
+      POSTGRES_PASSWORD: myapp
+      POSTGRES_DB: myapp
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U myapp -d myapp"]
+      interval: 2s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    image: ${MYAPP_IMAGE_PREFIX:-ghcr.io/owner/myapp}-backend:${MYAPP_IMAGE_TAG:-latest}
+    environment:
+      DATABASE_URL: postgresql://myapp:myapp@db:5432/myapp
+      MYAPP_HOST: 0.0.0.0
+      MYAPP_PORT: "8000"
+    volumes:
+      # Host ./exports by default; --export-path picks another host folder.
+      - "${MYAPP_EXPORTS_SOURCE:-./exports}:/app/exports${MYAPP_EXPORTS_OPTS:-}"
+    depends_on:
+      db:
+        condition: service_healthy
+    expose:
+      - "8000"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health')"
+        ]
+      interval: 2s
+      timeout: 5s
+      retries: 30
+
+  web:
+    image: ${MYAPP_IMAGE_PREFIX:-ghcr.io/owner/myapp}-web:${MYAPP_IMAGE_TAG:-latest}
+    ports:
+      - "${MYAPP_PORT:-8000}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+    name: myapp-pg

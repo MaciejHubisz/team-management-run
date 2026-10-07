@@ -1,0 +1,146 @@
+[
+{
+  "model": "formations.formationmembership",
+  "pk": 1,
+  "fields": {
+    "unit": 1,
+    "player": 1,
+    "sort_order": 0
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 2,
+  "fields": {
+    "unit": 1,
+    "player": 2,
+    "sort_order": 1
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 3,
+  "fields": {
+    "unit": 2,
+    "player": 3,
+    "sort_order": 0
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 4,
+  "fields": {
+    "unit": 2,
+    "player": 4,
+    "sort_order": 1
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 5,
+  "fields": {
+    "unit": 3,
+    "player": 5,
+    "sort_order": 0
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 6,
+  "fields": {
+    "unit": 3,
+    "player": 6,
+    "sort_order": 1
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 7,
+  "fields": {
+    "unit": 4,
+    "player": 1,
+    "sort_order": 0
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 8,
+  "fields": {
+    "unit": 4,
+    "player": 2,
+    "sort_order": 1
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 9,
+  "fields": {
+    "unit": 4,
+    "player": 3,
+    "sort_order": 2
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 10,
+  "fields": {
+    "unit": 5,
+    "player": 4,
+    "sort_order": 0
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 11,
+  "fields": {
+    "unit": 5,
+    "player": 5,
+    "sort_order": 1
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 12,
+  "fields": {
+    "unit": 5,
+    "player": 6,
+    "sort_order": 2
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 13,
+  "fields": {
+    "unit": 6,
+    "player": 7,
+    "sort_order": 0
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 14,
+  "fields": {
+    "unit": 6,
+    "player": 8,
+    "sort_order": 1
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 15,
+  "fields": {
+    "unit": 6,
+    "player": 9,
+    "sort_order": 2
+  }
+},
+{
+  "model": "formations.formationmembership",
+  "pk": 16,
+  "fields": {
+    "unit": 7,
+    "player": 1,
+    "sort_order": 0
+  }
+}
+]
