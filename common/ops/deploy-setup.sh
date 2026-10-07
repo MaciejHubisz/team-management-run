@@ -13,6 +13,8 @@
 # Optional:
 #   DEPLOY_PORT          ssh port              default 22
 #   DEPLOY_KEY_FILE      private key path      default ~/.ssh/deploy
+#   GH_TOKEN             PAT used for `gh auth login --with-token` when gh is
+#                        not already authenticated (needs the repo scope)
 set -euo pipefail
 
 need() { command -v "$1" >/dev/null 2>&1 || { echo "missing: $1" >&2; exit 1; }; }
@@ -20,8 +22,12 @@ need gh
 need ssh-keygen
 
 if ! gh auth status >/dev/null 2>&1; then
-  echo "gh not authenticated — logging in"
-  gh auth login
+  if [[ -n "${GH_TOKEN:-}" ]]; then
+    printf '%s\n' "$GH_TOKEN" | gh auth login --with-token
+  else
+    echo "gh not authenticated — logging in"
+    gh auth login
+  fi
 fi
 
 : "${DEPLOY_GH_OWNER:?set DEPLOY_GH_OWNER}"

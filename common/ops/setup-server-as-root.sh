@@ -182,21 +182,23 @@ fi
 
 # Run a command as the operator with a working systemd --user environment.
 run_as_operator() {
-  local uid runtime_dir assume_env
+  local uid runtime_dir assume_env path
   uid="$(id -u "$TARGET_USER")"
   runtime_dir="/run/user/$uid"
   assume_env="${APP_ENV_PREFIX}_ASSUME_YES=1"
+  path="$BREW_PREFIX/bin:$BREW_PREFIX/sbin:/usr/local/bin:/usr/bin:/bin"
   for _ in $(seq 1 15); do [[ -S "$runtime_dir/bus" ]] && break; sleep 1; done
   if have runuser; then
     runuser -u "$TARGET_USER" -- env \
       HOME="$TARGET_HOME" USER="$TARGET_USER" LOGNAME="$TARGET_USER" \
       XDG_RUNTIME_DIR="$runtime_dir" \
       DBUS_SESSION_BUS_ADDRESS="unix:path=$runtime_dir/bus" \
+      PATH="$path" \
       "$assume_env" \
       "$@"
   else
     su -s /bin/bash "$TARGET_USER" -c \
-      "HOME=$(printf '%q' "$TARGET_HOME") XDG_RUNTIME_DIR=$(printf '%q' "$runtime_dir") DBUS_SESSION_BUS_ADDRESS=unix:path=$runtime_dir/bus $assume_env $(printf '%q ' "$@")"
+      "HOME=$(printf '%q' "$TARGET_HOME") XDG_RUNTIME_DIR=$(printf '%q' "$runtime_dir") DBUS_SESSION_BUS_ADDRESS=unix:path=$runtime_dir/bus PATH=$(printf '%q' "$path") $assume_env $(printf '%q ' "$@")"
   fi
 }
 
@@ -426,7 +428,7 @@ enable_linger() {
 # runs as the operator and does everything else: `gh auth login` if needed,
 # generating the key, authorizing the public half, and the `gh` upload.
 setup_deploy() {
-  local owner repo
+  local owner repo token
   owner="${DEPLOY_GH_OWNER:-}"
   repo="${DEPLOY_GH_REPO:-}"
   if [[ -z "$owner" || -z "$repo" ]]; then
@@ -435,6 +437,9 @@ setup_deploy() {
   fi
 
   step "CI deploy upload (${owner}/${repo})"
+  token="$(registry_token)"
+  [[ -z "$token" && -n "$REGISTRY_TOKEN_FILE" && -r "$REGISTRY_TOKEN_FILE" ]] && token="$(tr -d '\r\n' <"$REGISTRY_TOKEN_FILE")"
+
   if ! run_as_operator env \
     DEPLOY_GH_OWNER="$owner" \
     DEPLOY_GH_REPO="$repo" \
@@ -443,6 +448,7 @@ setup_deploy() {
     DEPLOY_PORT="${DEPLOY_PORT:-22}" \
     DEPLOY_PATH="${DEPLOY_PATH:-${APP_RUN_REPO:-${SLUG}-run}}" \
     DEPLOY_SERVER_USER="${DEPLOY_SERVER_USER:-$TARGET_USER}" \
+    GH_TOKEN="$token" \
     bash "$ROOT/common/ops/deploy-setup.sh"; then
     die "deploy upload failed — is 'gh' installed and authenticated as ${TARGET_USER}?"
   fi
