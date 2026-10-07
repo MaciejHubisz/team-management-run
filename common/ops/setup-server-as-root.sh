@@ -4,13 +4,9 @@
 # few system bits Homebrew/Podman need, then everything else is done by
 # ./start.sh without sudo.
 #
-#   sudo scripts/setup-server-as-root.sh                    # user = $SUDO_USER
-#   sudo scripts/setup-server-as-root.sh USER               # prepare server only
-#   sudo scripts/setup-server-as-root.sh USER --install-service
-#   sudo scripts/setup-server-as-root.sh USER --install-service --install-nginx
-#   sudo scripts/setup-server-as-root.sh USER --deploy-key
+#   sudo scripts/setup-server-as-root.sh USER
 #
-# Three phases, clearly split by privilege:
+# Runs the whole setup from start to finish (no flags needed):
 #   Phase 1 (root):    prerequisites, Homebrew, subuid range, userns, a shell
 #                      alias, lingering, an optional CI deploy key.
 #   Phase 1b (root):   nginx reverse proxy + certbot TLS.
@@ -95,9 +91,7 @@ usage() {
   cat <<EOF
 ${BOLD}${APP_NAME:-App} server setup${RESET} (run as root)
 
-  sudo $0 [USER]                     prepare the server only (Phase 1)
-  sudo $0 [USER] --install-service   prepare the server + run the app on boot
-  sudo $0 [USER] --install-nginx     also install nginx + TLS (Phase 1b)
+  sudo $0 [USER]                     run the full setup (Phases 1, 1b, 2)
 
   USER defaults to \$SUDO_USER.
 
@@ -131,8 +125,8 @@ EOF
 }
 
 TARGET_USER=""
-INSTALL_SERVICE=0
-INSTALL_NGINX=0
+INSTALL_SERVICE=1
+INSTALL_NGINX=1
 REGISTRY_USER="$(app_env REGISTRY_USER)"
 REGISTRY_TOKEN_FILE="$(app_env REGISTRY_TOKEN_FILE)"
 DEPLOY_KEY_FILE="$(app_env DEPLOY_KEY_FILE)"
@@ -141,8 +135,6 @@ DEPLOY_KEY_OPTIONS="$(app_env DEPLOY_KEY_OPTIONS)"
 while [[ $# -gt 0 ]]; do
   case "$1" in
     -h | --help | help) usage; exit 0 ;;
-    --install-service) INSTALL_SERVICE=1; shift ;;
-    --install-nginx) INSTALL_NGINX=1; shift ;;
     --deploy-key) GENERATE_DEPLOY_KEY=1; shift ;;
     --deploy-key-options)
       [[ $# -ge 2 ]] || die "$1 needs options"
@@ -661,10 +653,4 @@ if [[ "$INSTALL_SERVICE" == 1 ]]; then
   say ""
   say "Check it as ${TARGET_USER}:"
   say "  ${BOLD}systemctl --user status ${SYSTEMD_UNIT}${RESET}"
-else
-  say ""
-  say "${BOLD}Next — install the boot service as ${TARGET_USER} (no sudo)${RESET}"
-  say "  ssh ${TARGET_USER}@$(hostname)"
-  say "  cd ${ROOT} && ./${RUN_SCRIPT} --install-service"
-  say "  ${DIM}or re-run this script with --install-service${RESET}"
 fi
