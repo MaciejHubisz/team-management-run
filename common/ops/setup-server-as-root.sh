@@ -8,7 +8,7 @@
 #
 # Runs the whole setup from start to finish (no flags needed):
 #   Phase 1 (root):    prerequisites, Homebrew, subuid range, userns, a shell
-#                      alias, lingering, an optional CI deploy key.
+#                      alias, lingering, and a CI deploy key uploaded to GitHub.
 #   Phase 1b (root):   nginx reverse proxy + certbot TLS.
 #   Phase 2 (USER):    ./start.sh --install-service — installs Podman and starts
 #                      the app now and on every boot.
@@ -115,12 +115,10 @@ ${BOLD}${APP_NAME:-App} server setup${RESET} (run as root)
   Without a token the script asks for one, logs in, and saves it to
   registry.env (mode 600). Re-running is safe.
 
-  Continuous deployment (GitHub Actions over SSH):
-    --deploy-key                generate a key pair here, authorize the public
-                                half, and print the private half once
-    --deploy-key-file FILE      authorize an SSH public key you already have
-    --deploy-key-options OPTS   authorized_keys options for the deploy key
-                                (see ${DEPLOY_DOC})
+  Continuous deployment (GitHub Actions over SSH) — runs as the final step:
+    a deploy key pair is generated and authorized here, then the private half
+    and the host variables are uploaded to GitHub with `gh` (see deploy-setup.sh
+    and ${DEPLOY_DOC}). Set DEPLOY_GH_OWNER and DEPLOY_GH_REPO in the wrapper.
 EOF
 }
 
@@ -129,19 +127,9 @@ INSTALL_SERVICE=1
 INSTALL_NGINX=1
 REGISTRY_USER="$(app_env REGISTRY_USER)"
 REGISTRY_TOKEN_FILE="$(app_env REGISTRY_TOKEN_FILE)"
-DEPLOY_KEY_FILE="$(app_env DEPLOY_KEY_FILE)"
-GENERATE_DEPLOY_KEY=0
-DEPLOY_KEY_OPTIONS="$(app_env DEPLOY_KEY_OPTIONS)"
 while [[ $# -gt 0 ]]; do
   case "$1" in
     -h | --help | help) usage; exit 0 ;;
-    --deploy-key) GENERATE_DEPLOY_KEY=1; shift ;;
-    --deploy-key-options)
-      [[ $# -ge 2 ]] || die "$1 needs options"
-      DEPLOY_KEY_OPTIONS="$2"; shift 2 ;;
-    --deploy-key-file)
-      [[ $# -ge 2 ]] || die "$1 needs a path"
-      DEPLOY_KEY_FILE="$2"; shift 2 ;;
     --registry-user)
       [[ $# -ge 2 ]] || die "$1 needs a username"
       REGISTRY_USER="$2"; shift 2 ;;
@@ -432,63 +420,33 @@ enable_linger() {
   fi
 }
 
-authorize_deploy_key() {
-  local key="$1" dir auth line
-  dir="$TARGET_HOME/.ssh"
-  auth="$dir/authorized_keys"
-  line="$key"
-  [[ -n "$DEPLOY_KEY_OPTIONS" ]] && line="$DEPLOY_KEY_OPTIONS $key"
-  mkdir -p "$dir"
-  touch "$auth"
-  chown "$TARGET_USER" "$dir" "$auth"
-  chmod 700 "$dir"
-  chmod 600 "$auth"
-  if grep -qF "$key" "$auth" 2>/dev/null; then
-    return 1
-  fi
-  printf '%s\n' "$line" >>"$auth"
-  return 0
-}
-
-install_deploy_key_file() {
-  step "Deploy key for ${TARGET_USER}"
-  [[ -r "$DEPLOY_KEY_FILE" ]] || die "cannot read deploy key file: $DEPLOY_KEY_FILE"
-  local key
-  key="$(tr -d '\r' <"$DEPLOY_KEY_FILE")"
-  case "$key" in
-    ssh-ed25519\ * | ssh-rsa\ * | ecdsa-sha2-*\ *) ;;
-    *) die "$DEPLOY_KEY_FILE does not look like an SSH public key" ;;
-  esac
-  if authorize_deploy_key "$key"; then
-    step_ok "authorized in ${TARGET_HOME}/.ssh/authorized_keys"
-  else
-    step_ok "already authorized in ${TARGET_HOME}/.ssh/authorized_keys"
-  fi
-}
-
-generate_deploy_key() {
-  step "Deploy key for ${TARGET_USER}"
-  have ssh-keygen || die "ssh-keygen is required to generate a deploy key"
-  local auth="$TARGET_HOME/.ssh/authorized_keys" tmp pub
-  if [[ -f "$auth" ]] && grep -q ' github-actions$' "$auth"; then
-    step_ok "a deploy key is already authorized"
-    step_info "remove that line and re-run to issue a new one"
+# Upload the deploy key and host variables to GitHub. Runs as the final step of
+# the whole setup. The GitHub identity comes from DEPLOY_GH_OWNER/DEPLOY_GH_REPO
+# (set by the wrapper); the rest falls back to app.conf values. deploy-setup.sh
+# runs as the operator and does everything else: `gh auth login` if needed,
+# generating the key, authorizing the public half, and the `gh` upload.
+setup_deploy() {
+  local owner repo
+  owner="${DEPLOY_GH_OWNER:-}"
+  repo="${DEPLOY_GH_REPO:-}"
+  if [[ -z "$owner" || -z "$repo" ]]; then
+    step_info "DEPLOY_GH_OWNER / DEPLOY_GH_REPO not set — skipping CI deploy upload"
     return 0
   fi
-  tmp="$(mktemp -d)"
-  chmod 700 "$tmp"
-  ssh-keygen -q -t ed25519 -N '' -C 'github-actions' -f "$tmp/${SLUG}-deploy"
-  pub="$(cat "$tmp/${SLUG}-deploy.pub")"
-  authorize_deploy_key "$pub" || true
-  step_ok "generated and authorized"
-  say ""
-  say "${BOLD}Copy the private key below into the GitHub secret DEPLOY_SSH_KEY${RESET}"
-  say "${DIM}(Settings → Secrets and variables → Actions). It is shown once and"
-  say "is not stored on this host.${RESET}"
-  say ""
-  cat "$tmp/${SLUG}-deploy"
-  say ""
-  rm -rf "$tmp"
+
+  step "CI deploy upload (${owner}/${repo})"
+  if ! run_as_operator env \
+    DEPLOY_GH_OWNER="$owner" \
+    DEPLOY_GH_REPO="$repo" \
+    DEPLOY_ENV_PREFIX="${DEPLOY_ENV_PREFIX:-$APP_ENV_PREFIX}" \
+    DEPLOY_HOST="${DEPLOY_HOST:-$DOMAIN}" \
+    DEPLOY_PORT="${DEPLOY_PORT:-22}" \
+    DEPLOY_PATH="${DEPLOY_PATH:-${APP_RUN_REPO:-${SLUG}-run}}" \
+    DEPLOY_SERVER_USER="${DEPLOY_SERVER_USER:-$TARGET_USER}" \
+    bash "$ROOT/common/ops/deploy-setup.sh"; then
+    die "deploy upload failed — is 'gh' installed and authenticated as ${TARGET_USER}?"
+  fi
+  step_ok "deploy key uploaded to ${owner}/${repo}"
 }
 
 # --- Phase 1b: nginx reverse proxy + TLS -------------------------------------
@@ -615,11 +573,6 @@ setup_userns
 install_homebrew
 install_alias
 enable_linger
-if [[ "$GENERATE_DEPLOY_KEY" == 1 ]]; then
-  generate_deploy_key
-elif [[ -n "$DEPLOY_KEY_FILE" ]]; then
-  install_deploy_key_file
-fi
 # Log in only when the app will run here or a real token was supplied.
 have_token="$(registry_token)"
 if [[ "$INSTALL_SERVICE" == 1 || -n "$REGISTRY_TOKEN_FILE" || -n "$have_token" ]]; then
@@ -654,3 +607,5 @@ if [[ "$INSTALL_SERVICE" == 1 ]]; then
   say "Check it as ${TARGET_USER}:"
   say "  ${BOLD}systemctl --user status ${SYSTEMD_UNIT}${RESET}"
 fi
+
+setup_deploy
