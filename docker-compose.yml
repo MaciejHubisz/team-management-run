@@ -18,7 +18,7 @@ services:
       retries: 20
 
   redis:
-    image: redis:7-alpine
+    image: docker.io/library/redis:7-alpine
 
   backend:
     image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/owner/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
@@ -42,7 +42,7 @@ services:
     volumes:
       - ./exports:/app/exports${TEAMMGMT_VOL_OPTS:-}
       - ./import:/app/import${TEAMMGMT_VOL_OPTS:-}
-      - ./demo:/app/demo${TEAMMGMT_VOL_OPTS_RO:-}
+      - ./demo:/app/demo:ro${TEAMMGMT_VOL_OPTS_RO:-}
     depends_on:
       db:
         condition: service_healthy
@@ -75,8 +75,12 @@ services:
     env_file:
       - .env
     depends_on:
-      - db
-      - redis
+      db:
+        condition: service_healthy
+      backend:
+        condition: service_healthy
+      redis:
+        condition: service_started
 
   web:
     image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/owner/team-management}-web:${TEAMMGMT_IMAGE_TAG:-latest}
