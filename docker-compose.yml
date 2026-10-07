@@ -21,7 +21,7 @@ services:
     image: docker.io/library/redis:7-alpine
 
   backend:
-    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/owner/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
+    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.docker
       DJANGO_SECRET_KEY: "${DJANGO_SECRET_KEY:-dev-insecure-secret-key}"
@@ -61,7 +61,7 @@ services:
       retries: 30
 
   worker:
-    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/owner/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
+    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
     command: python -m huey.bin.huey_consumer config.huey.huey
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.docker
@@ -83,7 +83,7 @@ services:
         condition: service_started
 
   web:
-    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/owner/team-management}-web:${TEAMMGMT_IMAGE_TAG:-latest}
+    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-web:${TEAMMGMT_IMAGE_TAG:-latest}
     ports:
       - "${TEAMMGMT_PORT:-8000}:80"
     depends_on:
