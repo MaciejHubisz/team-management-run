@@ -530,8 +530,8 @@ write_nginx_site() {
   else
     target="/etc/nginx/conf.d/${NGINX_SITE}.conf"
   fi
-  sed -e "s/__DOMAIN__/${DOMAIN}/g" -e "s/__PORT__/${NGINX_PORT}/g" \
-    -e "s/__PUBLIC_DIR__/${APP_PUBLIC_DIR:-/}/g" \
+  sed -e "s|__DOMAIN__|${DOMAIN}|g" -e "s|__PORT__|${NGINX_PORT}|g" \
+    -e "s|__PUBLIC_DIR__|${APP_PUBLIC_DIR:-/}|g" \
     "$NGINX_TEMPLATE" >"$target"
   if [[ -d /etc/nginx/sites-enabled ]]; then
     ln -sfn "$target" "/etc/nginx/sites-enabled/${NGINX_SITE}.conf"
