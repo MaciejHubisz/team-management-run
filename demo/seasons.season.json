@@ -1,26 +1,68 @@
 [
-{
-  "model": "seasons.season",
-  "pk": 1,
-  "fields": {
-    "name": "2026 Summer",
-    "starts_on": "2026-05-01",
-    "ends_on": "2026-08-31",
-    "is_main": true,
-    "format": "ice",
-    "monthly_fee": 15000
+  {
+    "model": "seasons.season",
+    "pk": 5,
+    "fields": {
+      "name": "Lato 2026",
+      "starts_on": "2026-05-01",
+      "ends_on": "2026-08-31",
+      "is_main": true,
+      "format": "ice",
+      "monthly_fee": 15000,
+      "guest_fee": 3000,
+      "tags": [
+        "regular_season"
+      ]
+    }
+  },
+  {
+    "model": "seasons.season",
+    "pk": 6,
+    "fields": {
+      "name": "Zima 2025",
+      "starts_on": "2025-09-01",
+      "ends_on": "2026-03-31",
+      "is_main": false,
+      "format": "inline",
+      "monthly_fee": 12000,
+      "guest_fee": 3000,
+      "tags": [
+        "regular_season",
+        "playoffs"
+      ]
+    }
+  },
+  {
+    "model": "seasons.season",
+    "pk": 7,
+    "fields": {
+      "name": "Lato 2025",
+      "starts_on": "2025-05-01",
+      "ends_on": "2025-08-31",
+      "is_main": false,
+      "format": "ice",
+      "monthly_fee": 13000,
+      "guest_fee": 2500,
+      "tags": [
+        "regular_season"
+      ]
+    }
+  },
+  {
+    "model": "seasons.season",
+    "pk": 8,
+    "fields": {
+      "name": "Zima 2024",
+      "starts_on": "2024-09-01",
+      "ends_on": "2025-03-31",
+      "is_main": false,
+      "format": "inline",
+      "monthly_fee": 11000,
+      "guest_fee": 2000,
+      "tags": [
+        "pre_season",
+        "regular_season"
+      ]
+    }
   }
-},
-{
-  "model": "seasons.season",
-  "pk": 2,
-  "fields": {
-    "name": "2025 Winter",
-    "starts_on": "2025-09-01",
-    "ends_on": "2026-03-31",
-    "is_main": false,
-    "format": "inline",
-    "monthly_fee": 12000
-  }
-}
 ]

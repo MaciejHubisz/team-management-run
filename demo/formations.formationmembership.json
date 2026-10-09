@@ -1,146 +1,200 @@
 [
-{
-  "model": "formations.formationmembership",
-  "pk": 1,
-  "fields": {
-    "unit": 1,
-    "player": 1,
-    "sort_order": 0
+  {
+    "model": "formations.formationmembership",
+    "pk": 23,
+    "fields": {
+      "unit": 11,
+      "player": 29,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 24,
+    "fields": {
+      "unit": 11,
+      "player": 30,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 25,
+    "fields": {
+      "unit": 12,
+      "player": 31,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 26,
+    "fields": {
+      "unit": 12,
+      "player": 32,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 27,
+    "fields": {
+      "unit": 13,
+      "player": 33,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 28,
+    "fields": {
+      "unit": 13,
+      "player": 34,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 29,
+    "fields": {
+      "unit": 14,
+      "player": 35,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 30,
+    "fields": {
+      "unit": 14,
+      "player": 36,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 31,
+    "fields": {
+      "unit": 15,
+      "player": 29,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 32,
+    "fields": {
+      "unit": 15,
+      "player": 30,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 33,
+    "fields": {
+      "unit": 15,
+      "player": 31,
+      "sort_order": 2
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 34,
+    "fields": {
+      "unit": 16,
+      "player": 32,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 35,
+    "fields": {
+      "unit": 16,
+      "player": 33,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 36,
+    "fields": {
+      "unit": 16,
+      "player": 34,
+      "sort_order": 2
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 37,
+    "fields": {
+      "unit": 17,
+      "player": 35,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 38,
+    "fields": {
+      "unit": 17,
+      "player": 36,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 39,
+    "fields": {
+      "unit": 17,
+      "player": 37,
+      "sort_order": 2
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 40,
+    "fields": {
+      "unit": 18,
+      "player": 38,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 41,
+    "fields": {
+      "unit": 18,
+      "player": 39,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 42,
+    "fields": {
+      "unit": 18,
+      "player": 40,
+      "sort_order": 2
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 43,
+    "fields": {
+      "unit": 19,
+      "player": 29,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 44,
+    "fields": {
+      "unit": 20,
+      "player": 30,
+      "sort_order": 0
+    }
   }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 2,
-  "fields": {
-    "unit": 1,
-    "player": 2,
-    "sort_order": 1
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 3,
-  "fields": {
-    "unit": 2,
-    "player": 3,
-    "sort_order": 0
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 4,
-  "fields": {
-    "unit": 2,
-    "player": 4,
-    "sort_order": 1
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 5,
-  "fields": {
-    "unit": 3,
-    "player": 5,
-    "sort_order": 0
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 6,
-  "fields": {
-    "unit": 3,
-    "player": 6,
-    "sort_order": 1
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 7,
-  "fields": {
-    "unit": 4,
-    "player": 1,
-    "sort_order": 0
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 8,
-  "fields": {
-    "unit": 4,
-    "player": 2,
-    "sort_order": 1
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 9,
-  "fields": {
-    "unit": 4,
-    "player": 3,
-    "sort_order": 2
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 10,
-  "fields": {
-    "unit": 5,
-    "player": 4,
-    "sort_order": 0
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 11,
-  "fields": {
-    "unit": 5,
-    "player": 5,
-    "sort_order": 1
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 12,
-  "fields": {
-    "unit": 5,
-    "player": 6,
-    "sort_order": 2
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 13,
-  "fields": {
-    "unit": 6,
-    "player": 7,
-    "sort_order": 0
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 14,
-  "fields": {
-    "unit": 6,
-    "player": 8,
-    "sort_order": 1
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 15,
-  "fields": {
-    "unit": 6,
-    "player": 9,
-    "sort_order": 2
-  }
-},
-{
-  "model": "formations.formationmembership",
-  "pk": 16,
-  "fields": {
-    "unit": 7,
-    "player": 1,
-    "sort_order": 0
-  }
-}
 ]

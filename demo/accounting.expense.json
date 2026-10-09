@@ -1,26 +1,302 @@
 [
-{
-  "model": "accounting.expense",
-  "pk": 1,
-  "fields": {
-    "category": "ice_rental",
-    "amount": 40000,
-    "occurred_on": "2026-10-07",
-    "note": "Ice rental",
-    "recorded_by": 1,
-    "created_at": "2026-10-07T15:30:25.120Z"
+  {
+    "model": "accounting.expense",
+    "pk": 26,
+    "fields": {
+      "category": "referees",
+      "amount": 15000,
+      "occurred_on": "2026-05-12",
+      "note": "Sędziowie — mecz z Orłami",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.843Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 27,
+    "fields": {
+      "category": "referees",
+      "amount": 15000,
+      "occurred_on": "2026-05-26",
+      "note": "Sędziowie — mecz z Tygrysami",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.848Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 28,
+    "fields": {
+      "category": "referees",
+      "amount": 15000,
+      "occurred_on": "2026-06-14",
+      "note": "Sędziowie — mecz z Jastrzębiami",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.851Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 29,
+    "fields": {
+      "category": "referees",
+      "amount": 15000,
+      "occurred_on": "2026-06-28",
+      "note": "Sędziowie — mecz z Pumami",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.855Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 30,
+    "fields": {
+      "category": "maintenance",
+      "amount": 14000,
+      "occurred_on": "2026-05-08",
+      "note": "Ostrzenie łyżew",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.859Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 31,
+    "fields": {
+      "category": "maintenance",
+      "amount": 9000,
+      "occurred_on": "2026-05-20",
+      "note": "Krążki i taśmy",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.863Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 32,
+    "fields": {
+      "category": "maintenance",
+      "amount": 12000,
+      "occurred_on": "2026-06-10",
+      "note": "Konserwacja linii",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.867Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 33,
+    "fields": {
+      "category": "maintenance",
+      "amount": 6000,
+      "occurred_on": "2026-07-05",
+      "note": "Siatki bramkarskie",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.870Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 34,
+    "fields": {
+      "category": "maintenance",
+      "amount": 8000,
+      "occurred_on": "2026-08-02",
+      "note": "Fartuszki ochronne",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.874Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 35,
+    "fields": {
+      "category": "club_fee",
+      "amount": 45000,
+      "occurred_on": "2026-05-03",
+      "note": "Składka klubowa — maj",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.878Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 36,
+    "fields": {
+      "category": "club_fee",
+      "amount": 45000,
+      "occurred_on": "2026-06-03",
+      "note": "Składka klubowa — czerwiec",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.882Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 37,
+    "fields": {
+      "category": "club_fee",
+      "amount": 45000,
+      "occurred_on": "2026-07-03",
+      "note": "Składka klubowa — lipiec",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.885Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 38,
+    "fields": {
+      "category": "club_fee",
+      "amount": 45000,
+      "occurred_on": "2026-08-03",
+      "note": "Składka klubowa — sierpień",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.889Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 39,
+    "fields": {
+      "category": "equipment",
+      "amount": 22000,
+      "occurred_on": "2026-05-18",
+      "note": "Kije i kaski",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.893Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 40,
+    "fields": {
+      "category": "equipment",
+      "amount": 18000,
+      "occurred_on": "2026-07-12",
+      "note": "Nowe pary łyżew",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.897Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 41,
+    "fields": {
+      "category": "league",
+      "amount": 12000,
+      "occurred_on": "2026-05-06",
+      "note": "Opłata ligowa",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.901Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 42,
+    "fields": {
+      "category": "travel",
+      "amount": 8000,
+      "occurred_on": "2026-05-26",
+      "note": "Dojazd na mecz — Wałbrzych",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.905Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 43,
+    "fields": {
+      "category": "travel",
+      "amount": 7000,
+      "occurred_on": "2026-06-14",
+      "note": "Dojazd na mecz — Legnica",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.909Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 44,
+    "fields": {
+      "category": "travel",
+      "amount": 9000,
+      "occurred_on": "2026-05-19",
+      "note": "Dojazd na mecz — Dzierżoniów",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.913Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 45,
+    "fields": {
+      "category": "other",
+      "amount": 5000,
+      "occurred_on": "2026-05-15",
+      "note": "Apteczka i taśmy",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.917Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 46,
+    "fields": {
+      "category": "other",
+      "amount": 3500,
+      "occurred_on": "2026-07-20",
+      "note": "Woda i napoje",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.921Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 47,
+    "fields": {
+      "category": "maintenance",
+      "amount": 10000,
+      "occurred_on": "2025-11-10",
+      "note": "Ostrzenie łyżew",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.944Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 48,
+    "fields": {
+      "category": "club_fee",
+      "amount": 40000,
+      "occurred_on": "2025-12-01",
+      "note": "Składka klubowa",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.948Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 49,
+    "fields": {
+      "category": "referees",
+      "amount": 15000,
+      "occurred_on": "2026-01-15",
+      "note": "Sędziowie meczu",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.952Z"
+    }
+  },
+  {
+    "model": "accounting.expense",
+    "pk": 50,
+    "fields": {
+      "category": "equipment",
+      "amount": 12000,
+      "occurred_on": "2025-10-05",
+      "note": "Kaski",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.956Z"
+    }
   }
-},
-{
-  "model": "accounting.expense",
-  "pk": 2,
-  "fields": {
-    "category": "referees",
-    "amount": 15000,
-    "occurred_on": "2026-10-07",
-    "note": "Referee fees",
-    "recorded_by": 1,
-    "created_at": "2026-10-07T15:30:25.125Z"
-  }
-}
 ]

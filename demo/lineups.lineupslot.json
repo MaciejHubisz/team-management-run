@@ -1,722 +1,7682 @@
 [
-{
-  "model": "lineups.lineupslot",
-  "pk": 1,
-  "fields": {
-    "variant": 1,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": 1
+  {
+    "model": "lineups.lineupslot",
+    "pk": 769,
+    "fields": {
+      "variant": 129,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 770,
+    "fields": {
+      "variant": 129,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 771,
+    "fields": {
+      "variant": 129,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 772,
+    "fields": {
+      "variant": 129,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 773,
+    "fields": {
+      "variant": 129,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 774,
+    "fields": {
+      "variant": 129,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 775,
+    "fields": {
+      "variant": 130,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 776,
+    "fields": {
+      "variant": 130,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 777,
+    "fields": {
+      "variant": 130,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 778,
+    "fields": {
+      "variant": 130,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 779,
+    "fields": {
+      "variant": 130,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 780,
+    "fields": {
+      "variant": 130,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 781,
+    "fields": {
+      "variant": 131,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 782,
+    "fields": {
+      "variant": 131,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 783,
+    "fields": {
+      "variant": 131,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 784,
+    "fields": {
+      "variant": 131,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 785,
+    "fields": {
+      "variant": 131,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 786,
+    "fields": {
+      "variant": 131,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 787,
+    "fields": {
+      "variant": 132,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 788,
+    "fields": {
+      "variant": 132,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 789,
+    "fields": {
+      "variant": 132,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 790,
+    "fields": {
+      "variant": 132,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 791,
+    "fields": {
+      "variant": 132,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 792,
+    "fields": {
+      "variant": 132,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 793,
+    "fields": {
+      "variant": 133,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 794,
+    "fields": {
+      "variant": 133,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 795,
+    "fields": {
+      "variant": 133,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 796,
+    "fields": {
+      "variant": 133,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 797,
+    "fields": {
+      "variant": 133,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 798,
+    "fields": {
+      "variant": 133,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 799,
+    "fields": {
+      "variant": 134,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 800,
+    "fields": {
+      "variant": 134,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 801,
+    "fields": {
+      "variant": 134,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 802,
+    "fields": {
+      "variant": 134,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 803,
+    "fields": {
+      "variant": 134,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 804,
+    "fields": {
+      "variant": 134,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 805,
+    "fields": {
+      "variant": 135,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 806,
+    "fields": {
+      "variant": 135,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 807,
+    "fields": {
+      "variant": 135,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 808,
+    "fields": {
+      "variant": 135,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 809,
+    "fields": {
+      "variant": 135,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 810,
+    "fields": {
+      "variant": 135,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 811,
+    "fields": {
+      "variant": 136,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 812,
+    "fields": {
+      "variant": 136,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 813,
+    "fields": {
+      "variant": 136,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 814,
+    "fields": {
+      "variant": 136,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 815,
+    "fields": {
+      "variant": 136,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 816,
+    "fields": {
+      "variant": 136,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 817,
+    "fields": {
+      "variant": 137,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 818,
+    "fields": {
+      "variant": 137,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 819,
+    "fields": {
+      "variant": 137,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 820,
+    "fields": {
+      "variant": 137,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 821,
+    "fields": {
+      "variant": 137,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 822,
+    "fields": {
+      "variant": 137,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 823,
+    "fields": {
+      "variant": 138,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 824,
+    "fields": {
+      "variant": 138,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 825,
+    "fields": {
+      "variant": 138,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 826,
+    "fields": {
+      "variant": 138,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 827,
+    "fields": {
+      "variant": 138,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 828,
+    "fields": {
+      "variant": 138,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 829,
+    "fields": {
+      "variant": 139,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 830,
+    "fields": {
+      "variant": 139,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 831,
+    "fields": {
+      "variant": 139,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 832,
+    "fields": {
+      "variant": 139,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 833,
+    "fields": {
+      "variant": 139,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 834,
+    "fields": {
+      "variant": 139,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 835,
+    "fields": {
+      "variant": 140,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 836,
+    "fields": {
+      "variant": 140,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 837,
+    "fields": {
+      "variant": 140,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 838,
+    "fields": {
+      "variant": 140,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 839,
+    "fields": {
+      "variant": 140,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 840,
+    "fields": {
+      "variant": 140,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 841,
+    "fields": {
+      "variant": 141,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 842,
+    "fields": {
+      "variant": 141,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 843,
+    "fields": {
+      "variant": 141,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 844,
+    "fields": {
+      "variant": 141,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 845,
+    "fields": {
+      "variant": 141,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 846,
+    "fields": {
+      "variant": 141,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 847,
+    "fields": {
+      "variant": 142,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 848,
+    "fields": {
+      "variant": 142,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 849,
+    "fields": {
+      "variant": 142,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 850,
+    "fields": {
+      "variant": 142,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 851,
+    "fields": {
+      "variant": 142,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 852,
+    "fields": {
+      "variant": 142,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 853,
+    "fields": {
+      "variant": 143,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 854,
+    "fields": {
+      "variant": 143,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 855,
+    "fields": {
+      "variant": 143,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 856,
+    "fields": {
+      "variant": 143,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 857,
+    "fields": {
+      "variant": 143,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 858,
+    "fields": {
+      "variant": 143,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 859,
+    "fields": {
+      "variant": 144,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 860,
+    "fields": {
+      "variant": 144,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 861,
+    "fields": {
+      "variant": 144,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 862,
+    "fields": {
+      "variant": 144,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 863,
+    "fields": {
+      "variant": 144,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 864,
+    "fields": {
+      "variant": 144,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 865,
+    "fields": {
+      "variant": 145,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 866,
+    "fields": {
+      "variant": 145,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 867,
+    "fields": {
+      "variant": 145,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 868,
+    "fields": {
+      "variant": 145,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 869,
+    "fields": {
+      "variant": 145,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 870,
+    "fields": {
+      "variant": 145,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 871,
+    "fields": {
+      "variant": 146,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 872,
+    "fields": {
+      "variant": 146,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 873,
+    "fields": {
+      "variant": 146,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 874,
+    "fields": {
+      "variant": 146,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 875,
+    "fields": {
+      "variant": 146,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 876,
+    "fields": {
+      "variant": 146,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 877,
+    "fields": {
+      "variant": 147,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 878,
+    "fields": {
+      "variant": 147,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 879,
+    "fields": {
+      "variant": 147,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 880,
+    "fields": {
+      "variant": 147,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 881,
+    "fields": {
+      "variant": 147,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 882,
+    "fields": {
+      "variant": 147,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 883,
+    "fields": {
+      "variant": 148,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 884,
+    "fields": {
+      "variant": 148,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 885,
+    "fields": {
+      "variant": 148,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 886,
+    "fields": {
+      "variant": 148,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 887,
+    "fields": {
+      "variant": 148,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 888,
+    "fields": {
+      "variant": 148,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 889,
+    "fields": {
+      "variant": 149,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 890,
+    "fields": {
+      "variant": 149,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 891,
+    "fields": {
+      "variant": 149,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 892,
+    "fields": {
+      "variant": 149,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 893,
+    "fields": {
+      "variant": 149,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 894,
+    "fields": {
+      "variant": 149,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 895,
+    "fields": {
+      "variant": 150,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 896,
+    "fields": {
+      "variant": 150,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 897,
+    "fields": {
+      "variant": 150,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 898,
+    "fields": {
+      "variant": 150,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 899,
+    "fields": {
+      "variant": 150,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 900,
+    "fields": {
+      "variant": 150,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 901,
+    "fields": {
+      "variant": 151,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 902,
+    "fields": {
+      "variant": 151,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 903,
+    "fields": {
+      "variant": 151,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 904,
+    "fields": {
+      "variant": 151,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 905,
+    "fields": {
+      "variant": 151,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 906,
+    "fields": {
+      "variant": 151,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 907,
+    "fields": {
+      "variant": 152,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 908,
+    "fields": {
+      "variant": 152,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 909,
+    "fields": {
+      "variant": 152,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 910,
+    "fields": {
+      "variant": 152,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 911,
+    "fields": {
+      "variant": 152,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 912,
+    "fields": {
+      "variant": 152,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 913,
+    "fields": {
+      "variant": 153,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 914,
+    "fields": {
+      "variant": 153,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 915,
+    "fields": {
+      "variant": 153,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 916,
+    "fields": {
+      "variant": 153,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 917,
+    "fields": {
+      "variant": 153,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 918,
+    "fields": {
+      "variant": 153,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 919,
+    "fields": {
+      "variant": 154,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 920,
+    "fields": {
+      "variant": 154,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 921,
+    "fields": {
+      "variant": 154,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 922,
+    "fields": {
+      "variant": 154,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 923,
+    "fields": {
+      "variant": 154,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 924,
+    "fields": {
+      "variant": 154,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 925,
+    "fields": {
+      "variant": 155,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 926,
+    "fields": {
+      "variant": 155,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 927,
+    "fields": {
+      "variant": 155,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 928,
+    "fields": {
+      "variant": 155,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 929,
+    "fields": {
+      "variant": 155,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 930,
+    "fields": {
+      "variant": 155,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 931,
+    "fields": {
+      "variant": 156,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 932,
+    "fields": {
+      "variant": 156,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 933,
+    "fields": {
+      "variant": 156,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 934,
+    "fields": {
+      "variant": 156,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 935,
+    "fields": {
+      "variant": 156,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 936,
+    "fields": {
+      "variant": 156,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 937,
+    "fields": {
+      "variant": 157,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 938,
+    "fields": {
+      "variant": 157,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 939,
+    "fields": {
+      "variant": 157,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 940,
+    "fields": {
+      "variant": 157,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 941,
+    "fields": {
+      "variant": 157,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 942,
+    "fields": {
+      "variant": 157,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 943,
+    "fields": {
+      "variant": 158,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 944,
+    "fields": {
+      "variant": 158,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 945,
+    "fields": {
+      "variant": 158,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 946,
+    "fields": {
+      "variant": 158,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 947,
+    "fields": {
+      "variant": 158,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 948,
+    "fields": {
+      "variant": 158,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 949,
+    "fields": {
+      "variant": 159,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 950,
+    "fields": {
+      "variant": 159,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 951,
+    "fields": {
+      "variant": 159,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 952,
+    "fields": {
+      "variant": 159,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 953,
+    "fields": {
+      "variant": 159,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 954,
+    "fields": {
+      "variant": 159,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 955,
+    "fields": {
+      "variant": 160,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 956,
+    "fields": {
+      "variant": 160,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 957,
+    "fields": {
+      "variant": 160,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 958,
+    "fields": {
+      "variant": 160,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 959,
+    "fields": {
+      "variant": 160,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 960,
+    "fields": {
+      "variant": 160,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 961,
+    "fields": {
+      "variant": 161,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 962,
+    "fields": {
+      "variant": 161,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 963,
+    "fields": {
+      "variant": 161,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 964,
+    "fields": {
+      "variant": 161,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 965,
+    "fields": {
+      "variant": 161,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 966,
+    "fields": {
+      "variant": 161,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 967,
+    "fields": {
+      "variant": 162,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 968,
+    "fields": {
+      "variant": 162,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 969,
+    "fields": {
+      "variant": 162,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 970,
+    "fields": {
+      "variant": 162,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 971,
+    "fields": {
+      "variant": 162,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 972,
+    "fields": {
+      "variant": 162,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 973,
+    "fields": {
+      "variant": 163,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 974,
+    "fields": {
+      "variant": 163,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 975,
+    "fields": {
+      "variant": 163,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 976,
+    "fields": {
+      "variant": 163,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 977,
+    "fields": {
+      "variant": 163,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 978,
+    "fields": {
+      "variant": 163,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 979,
+    "fields": {
+      "variant": 164,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 980,
+    "fields": {
+      "variant": 164,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 981,
+    "fields": {
+      "variant": 164,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 982,
+    "fields": {
+      "variant": 164,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 983,
+    "fields": {
+      "variant": 164,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 984,
+    "fields": {
+      "variant": 164,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 985,
+    "fields": {
+      "variant": 165,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 986,
+    "fields": {
+      "variant": 165,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 987,
+    "fields": {
+      "variant": 165,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 988,
+    "fields": {
+      "variant": 165,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 989,
+    "fields": {
+      "variant": 165,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 990,
+    "fields": {
+      "variant": 165,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 991,
+    "fields": {
+      "variant": 166,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 992,
+    "fields": {
+      "variant": 166,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 993,
+    "fields": {
+      "variant": 166,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 994,
+    "fields": {
+      "variant": 166,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 995,
+    "fields": {
+      "variant": 166,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 996,
+    "fields": {
+      "variant": 166,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 997,
+    "fields": {
+      "variant": 167,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 998,
+    "fields": {
+      "variant": 167,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 999,
+    "fields": {
+      "variant": 167,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1000,
+    "fields": {
+      "variant": 167,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1001,
+    "fields": {
+      "variant": 167,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1002,
+    "fields": {
+      "variant": 167,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1003,
+    "fields": {
+      "variant": 168,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1004,
+    "fields": {
+      "variant": 168,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1005,
+    "fields": {
+      "variant": 168,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1006,
+    "fields": {
+      "variant": 168,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1007,
+    "fields": {
+      "variant": 168,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1008,
+    "fields": {
+      "variant": 168,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1009,
+    "fields": {
+      "variant": 169,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1010,
+    "fields": {
+      "variant": 169,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1011,
+    "fields": {
+      "variant": 169,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1012,
+    "fields": {
+      "variant": 169,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1013,
+    "fields": {
+      "variant": 169,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1014,
+    "fields": {
+      "variant": 169,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1015,
+    "fields": {
+      "variant": 170,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1016,
+    "fields": {
+      "variant": 170,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1017,
+    "fields": {
+      "variant": 170,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1018,
+    "fields": {
+      "variant": 170,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1019,
+    "fields": {
+      "variant": 170,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1020,
+    "fields": {
+      "variant": 170,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1021,
+    "fields": {
+      "variant": 171,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1022,
+    "fields": {
+      "variant": 171,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1023,
+    "fields": {
+      "variant": 171,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1024,
+    "fields": {
+      "variant": 171,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1025,
+    "fields": {
+      "variant": 171,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1026,
+    "fields": {
+      "variant": 171,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1027,
+    "fields": {
+      "variant": 172,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1028,
+    "fields": {
+      "variant": 172,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1029,
+    "fields": {
+      "variant": 172,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1030,
+    "fields": {
+      "variant": 172,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1031,
+    "fields": {
+      "variant": 172,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1032,
+    "fields": {
+      "variant": 172,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1033,
+    "fields": {
+      "variant": 173,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1034,
+    "fields": {
+      "variant": 173,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1035,
+    "fields": {
+      "variant": 173,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1036,
+    "fields": {
+      "variant": 173,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1037,
+    "fields": {
+      "variant": 173,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1038,
+    "fields": {
+      "variant": 173,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1039,
+    "fields": {
+      "variant": 174,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1040,
+    "fields": {
+      "variant": 174,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1041,
+    "fields": {
+      "variant": 174,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1042,
+    "fields": {
+      "variant": 174,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1043,
+    "fields": {
+      "variant": 174,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1044,
+    "fields": {
+      "variant": 174,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1045,
+    "fields": {
+      "variant": 175,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1046,
+    "fields": {
+      "variant": 175,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1047,
+    "fields": {
+      "variant": 175,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1048,
+    "fields": {
+      "variant": 175,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1049,
+    "fields": {
+      "variant": 175,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1050,
+    "fields": {
+      "variant": 175,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1051,
+    "fields": {
+      "variant": 176,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1052,
+    "fields": {
+      "variant": 176,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1053,
+    "fields": {
+      "variant": 176,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1054,
+    "fields": {
+      "variant": 176,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1055,
+    "fields": {
+      "variant": 176,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1056,
+    "fields": {
+      "variant": 176,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1057,
+    "fields": {
+      "variant": 177,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1058,
+    "fields": {
+      "variant": 177,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1059,
+    "fields": {
+      "variant": 177,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1060,
+    "fields": {
+      "variant": 177,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1061,
+    "fields": {
+      "variant": 177,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1062,
+    "fields": {
+      "variant": 177,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1063,
+    "fields": {
+      "variant": 178,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1064,
+    "fields": {
+      "variant": 178,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1065,
+    "fields": {
+      "variant": 178,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1066,
+    "fields": {
+      "variant": 178,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1067,
+    "fields": {
+      "variant": 178,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1068,
+    "fields": {
+      "variant": 178,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1069,
+    "fields": {
+      "variant": 179,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1070,
+    "fields": {
+      "variant": 179,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1071,
+    "fields": {
+      "variant": 179,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1072,
+    "fields": {
+      "variant": 179,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1073,
+    "fields": {
+      "variant": 179,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1074,
+    "fields": {
+      "variant": 179,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1075,
+    "fields": {
+      "variant": 180,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1076,
+    "fields": {
+      "variant": 180,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1077,
+    "fields": {
+      "variant": 180,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1078,
+    "fields": {
+      "variant": 180,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1079,
+    "fields": {
+      "variant": 180,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1080,
+    "fields": {
+      "variant": 180,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1081,
+    "fields": {
+      "variant": 181,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1082,
+    "fields": {
+      "variant": 181,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1083,
+    "fields": {
+      "variant": 181,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1084,
+    "fields": {
+      "variant": 181,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1085,
+    "fields": {
+      "variant": 181,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1086,
+    "fields": {
+      "variant": 181,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1087,
+    "fields": {
+      "variant": 182,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1088,
+    "fields": {
+      "variant": 182,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1089,
+    "fields": {
+      "variant": 182,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1090,
+    "fields": {
+      "variant": 182,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1091,
+    "fields": {
+      "variant": 182,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1092,
+    "fields": {
+      "variant": 182,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1093,
+    "fields": {
+      "variant": 183,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1094,
+    "fields": {
+      "variant": 183,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1095,
+    "fields": {
+      "variant": 183,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1096,
+    "fields": {
+      "variant": 183,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1097,
+    "fields": {
+      "variant": 183,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1098,
+    "fields": {
+      "variant": 183,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1099,
+    "fields": {
+      "variant": 184,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1100,
+    "fields": {
+      "variant": 184,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1101,
+    "fields": {
+      "variant": 184,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1102,
+    "fields": {
+      "variant": 184,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1103,
+    "fields": {
+      "variant": 184,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1104,
+    "fields": {
+      "variant": 184,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1105,
+    "fields": {
+      "variant": 185,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1106,
+    "fields": {
+      "variant": 185,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1107,
+    "fields": {
+      "variant": 185,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1108,
+    "fields": {
+      "variant": 185,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1109,
+    "fields": {
+      "variant": 185,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1110,
+    "fields": {
+      "variant": 185,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1111,
+    "fields": {
+      "variant": 186,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1112,
+    "fields": {
+      "variant": 186,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1113,
+    "fields": {
+      "variant": 186,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1114,
+    "fields": {
+      "variant": 186,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1115,
+    "fields": {
+      "variant": 186,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1116,
+    "fields": {
+      "variant": 186,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1117,
+    "fields": {
+      "variant": 187,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1118,
+    "fields": {
+      "variant": 187,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1119,
+    "fields": {
+      "variant": 187,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1120,
+    "fields": {
+      "variant": 187,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1121,
+    "fields": {
+      "variant": 187,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1122,
+    "fields": {
+      "variant": 187,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1123,
+    "fields": {
+      "variant": 188,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1124,
+    "fields": {
+      "variant": 188,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1125,
+    "fields": {
+      "variant": 188,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1126,
+    "fields": {
+      "variant": 188,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1127,
+    "fields": {
+      "variant": 188,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1128,
+    "fields": {
+      "variant": 188,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1129,
+    "fields": {
+      "variant": 189,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1130,
+    "fields": {
+      "variant": 189,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1131,
+    "fields": {
+      "variant": 189,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1132,
+    "fields": {
+      "variant": 189,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1133,
+    "fields": {
+      "variant": 189,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1134,
+    "fields": {
+      "variant": 189,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1135,
+    "fields": {
+      "variant": 190,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1136,
+    "fields": {
+      "variant": 190,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1137,
+    "fields": {
+      "variant": 190,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1138,
+    "fields": {
+      "variant": 190,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1139,
+    "fields": {
+      "variant": 190,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1140,
+    "fields": {
+      "variant": 190,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1141,
+    "fields": {
+      "variant": 191,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1142,
+    "fields": {
+      "variant": 191,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1143,
+    "fields": {
+      "variant": 191,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1144,
+    "fields": {
+      "variant": 191,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1145,
+    "fields": {
+      "variant": 191,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1146,
+    "fields": {
+      "variant": 191,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1147,
+    "fields": {
+      "variant": 192,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1148,
+    "fields": {
+      "variant": 192,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1149,
+    "fields": {
+      "variant": 192,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1150,
+    "fields": {
+      "variant": 192,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1151,
+    "fields": {
+      "variant": 192,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1152,
+    "fields": {
+      "variant": 192,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1153,
+    "fields": {
+      "variant": 193,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1154,
+    "fields": {
+      "variant": 193,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1155,
+    "fields": {
+      "variant": 193,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1156,
+    "fields": {
+      "variant": 193,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1157,
+    "fields": {
+      "variant": 193,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1158,
+    "fields": {
+      "variant": 193,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1159,
+    "fields": {
+      "variant": 194,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1160,
+    "fields": {
+      "variant": 194,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1161,
+    "fields": {
+      "variant": 194,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1162,
+    "fields": {
+      "variant": 194,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1163,
+    "fields": {
+      "variant": 194,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1164,
+    "fields": {
+      "variant": 194,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1165,
+    "fields": {
+      "variant": 195,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1166,
+    "fields": {
+      "variant": 195,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1167,
+    "fields": {
+      "variant": 195,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1168,
+    "fields": {
+      "variant": 195,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1169,
+    "fields": {
+      "variant": 195,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1170,
+    "fields": {
+      "variant": 195,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1171,
+    "fields": {
+      "variant": 196,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1172,
+    "fields": {
+      "variant": 196,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1173,
+    "fields": {
+      "variant": 196,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1174,
+    "fields": {
+      "variant": 196,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1175,
+    "fields": {
+      "variant": 196,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1176,
+    "fields": {
+      "variant": 196,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1177,
+    "fields": {
+      "variant": 197,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1178,
+    "fields": {
+      "variant": 197,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1179,
+    "fields": {
+      "variant": 197,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1180,
+    "fields": {
+      "variant": 197,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1181,
+    "fields": {
+      "variant": 197,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1182,
+    "fields": {
+      "variant": 197,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1183,
+    "fields": {
+      "variant": 198,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1184,
+    "fields": {
+      "variant": 198,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1185,
+    "fields": {
+      "variant": 198,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1186,
+    "fields": {
+      "variant": 198,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1187,
+    "fields": {
+      "variant": 198,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1188,
+    "fields": {
+      "variant": 198,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1189,
+    "fields": {
+      "variant": 199,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1190,
+    "fields": {
+      "variant": 199,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1191,
+    "fields": {
+      "variant": 199,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1192,
+    "fields": {
+      "variant": 199,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1193,
+    "fields": {
+      "variant": 199,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1194,
+    "fields": {
+      "variant": 199,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1195,
+    "fields": {
+      "variant": 200,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1196,
+    "fields": {
+      "variant": 200,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1197,
+    "fields": {
+      "variant": 200,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1198,
+    "fields": {
+      "variant": 200,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1199,
+    "fields": {
+      "variant": 200,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1200,
+    "fields": {
+      "variant": 200,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1201,
+    "fields": {
+      "variant": 201,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1202,
+    "fields": {
+      "variant": 201,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1203,
+    "fields": {
+      "variant": 201,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1204,
+    "fields": {
+      "variant": 201,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1205,
+    "fields": {
+      "variant": 201,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1206,
+    "fields": {
+      "variant": 201,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1207,
+    "fields": {
+      "variant": 202,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1208,
+    "fields": {
+      "variant": 202,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1209,
+    "fields": {
+      "variant": 202,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1210,
+    "fields": {
+      "variant": 202,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1211,
+    "fields": {
+      "variant": 202,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1212,
+    "fields": {
+      "variant": 202,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1213,
+    "fields": {
+      "variant": 203,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1214,
+    "fields": {
+      "variant": 203,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1215,
+    "fields": {
+      "variant": 203,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1216,
+    "fields": {
+      "variant": 203,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1217,
+    "fields": {
+      "variant": 203,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1218,
+    "fields": {
+      "variant": 203,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1219,
+    "fields": {
+      "variant": 204,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1220,
+    "fields": {
+      "variant": 204,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1221,
+    "fields": {
+      "variant": 204,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1222,
+    "fields": {
+      "variant": 204,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1223,
+    "fields": {
+      "variant": 204,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1224,
+    "fields": {
+      "variant": 204,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1225,
+    "fields": {
+      "variant": 205,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1226,
+    "fields": {
+      "variant": 205,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1227,
+    "fields": {
+      "variant": 205,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1228,
+    "fields": {
+      "variant": 205,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1229,
+    "fields": {
+      "variant": 205,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1230,
+    "fields": {
+      "variant": 205,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1231,
+    "fields": {
+      "variant": 206,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1232,
+    "fields": {
+      "variant": 206,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1233,
+    "fields": {
+      "variant": 206,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1234,
+    "fields": {
+      "variant": 206,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1235,
+    "fields": {
+      "variant": 206,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1236,
+    "fields": {
+      "variant": 206,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1237,
+    "fields": {
+      "variant": 207,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1238,
+    "fields": {
+      "variant": 207,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1239,
+    "fields": {
+      "variant": 207,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1240,
+    "fields": {
+      "variant": 207,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1241,
+    "fields": {
+      "variant": 207,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1242,
+    "fields": {
+      "variant": 207,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1243,
+    "fields": {
+      "variant": 208,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1244,
+    "fields": {
+      "variant": 208,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1245,
+    "fields": {
+      "variant": 208,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1246,
+    "fields": {
+      "variant": 208,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1247,
+    "fields": {
+      "variant": 208,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1248,
+    "fields": {
+      "variant": 208,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1249,
+    "fields": {
+      "variant": 209,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1250,
+    "fields": {
+      "variant": 209,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1251,
+    "fields": {
+      "variant": 209,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1252,
+    "fields": {
+      "variant": 209,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1253,
+    "fields": {
+      "variant": 209,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1254,
+    "fields": {
+      "variant": 209,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1255,
+    "fields": {
+      "variant": 210,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1256,
+    "fields": {
+      "variant": 210,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1257,
+    "fields": {
+      "variant": 210,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1258,
+    "fields": {
+      "variant": 210,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1259,
+    "fields": {
+      "variant": 210,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1260,
+    "fields": {
+      "variant": 210,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1261,
+    "fields": {
+      "variant": 211,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1262,
+    "fields": {
+      "variant": 211,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1263,
+    "fields": {
+      "variant": 211,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1264,
+    "fields": {
+      "variant": 211,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1265,
+    "fields": {
+      "variant": 211,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1266,
+    "fields": {
+      "variant": 211,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1267,
+    "fields": {
+      "variant": 212,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1268,
+    "fields": {
+      "variant": 212,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1269,
+    "fields": {
+      "variant": 212,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1270,
+    "fields": {
+      "variant": 212,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1271,
+    "fields": {
+      "variant": 212,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1272,
+    "fields": {
+      "variant": 212,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1273,
+    "fields": {
+      "variant": 213,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1274,
+    "fields": {
+      "variant": 213,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1275,
+    "fields": {
+      "variant": 213,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1276,
+    "fields": {
+      "variant": 213,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1277,
+    "fields": {
+      "variant": 213,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1278,
+    "fields": {
+      "variant": 213,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1279,
+    "fields": {
+      "variant": 214,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1280,
+    "fields": {
+      "variant": 214,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1281,
+    "fields": {
+      "variant": 214,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1282,
+    "fields": {
+      "variant": 214,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1283,
+    "fields": {
+      "variant": 214,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1284,
+    "fields": {
+      "variant": 214,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1285,
+    "fields": {
+      "variant": 215,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1286,
+    "fields": {
+      "variant": 215,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1287,
+    "fields": {
+      "variant": 215,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1288,
+    "fields": {
+      "variant": 215,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1289,
+    "fields": {
+      "variant": 215,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1290,
+    "fields": {
+      "variant": 215,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1291,
+    "fields": {
+      "variant": 216,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1292,
+    "fields": {
+      "variant": 216,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1293,
+    "fields": {
+      "variant": 216,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1294,
+    "fields": {
+      "variant": 216,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1295,
+    "fields": {
+      "variant": 216,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1296,
+    "fields": {
+      "variant": 216,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1297,
+    "fields": {
+      "variant": 217,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1298,
+    "fields": {
+      "variant": 217,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1299,
+    "fields": {
+      "variant": 217,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1300,
+    "fields": {
+      "variant": 217,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1301,
+    "fields": {
+      "variant": 217,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1302,
+    "fields": {
+      "variant": 217,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1303,
+    "fields": {
+      "variant": 218,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1304,
+    "fields": {
+      "variant": 218,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1305,
+    "fields": {
+      "variant": 218,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1306,
+    "fields": {
+      "variant": 218,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1307,
+    "fields": {
+      "variant": 218,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1308,
+    "fields": {
+      "variant": 218,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1309,
+    "fields": {
+      "variant": 219,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1310,
+    "fields": {
+      "variant": 219,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1311,
+    "fields": {
+      "variant": 219,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1312,
+    "fields": {
+      "variant": 219,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1313,
+    "fields": {
+      "variant": 219,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1314,
+    "fields": {
+      "variant": 219,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1315,
+    "fields": {
+      "variant": 220,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1316,
+    "fields": {
+      "variant": 220,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1317,
+    "fields": {
+      "variant": 220,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1318,
+    "fields": {
+      "variant": 220,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1319,
+    "fields": {
+      "variant": 220,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1320,
+    "fields": {
+      "variant": 220,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1321,
+    "fields": {
+      "variant": 221,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1322,
+    "fields": {
+      "variant": 221,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1323,
+    "fields": {
+      "variant": 221,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1324,
+    "fields": {
+      "variant": 221,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1325,
+    "fields": {
+      "variant": 221,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1326,
+    "fields": {
+      "variant": 221,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1327,
+    "fields": {
+      "variant": 222,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1328,
+    "fields": {
+      "variant": 222,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1329,
+    "fields": {
+      "variant": 222,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1330,
+    "fields": {
+      "variant": 222,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1331,
+    "fields": {
+      "variant": 222,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1332,
+    "fields": {
+      "variant": 222,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1333,
+    "fields": {
+      "variant": 223,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1334,
+    "fields": {
+      "variant": 223,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1335,
+    "fields": {
+      "variant": 223,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1336,
+    "fields": {
+      "variant": 223,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1337,
+    "fields": {
+      "variant": 223,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1338,
+    "fields": {
+      "variant": 223,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1339,
+    "fields": {
+      "variant": 224,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1340,
+    "fields": {
+      "variant": 224,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1341,
+    "fields": {
+      "variant": 224,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1342,
+    "fields": {
+      "variant": 224,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1343,
+    "fields": {
+      "variant": 224,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1344,
+    "fields": {
+      "variant": 224,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1345,
+    "fields": {
+      "variant": 225,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1346,
+    "fields": {
+      "variant": 225,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1347,
+    "fields": {
+      "variant": 225,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1348,
+    "fields": {
+      "variant": 225,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1349,
+    "fields": {
+      "variant": 225,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1350,
+    "fields": {
+      "variant": 225,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1351,
+    "fields": {
+      "variant": 226,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1352,
+    "fields": {
+      "variant": 226,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1353,
+    "fields": {
+      "variant": 226,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1354,
+    "fields": {
+      "variant": 226,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1355,
+    "fields": {
+      "variant": 226,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1356,
+    "fields": {
+      "variant": 226,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1357,
+    "fields": {
+      "variant": 227,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1358,
+    "fields": {
+      "variant": 227,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1359,
+    "fields": {
+      "variant": 227,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1360,
+    "fields": {
+      "variant": 227,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1361,
+    "fields": {
+      "variant": 227,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1362,
+    "fields": {
+      "variant": 227,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1363,
+    "fields": {
+      "variant": 228,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1364,
+    "fields": {
+      "variant": 228,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1365,
+    "fields": {
+      "variant": 228,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1366,
+    "fields": {
+      "variant": 228,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1367,
+    "fields": {
+      "variant": 228,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1368,
+    "fields": {
+      "variant": 228,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1369,
+    "fields": {
+      "variant": 229,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1370,
+    "fields": {
+      "variant": 229,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1371,
+    "fields": {
+      "variant": 229,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1372,
+    "fields": {
+      "variant": 229,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1373,
+    "fields": {
+      "variant": 229,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1374,
+    "fields": {
+      "variant": 229,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1375,
+    "fields": {
+      "variant": 230,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1376,
+    "fields": {
+      "variant": 230,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1377,
+    "fields": {
+      "variant": 230,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1378,
+    "fields": {
+      "variant": 230,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1379,
+    "fields": {
+      "variant": 230,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1380,
+    "fields": {
+      "variant": 230,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1381,
+    "fields": {
+      "variant": 231,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1382,
+    "fields": {
+      "variant": 231,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1383,
+    "fields": {
+      "variant": 231,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1384,
+    "fields": {
+      "variant": 231,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1385,
+    "fields": {
+      "variant": 231,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1386,
+    "fields": {
+      "variant": 231,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1387,
+    "fields": {
+      "variant": 232,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1388,
+    "fields": {
+      "variant": 232,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1389,
+    "fields": {
+      "variant": 232,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1390,
+    "fields": {
+      "variant": 232,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1391,
+    "fields": {
+      "variant": 232,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1392,
+    "fields": {
+      "variant": 232,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1393,
+    "fields": {
+      "variant": 233,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1394,
+    "fields": {
+      "variant": 233,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1395,
+    "fields": {
+      "variant": 233,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1396,
+    "fields": {
+      "variant": 233,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1397,
+    "fields": {
+      "variant": 233,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1398,
+    "fields": {
+      "variant": 233,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1399,
+    "fields": {
+      "variant": 234,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1400,
+    "fields": {
+      "variant": 234,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1401,
+    "fields": {
+      "variant": 234,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1402,
+    "fields": {
+      "variant": 234,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1403,
+    "fields": {
+      "variant": 234,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1404,
+    "fields": {
+      "variant": 234,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1405,
+    "fields": {
+      "variant": 235,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1406,
+    "fields": {
+      "variant": 235,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1407,
+    "fields": {
+      "variant": 235,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1408,
+    "fields": {
+      "variant": 235,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1409,
+    "fields": {
+      "variant": 235,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1410,
+    "fields": {
+      "variant": 235,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1411,
+    "fields": {
+      "variant": 236,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1412,
+    "fields": {
+      "variant": 236,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1413,
+    "fields": {
+      "variant": 236,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1414,
+    "fields": {
+      "variant": 236,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1415,
+    "fields": {
+      "variant": 236,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1416,
+    "fields": {
+      "variant": 236,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1417,
+    "fields": {
+      "variant": 237,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1418,
+    "fields": {
+      "variant": 237,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1419,
+    "fields": {
+      "variant": 237,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1420,
+    "fields": {
+      "variant": 237,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1421,
+    "fields": {
+      "variant": 237,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1422,
+    "fields": {
+      "variant": 237,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1423,
+    "fields": {
+      "variant": 238,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1424,
+    "fields": {
+      "variant": 238,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1425,
+    "fields": {
+      "variant": 238,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1426,
+    "fields": {
+      "variant": 238,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1427,
+    "fields": {
+      "variant": 238,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1428,
+    "fields": {
+      "variant": 238,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1429,
+    "fields": {
+      "variant": 239,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1430,
+    "fields": {
+      "variant": 239,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1431,
+    "fields": {
+      "variant": 239,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1432,
+    "fields": {
+      "variant": 239,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1433,
+    "fields": {
+      "variant": 239,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1434,
+    "fields": {
+      "variant": 239,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1435,
+    "fields": {
+      "variant": 240,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1436,
+    "fields": {
+      "variant": 240,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1437,
+    "fields": {
+      "variant": 240,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1438,
+    "fields": {
+      "variant": 240,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1439,
+    "fields": {
+      "variant": 240,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1440,
+    "fields": {
+      "variant": 240,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1441,
+    "fields": {
+      "variant": 241,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1442,
+    "fields": {
+      "variant": 241,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1443,
+    "fields": {
+      "variant": 241,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1444,
+    "fields": {
+      "variant": 241,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1445,
+    "fields": {
+      "variant": 241,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1446,
+    "fields": {
+      "variant": 241,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1447,
+    "fields": {
+      "variant": 242,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1448,
+    "fields": {
+      "variant": 242,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1449,
+    "fields": {
+      "variant": 242,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1450,
+    "fields": {
+      "variant": 242,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1451,
+    "fields": {
+      "variant": 242,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1452,
+    "fields": {
+      "variant": 242,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1453,
+    "fields": {
+      "variant": 243,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1454,
+    "fields": {
+      "variant": 243,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1455,
+    "fields": {
+      "variant": 243,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1456,
+    "fields": {
+      "variant": 243,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1457,
+    "fields": {
+      "variant": 243,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1458,
+    "fields": {
+      "variant": 243,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1459,
+    "fields": {
+      "variant": 244,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1460,
+    "fields": {
+      "variant": 244,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1461,
+    "fields": {
+      "variant": 244,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1462,
+    "fields": {
+      "variant": 244,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1463,
+    "fields": {
+      "variant": 244,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1464,
+    "fields": {
+      "variant": 244,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1465,
+    "fields": {
+      "variant": 245,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1466,
+    "fields": {
+      "variant": 245,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1467,
+    "fields": {
+      "variant": 245,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1468,
+    "fields": {
+      "variant": 245,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1469,
+    "fields": {
+      "variant": 245,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1470,
+    "fields": {
+      "variant": 245,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1471,
+    "fields": {
+      "variant": 246,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1472,
+    "fields": {
+      "variant": 246,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1473,
+    "fields": {
+      "variant": 246,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1474,
+    "fields": {
+      "variant": 246,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1475,
+    "fields": {
+      "variant": 246,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1476,
+    "fields": {
+      "variant": 246,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1477,
+    "fields": {
+      "variant": 247,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1478,
+    "fields": {
+      "variant": 247,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1479,
+    "fields": {
+      "variant": 247,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1480,
+    "fields": {
+      "variant": 247,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1481,
+    "fields": {
+      "variant": 247,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1482,
+    "fields": {
+      "variant": 247,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1483,
+    "fields": {
+      "variant": 248,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1484,
+    "fields": {
+      "variant": 248,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1485,
+    "fields": {
+      "variant": 248,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1486,
+    "fields": {
+      "variant": 248,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1487,
+    "fields": {
+      "variant": 248,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1488,
+    "fields": {
+      "variant": 248,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1489,
+    "fields": {
+      "variant": 249,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1490,
+    "fields": {
+      "variant": 249,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1491,
+    "fields": {
+      "variant": 249,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1492,
+    "fields": {
+      "variant": 249,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1493,
+    "fields": {
+      "variant": 249,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1494,
+    "fields": {
+      "variant": 249,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1495,
+    "fields": {
+      "variant": 250,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1496,
+    "fields": {
+      "variant": 250,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1497,
+    "fields": {
+      "variant": 250,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1498,
+    "fields": {
+      "variant": 250,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1499,
+    "fields": {
+      "variant": 250,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1500,
+    "fields": {
+      "variant": 250,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1501,
+    "fields": {
+      "variant": 251,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1502,
+    "fields": {
+      "variant": 251,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1503,
+    "fields": {
+      "variant": 251,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1504,
+    "fields": {
+      "variant": 251,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1505,
+    "fields": {
+      "variant": 251,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1506,
+    "fields": {
+      "variant": 251,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1507,
+    "fields": {
+      "variant": 252,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1508,
+    "fields": {
+      "variant": 252,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1509,
+    "fields": {
+      "variant": 252,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1510,
+    "fields": {
+      "variant": 252,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1511,
+    "fields": {
+      "variant": 252,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1512,
+    "fields": {
+      "variant": 252,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1513,
+    "fields": {
+      "variant": 253,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": 11
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1514,
+    "fields": {
+      "variant": 253,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": 12
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1515,
+    "fields": {
+      "variant": 253,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": 15
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1516,
+    "fields": {
+      "variant": 253,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": 16
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1517,
+    "fields": {
+      "variant": 253,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": 17
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1518,
+    "fields": {
+      "variant": 253,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": 19
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1519,
+    "fields": {
+      "variant": 254,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1520,
+    "fields": {
+      "variant": 254,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1521,
+    "fields": {
+      "variant": 254,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1522,
+    "fields": {
+      "variant": 254,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1523,
+    "fields": {
+      "variant": 254,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1524,
+    "fields": {
+      "variant": 254,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1525,
+    "fields": {
+      "variant": 255,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1526,
+    "fields": {
+      "variant": 255,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1527,
+    "fields": {
+      "variant": 255,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1528,
+    "fields": {
+      "variant": 255,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1529,
+    "fields": {
+      "variant": 255,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1530,
+    "fields": {
+      "variant": 255,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1531,
+    "fields": {
+      "variant": 256,
+      "unit_type": "defense",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1532,
+    "fields": {
+      "variant": 256,
+      "unit_type": "defense",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1533,
+    "fields": {
+      "variant": 256,
+      "unit_type": "attack",
+      "position": 0,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1534,
+    "fields": {
+      "variant": 256,
+      "unit_type": "attack",
+      "position": 1,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1535,
+    "fields": {
+      "variant": 256,
+      "unit_type": "attack",
+      "position": 2,
+      "unit": null
+    }
+  },
+  {
+    "model": "lineups.lineupslot",
+    "pk": 1536,
+    "fields": {
+      "variant": 256,
+      "unit_type": "goalie",
+      "position": 0,
+      "unit": null
+    }
   }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 2,
-  "fields": {
-    "variant": 1,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": 2
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 3,
-  "fields": {
-    "variant": 1,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": 4
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 4,
-  "fields": {
-    "variant": 1,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": 5
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 5,
-  "fields": {
-    "variant": 1,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": 6
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 6,
-  "fields": {
-    "variant": 1,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": 7
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 7,
-  "fields": {
-    "variant": 2,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 8,
-  "fields": {
-    "variant": 2,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 9,
-  "fields": {
-    "variant": 2,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 10,
-  "fields": {
-    "variant": 2,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 11,
-  "fields": {
-    "variant": 2,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 12,
-  "fields": {
-    "variant": 2,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 13,
-  "fields": {
-    "variant": 3,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 14,
-  "fields": {
-    "variant": 3,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 15,
-  "fields": {
-    "variant": 3,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 16,
-  "fields": {
-    "variant": 3,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 17,
-  "fields": {
-    "variant": 3,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 18,
-  "fields": {
-    "variant": 3,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 19,
-  "fields": {
-    "variant": 4,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 20,
-  "fields": {
-    "variant": 4,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 21,
-  "fields": {
-    "variant": 4,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 22,
-  "fields": {
-    "variant": 4,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 23,
-  "fields": {
-    "variant": 4,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 24,
-  "fields": {
-    "variant": 4,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 25,
-  "fields": {
-    "variant": 5,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": 1
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 26,
-  "fields": {
-    "variant": 5,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": 2
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 27,
-  "fields": {
-    "variant": 5,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": 4
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 28,
-  "fields": {
-    "variant": 5,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": 5
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 29,
-  "fields": {
-    "variant": 5,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": 6
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 30,
-  "fields": {
-    "variant": 5,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": 7
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 31,
-  "fields": {
-    "variant": 6,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 32,
-  "fields": {
-    "variant": 6,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 33,
-  "fields": {
-    "variant": 6,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 34,
-  "fields": {
-    "variant": 6,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 35,
-  "fields": {
-    "variant": 6,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 36,
-  "fields": {
-    "variant": 6,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 37,
-  "fields": {
-    "variant": 7,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 38,
-  "fields": {
-    "variant": 7,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 39,
-  "fields": {
-    "variant": 7,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 40,
-  "fields": {
-    "variant": 7,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 41,
-  "fields": {
-    "variant": 7,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 42,
-  "fields": {
-    "variant": 7,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 43,
-  "fields": {
-    "variant": 8,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 44,
-  "fields": {
-    "variant": 8,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 45,
-  "fields": {
-    "variant": 8,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 46,
-  "fields": {
-    "variant": 8,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 47,
-  "fields": {
-    "variant": 8,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 48,
-  "fields": {
-    "variant": 8,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 49,
-  "fields": {
-    "variant": 9,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": 1
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 50,
-  "fields": {
-    "variant": 9,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": 2
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 51,
-  "fields": {
-    "variant": 9,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": 4
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 52,
-  "fields": {
-    "variant": 9,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": 5
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 53,
-  "fields": {
-    "variant": 9,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": 6
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 54,
-  "fields": {
-    "variant": 9,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": 7
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 55,
-  "fields": {
-    "variant": 10,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 56,
-  "fields": {
-    "variant": 10,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 57,
-  "fields": {
-    "variant": 10,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 58,
-  "fields": {
-    "variant": 10,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 59,
-  "fields": {
-    "variant": 10,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 60,
-  "fields": {
-    "variant": 10,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 61,
-  "fields": {
-    "variant": 11,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 62,
-  "fields": {
-    "variant": 11,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 63,
-  "fields": {
-    "variant": 11,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 64,
-  "fields": {
-    "variant": 11,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 65,
-  "fields": {
-    "variant": 11,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 66,
-  "fields": {
-    "variant": 11,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 67,
-  "fields": {
-    "variant": 12,
-    "unit_type": "defense",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 68,
-  "fields": {
-    "variant": 12,
-    "unit_type": "defense",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 69,
-  "fields": {
-    "variant": 12,
-    "unit_type": "attack",
-    "position": 0,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 70,
-  "fields": {
-    "variant": 12,
-    "unit_type": "attack",
-    "position": 1,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 71,
-  "fields": {
-    "variant": 12,
-    "unit_type": "attack",
-    "position": 2,
-    "unit": null
-  }
-},
-{
-  "model": "lineups.lineupslot",
-  "pk": 72,
-  "fields": {
-    "variant": 12,
-    "unit_type": "goalie",
-    "position": 0,
-    "unit": null
-  }
-}
 ]

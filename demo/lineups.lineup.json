@@ -1,26 +1,258 @@
 [
-{
-  "model": "lineups.lineup",
-  "pk": 1,
-  "fields": {
-    "event": 1,
-    "published_at": null
+  {
+    "model": "lineups.lineup",
+    "pk": 33,
+    "fields": {
+      "event": 51,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 34,
+    "fields": {
+      "event": 37,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 35,
+    "fields": {
+      "event": 33,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 36,
+    "fields": {
+      "event": 34,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 37,
+    "fields": {
+      "event": 47,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 38,
+    "fields": {
+      "event": 35,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 39,
+    "fields": {
+      "event": 48,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 40,
+    "fields": {
+      "event": 36,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 41,
+    "fields": {
+      "event": 49,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 42,
+    "fields": {
+      "event": 39,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 43,
+    "fields": {
+      "event": 40,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 44,
+    "fields": {
+      "event": 52,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 45,
+    "fields": {
+      "event": 50,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 46,
+    "fields": {
+      "event": 41,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 47,
+    "fields": {
+      "event": 42,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 48,
+    "fields": {
+      "event": 53,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 49,
+    "fields": {
+      "event": 38,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 50,
+    "fields": {
+      "event": 43,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 51,
+    "fields": {
+      "event": 44,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 52,
+    "fields": {
+      "event": 45,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 53,
+    "fields": {
+      "event": 46,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 54,
+    "fields": {
+      "event": 64,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 55,
+    "fields": {
+      "event": 63,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 56,
+    "fields": {
+      "event": 62,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 57,
+    "fields": {
+      "event": 61,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 58,
+    "fields": {
+      "event": 60,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 59,
+    "fields": {
+      "event": 59,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 60,
+    "fields": {
+      "event": 58,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 61,
+    "fields": {
+      "event": 57,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 62,
+    "fields": {
+      "event": 56,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 63,
+    "fields": {
+      "event": 55,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 64,
+    "fields": {
+      "event": 54,
+      "published_at": null
+    }
   }
-},
-{
-  "model": "lineups.lineup",
-  "pk": 2,
-  "fields": {
-    "event": 2,
-    "published_at": null
-  }
-},
-{
-  "model": "lineups.lineup",
-  "pk": 3,
-  "fields": {
-    "event": 3,
-    "published_at": null
-  }
-}
 ]

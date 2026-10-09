@@ -1,15 +1,15 @@
 [
-{
-  "model": "integrations.integrationchannel",
-  "pk": 1,
-  "fields": {
-    "provider": "telegram",
-    "name": "team-group",
-    "config": {
-      "bot_token": "PLACEHOLDER_BOT_TOKEN",
-      "chat_id": "PLACEHOLDER_CHAT_ID"
-    },
-    "enabled": false
+  {
+    "model": "integrations.integrationchannel",
+    "pk": 2,
+    "fields": {
+      "provider": "telegram",
+      "name": "team-group",
+      "config": {
+        "bot_token": "PLACEHOLDER_BOT_TOKEN",
+        "chat_id": "PLACEHOLDER_CHAT_ID"
+      },
+      "enabled": false
+    }
   }
-}
 ]

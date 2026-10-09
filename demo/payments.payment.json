@@ -1,34 +1,1186 @@
 [
-{
-  "model": "payments.payment",
-  "pk": 1,
-  "fields": {
-    "player": 1,
-    "amount": 15000,
-    "kind": "membership",
-    "method": "transfer",
-    "season": 1,
-    "event": null,
-    "paid_on": "2026-10-07",
-    "note": "",
-    "recorded_by": 1,
-    "created_at": "2026-10-07T15:30:25.111Z"
+  {
+    "model": "payments.payment",
+    "pk": 75,
+    "fields": {
+      "player": 29,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.523Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 76,
+    "fields": {
+      "player": 30,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.528Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 77,
+    "fields": {
+      "player": 30,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.532Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 78,
+    "fields": {
+      "player": 30,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-07-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.536Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 79,
+    "fields": {
+      "player": 30,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-08-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.540Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 80,
+    "fields": {
+      "player": 31,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.545Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 81,
+    "fields": {
+      "player": 31,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.549Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 82,
+    "fields": {
+      "player": 31,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-07-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.553Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 83,
+    "fields": {
+      "player": 31,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-08-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.557Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 84,
+    "fields": {
+      "player": 32,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.561Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 85,
+    "fields": {
+      "player": 32,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.565Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 86,
+    "fields": {
+      "player": 33,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.569Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 87,
+    "fields": {
+      "player": 33,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.573Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 88,
+    "fields": {
+      "player": 33,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-07-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.577Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 89,
+    "fields": {
+      "player": 33,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-08-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.582Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 90,
+    "fields": {
+      "player": 34,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.586Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 91,
+    "fields": {
+      "player": 35,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.590Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 92,
+    "fields": {
+      "player": 35,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.594Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 93,
+    "fields": {
+      "player": 36,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.598Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 94,
+    "fields": {
+      "player": 36,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.602Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 95,
+    "fields": {
+      "player": 36,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-07-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.606Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 96,
+    "fields": {
+      "player": 36,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-08-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.611Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 97,
+    "fields": {
+      "player": 37,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.615Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 98,
+    "fields": {
+      "player": 37,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.619Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 99,
+    "fields": {
+      "player": 37,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-07-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.623Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 100,
+    "fields": {
+      "player": 37,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-08-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.628Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 101,
+    "fields": {
+      "player": 38,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.632Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 102,
+    "fields": {
+      "player": 38,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.642Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 103,
+    "fields": {
+      "player": 39,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.646Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 104,
+    "fields": {
+      "player": 40,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.650Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 105,
+    "fields": {
+      "player": 40,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.655Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 106,
+    "fields": {
+      "player": 40,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-07-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.660Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 107,
+    "fields": {
+      "player": 40,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-08-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.664Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 108,
+    "fields": {
+      "player": 41,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.668Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 109,
+    "fields": {
+      "player": 41,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.672Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 110,
+    "fields": {
+      "player": 42,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.676Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 111,
+    "fields": {
+      "player": 42,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.680Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 112,
+    "fields": {
+      "player": 42,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-07-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.684Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 113,
+    "fields": {
+      "player": 42,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-08-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.688Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 114,
+    "fields": {
+      "player": 43,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.691Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 115,
+    "fields": {
+      "player": 43,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-06-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.696Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 116,
+    "fields": {
+      "player": 43,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-07-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.700Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 117,
+    "fields": {
+      "player": 43,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "cash",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-08-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.704Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 118,
+    "fields": {
+      "player": 44,
+      "amount": 15000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 5,
+      "event": null,
+      "paid_on": "2026-05-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.708Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 119,
+    "fields": {
+      "player": 48,
+      "amount": 3500,
+      "kind": "session",
+      "method": "cash",
+      "season": null,
+      "event": 48,
+      "paid_on": "2026-07-10",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.712Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 120,
+    "fields": {
+      "player": 49,
+      "amount": 3500,
+      "kind": "session",
+      "method": "cash",
+      "season": null,
+      "event": 49,
+      "paid_on": "2026-07-10",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.716Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 121,
+    "fields": {
+      "player": 51,
+      "amount": 3500,
+      "kind": "session",
+      "method": "cash",
+      "season": null,
+      "event": 48,
+      "paid_on": "2026-07-10",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.720Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 122,
+    "fields": {
+      "player": 52,
+      "amount": 3500,
+      "kind": "session",
+      "method": "cash",
+      "season": null,
+      "event": 49,
+      "paid_on": "2026-07-10",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.724Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 123,
+    "fields": {
+      "player": 54,
+      "amount": 3500,
+      "kind": "session",
+      "method": "cash",
+      "season": null,
+      "event": 48,
+      "paid_on": "2026-07-10",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.729Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 124,
+    "fields": {
+      "player": 55,
+      "amount": 3500,
+      "kind": "session",
+      "method": "cash",
+      "season": null,
+      "event": 49,
+      "paid_on": "2026-07-10",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.733Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 125,
+    "fields": {
+      "player": 29,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-09-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.737Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 126,
+    "fields": {
+      "player": 29,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-10-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.741Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 127,
+    "fields": {
+      "player": 29,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-11-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.746Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 128,
+    "fields": {
+      "player": 29,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-12-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.751Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 129,
+    "fields": {
+      "player": 30,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-09-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.755Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 130,
+    "fields": {
+      "player": 30,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-10-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.759Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 131,
+    "fields": {
+      "player": 30,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-11-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.764Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 132,
+    "fields": {
+      "player": 30,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-12-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.769Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 133,
+    "fields": {
+      "player": 31,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-09-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.773Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 134,
+    "fields": {
+      "player": 31,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-10-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.777Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 135,
+    "fields": {
+      "player": 31,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-11-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.782Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 136,
+    "fields": {
+      "player": 31,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-12-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.786Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 137,
+    "fields": {
+      "player": 32,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-09-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.790Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 138,
+    "fields": {
+      "player": 32,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-10-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.795Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 139,
+    "fields": {
+      "player": 32,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-11-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.799Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 140,
+    "fields": {
+      "player": 32,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-12-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.803Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 141,
+    "fields": {
+      "player": 33,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-09-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.808Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 142,
+    "fields": {
+      "player": 33,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-10-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.812Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 143,
+    "fields": {
+      "player": 33,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-11-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.816Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 144,
+    "fields": {
+      "player": 33,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-12-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.820Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 145,
+    "fields": {
+      "player": 34,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-09-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.825Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 146,
+    "fields": {
+      "player": 34,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-10-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.830Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 147,
+    "fields": {
+      "player": 34,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-11-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.834Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 148,
+    "fields": {
+      "player": 34,
+      "amount": 12000,
+      "kind": "membership",
+      "method": "transfer",
+      "season": 6,
+      "event": null,
+      "paid_on": "2025-12-01",
+      "note": "",
+      "recorded_by": 31,
+      "created_at": "2026-10-09T17:41:51.838Z"
+    }
   }
-},
-{
-  "model": "payments.payment",
-  "pk": 2,
-  "fields": {
-    "player": 2,
-    "amount": 3000,
-    "kind": "session",
-    "method": "cash",
-    "season": null,
-    "event": 2,
-    "paid_on": "2026-10-07",
-    "note": "",
-    "recorded_by": 1,
-    "created_at": "2026-10-07T15:30:25.116Z"
-  }
-}
 ]

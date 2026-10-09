@@ -1,0 +1,68 @@
+[
+  {
+    "model": "core.rink",
+    "pk": 7,
+    "fields": {
+      "name": "Lodowisko Świdnica",
+      "address": "ul. Sportowa 1, Świdnica",
+      "cost_per_hour": 25000,
+      "cost_by_match": 120000,
+      "created_at": "2026-10-09T17:41:45.751Z"
+    }
+  },
+  {
+    "model": "core.rink",
+    "pk": 8,
+    "fields": {
+      "name": "Hala Lodowa Wałbrzych",
+      "address": "ul. Wysockiego 12, Wałbrzych",
+      "cost_per_hour": 30000,
+      "cost_by_match": 150000,
+      "created_at": "2026-10-09T17:41:45.755Z"
+    }
+  },
+  {
+    "model": "core.rink",
+    "pk": 9,
+    "fields": {
+      "name": "Arena Dzierżoniów",
+      "address": "ul. Lodowa 5, Dzierżoniów",
+      "cost_per_hour": 20000,
+      "cost_by_match": 100000,
+      "created_at": "2026-10-09T17:41:45.759Z"
+    }
+  },
+  {
+    "model": "core.rink",
+    "pk": 10,
+    "fields": {
+      "name": "Lodowisko Północ",
+      "address": "ul. Północna 8, Świdnica",
+      "cost_per_hour": 28000,
+      "cost_by_match": 135000,
+      "created_at": "2026-10-09T17:41:45.762Z"
+    }
+  },
+  {
+    "model": "core.rink",
+    "pk": 11,
+    "fields": {
+      "name": "Hala Legnica",
+      "address": "ul. Zimowa 3, Legnica",
+      "cost_per_hour": 27000,
+      "cost_by_match": 140000,
+      "created_at": "2026-10-09T17:41:45.766Z"
+    }
+  },
+  {
+    "model": "core.rink",
+    "pk": 12,
+    "fields": {
+      "name": "Tor testowy",
+      "address": "ul. Próbna 1",
+      "cost_per_hour": 15000,
+      "cost_by_match": 60000,
+      "created_at": "2026-10-09T17:41:45.769Z"
+    }
+  }
+]

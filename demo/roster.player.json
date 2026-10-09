@@ -1,212 +1,495 @@
 [
-{
-  "model": "roster.player",
-  "pk": 1,
-  "fields": {
-    "user": 3,
-    "first_name": "Player",
-    "last_name": "One",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:19.522Z",
-    "updated_at": "2026-10-07T15:30:19.522Z"
+  {
+    "model": "roster.player",
+    "pk": 29,
+    "fields": {
+      "user": 33,
+      "first_name": "Kacper",
+      "last_name": "Zieliński",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [
+        "captain"
+      ],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:33.757Z",
+      "updated_at": "2026-10-09T17:41:33.757Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 30,
+    "fields": {
+      "user": 34,
+      "first_name": "Adam",
+      "last_name": "Nowak",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [
+        "assistant_captain",
+        "goalie"
+      ],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:34.188Z",
+      "updated_at": "2026-10-09T17:41:34.188Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 31,
+    "fields": {
+      "user": 35,
+      "first_name": "Bartosz",
+      "last_name": "Kowalski",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [
+        "goalie"
+      ],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:34.603Z",
+      "updated_at": "2026-10-09T17:41:34.603Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 32,
+    "fields": {
+      "user": 36,
+      "first_name": "Czesław",
+      "last_name": "Wiśniewski",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [
+        "veteran"
+      ],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:35.055Z",
+      "updated_at": "2026-10-09T17:41:35.055Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 33,
+    "fields": {
+      "user": 37,
+      "first_name": "Dawid",
+      "last_name": "Lewandowski",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [
+        "rookie"
+      ],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:35.504Z",
+      "updated_at": "2026-10-09T17:41:35.504Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 34,
+    "fields": {
+      "user": 38,
+      "first_name": "Emil",
+      "last_name": "Woźniak",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:35.997Z",
+      "updated_at": "2026-10-09T17:41:35.997Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 35,
+    "fields": {
+      "user": 39,
+      "first_name": "Filip",
+      "last_name": "Mazur",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:36.425Z",
+      "updated_at": "2026-10-09T17:41:36.425Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 36,
+    "fields": {
+      "user": 40,
+      "first_name": "Grzegorz",
+      "last_name": "Krawczyk",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:36.839Z",
+      "updated_at": "2026-10-09T17:41:36.839Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 37,
+    "fields": {
+      "user": 41,
+      "first_name": "Henryk",
+      "last_name": "Zając",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [
+        "veteran"
+      ],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:37.326Z",
+      "updated_at": "2026-10-09T17:41:37.326Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 38,
+    "fields": {
+      "user": 42,
+      "first_name": "Igor",
+      "last_name": "Sikora",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:37.778Z",
+      "updated_at": "2026-10-09T17:41:37.778Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 39,
+    "fields": {
+      "user": 43,
+      "first_name": "Jakub",
+      "last_name": "Lis",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [
+        "rookie"
+      ],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:38.212Z",
+      "updated_at": "2026-10-09T17:41:38.212Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 40,
+    "fields": {
+      "user": 44,
+      "first_name": "Kamil",
+      "last_name": "Górski",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:38.666Z",
+      "updated_at": "2026-10-09T17:41:38.666Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 41,
+    "fields": {
+      "user": 45,
+      "first_name": "Łukasz",
+      "last_name": "Pawlak",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [
+        "rookie"
+      ],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:39.122Z",
+      "updated_at": "2026-10-09T17:41:39.122Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 42,
+    "fields": {
+      "user": 46,
+      "first_name": "Marek",
+      "last_name": "Jankowski",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:39.562Z",
+      "updated_at": "2026-10-09T17:41:39.562Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 43,
+    "fields": {
+      "user": 47,
+      "first_name": "Norbert",
+      "last_name": "Czarnecki",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:39.996Z",
+      "updated_at": "2026-10-09T17:41:39.996Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 44,
+    "fields": {
+      "user": 48,
+      "first_name": "Oskar",
+      "last_name": "Dudek",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:40.421Z",
+      "updated_at": "2026-10-09T17:41:40.421Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 45,
+    "fields": {
+      "user": 49,
+      "first_name": "Patryk",
+      "last_name": "Sobczak",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:40.838Z",
+      "updated_at": "2026-10-09T17:41:40.838Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 46,
+    "fields": {
+      "user": 50,
+      "first_name": "Radosław",
+      "last_name": "Kaczmarek",
+      "kind": "member",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:41.270Z",
+      "updated_at": "2026-10-09T17:41:41.270Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 47,
+    "fields": {
+      "user": 51,
+      "first_name": "Tomasz",
+      "last_name": "Gość",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:41.720Z",
+      "updated_at": "2026-10-09T17:41:41.720Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 48,
+    "fields": {
+      "user": 52,
+      "first_name": "Sebastian",
+      "last_name": "Przyjezdny",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:42.150Z",
+      "updated_at": "2026-10-09T17:41:42.150Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 49,
+    "fields": {
+      "user": 53,
+      "first_name": "Michał",
+      "last_name": "Koledzy",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:42.582Z",
+      "updated_at": "2026-10-09T17:41:42.582Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 50,
+    "fields": {
+      "user": 54,
+      "first_name": "Adrian",
+      "last_name": "Wypożyczony",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:42.984Z",
+      "updated_at": "2026-10-09T17:41:42.984Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 51,
+    "fields": {
+      "user": 55,
+      "first_name": "Daniel",
+      "last_name": "Rezerwa",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:43.404Z",
+      "updated_at": "2026-10-09T17:41:43.404Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 52,
+    "fields": {
+      "user": 56,
+      "first_name": "Wojtek",
+      "last_name": "Dołączył",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:43.821Z",
+      "updated_at": "2026-10-09T17:41:43.821Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 53,
+    "fields": {
+      "user": 57,
+      "first_name": "Kuba",
+      "last_name": "Odwiedziny",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:44.237Z",
+      "updated_at": "2026-10-09T17:41:44.237Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 54,
+    "fields": {
+      "user": 58,
+      "first_name": "Szymon",
+      "last_name": "Gościnnie",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:44.674Z",
+      "updated_at": "2026-10-09T17:41:44.674Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 55,
+    "fields": {
+      "user": 59,
+      "first_name": "Mateusz",
+      "last_name": "Zastępstwo",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:45.090Z",
+      "updated_at": "2026-10-09T17:41:45.090Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 56,
+    "fields": {
+      "user": 60,
+      "first_name": "Antek",
+      "last_name": "Obcy",
+      "kind": "guest",
+      "is_junior": false,
+      "is_ready": false,
+      "tags": [],
+      "status": "active",
+      "notes": "",
+      "created_at": "2026-10-09T17:41:45.505Z",
+      "updated_at": "2026-10-09T17:41:45.505Z"
+    }
   }
-},
-{
-  "model": "roster.player",
-  "pk": 2,
-  "fields": {
-    "user": 4,
-    "first_name": "Guest",
-    "last_name": "Guest",
-    "kind": "guest",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:19.910Z",
-    "updated_at": "2026-10-07T15:30:19.910Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 3,
-  "fields": {
-    "user": 5,
-    "first_name": "Adam",
-    "last_name": "Nowak",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:20.301Z",
-    "updated_at": "2026-10-07T15:30:20.301Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 4,
-  "fields": {
-    "user": 6,
-    "first_name": "Bartosz",
-    "last_name": "Kowalski",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:20.694Z",
-    "updated_at": "2026-10-07T15:30:20.694Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 5,
-  "fields": {
-    "user": 7,
-    "first_name": "Czeslaw",
-    "last_name": "Wisniewski",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:21.084Z",
-    "updated_at": "2026-10-07T15:30:21.084Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 6,
-  "fields": {
-    "user": 8,
-    "first_name": "David",
-    "last_name": "Smith",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:21.467Z",
-    "updated_at": "2026-10-07T15:30:21.467Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 7,
-  "fields": {
-    "user": 9,
-    "first_name": "Erik",
-    "last_name": "Novak",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:21.858Z",
-    "updated_at": "2026-10-07T15:30:21.858Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 8,
-  "fields": {
-    "user": 10,
-    "first_name": "Filip",
-    "last_name": "Dvorak",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:22.249Z",
-    "updated_at": "2026-10-07T15:30:22.249Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 9,
-  "fields": {
-    "user": 11,
-    "first_name": "Gregor",
-    "last_name": "Maly",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:22.642Z",
-    "updated_at": "2026-10-07T15:30:22.642Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 10,
-  "fields": {
-    "user": 12,
-    "first_name": "Henryk",
-    "last_name": "Zajac",
-    "kind": "member",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:23.059Z",
-    "updated_at": "2026-10-07T15:30:23.059Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 11,
-  "fields": {
-    "user": 13,
-    "first_name": "Igor",
-    "last_name": "Guest",
-    "kind": "guest",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:23.457Z",
-    "updated_at": "2026-10-07T15:30:23.458Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 12,
-  "fields": {
-    "user": 14,
-    "first_name": "Jan",
-    "last_name": "Host",
-    "kind": "guest",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:23.858Z",
-    "updated_at": "2026-10-07T15:30:23.858Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 13,
-  "fields": {
-    "user": 15,
-    "first_name": "Karel",
-    "last_name": "Navsteva",
-    "kind": "guest",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:24.262Z",
-    "updated_at": "2026-10-07T15:30:24.262Z"
-  }
-},
-{
-  "model": "roster.player",
-  "pk": 14,
-  "fields": {
-    "user": 16,
-    "first_name": "Lukas",
-    "last_name": "Obecny",
-    "kind": "guest",
-    "is_junior": false,
-    "status": "active",
-    "notes": "",
-    "created_at": "2026-10-07T15:30:24.650Z",
-    "updated_at": "2026-10-07T15:30:24.650Z"
-  }
-}
 ]

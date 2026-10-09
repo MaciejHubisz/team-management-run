@@ -1,22 +1,62 @@
 [
-{
-  "model": "comments.eventcomment",
-  "pk": 1,
-  "fields": {
-    "event": 2,
-    "author": 2,
-    "body": "Bring both jerseys.",
-    "created_at": "2026-10-07T15:30:25.101Z"
+  {
+    "model": "comments.eventcomment",
+    "pk": 7,
+    "fields": {
+      "event": 47,
+      "author": 32,
+      "body": "Weźcie oba komplety strojów.",
+      "created_at": "2026-10-09T17:41:51.501Z"
+    }
+  },
+  {
+    "model": "comments.eventcomment",
+    "pk": 8,
+    "fields": {
+      "event": 47,
+      "author": 31,
+      "body": "Lód zarezerwowany na 20:00.",
+      "created_at": "2026-10-09T17:41:51.505Z"
+    }
+  },
+  {
+    "model": "comments.eventcomment",
+    "pk": 9,
+    "fields": {
+      "event": 48,
+      "author": 32,
+      "body": "Zbiórka o 18:15 przed halą.",
+      "created_at": "2026-10-09T17:41:51.508Z"
+    }
+  },
+  {
+    "model": "comments.eventcomment",
+    "pk": 10,
+    "fields": {
+      "event": 35,
+      "author": 31,
+      "body": "Proszę o punktualność — ćwiczymy przewagi.",
+      "created_at": "2026-10-09T17:41:51.512Z"
+    }
+  },
+  {
+    "model": "comments.eventcomment",
+    "pk": 11,
+    "fields": {
+      "event": 49,
+      "author": 32,
+      "body": "Po meczu krótka odprawa.",
+      "created_at": "2026-10-09T17:41:51.516Z"
+    }
+  },
+  {
+    "model": "comments.eventcomment",
+    "pk": 12,
+    "fields": {
+      "event": 33,
+      "author": 31,
+      "body": "Przypominam o opłatach za sesje.",
+      "created_at": "2026-10-09T17:41:51.520Z"
+    }
   }
-},
-{
-  "model": "comments.eventcomment",
-  "pk": 2,
-  "fields": {
-    "event": 2,
-    "author": 1,
-    "body": "Ice is booked at 20:00.",
-    "created_at": "2026-10-07T15:30:25.106Z"
-  }
-}
 ]
