@@ -22,6 +22,10 @@ first; otherwise they are pulled from the configured registry.
 ./start.sh --force-recreate   # wipe the database and start empty
 ```
 
+The console output of the last `--start` / `--update` (build included) is saved
+to `tmp/start.log` in this folder (git-ignored); a standalone `../team-management/build.sh`
+saves to `/tmp/team-management-build.log`. Each run overwrites its file.
+
 ## Data folders
 
 | Folder      | Purpose                                        | Git |

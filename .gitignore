@@ -4,3 +4,4 @@ logs/*.log
 registry.env
 exports/
 import/
+tmp/
