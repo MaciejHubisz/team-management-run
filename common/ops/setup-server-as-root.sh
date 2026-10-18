@@ -437,6 +437,11 @@ setup_deploy() {
   fi
 
   step "CI deploy upload (${owner}/${repo})"
+  if ! run_as_operator bash -c 'command -v gh' >/dev/null 2>&1; then
+    step_info "installing GitHub CLI with Homebrew…"
+    run_as_operator env HOMEBREW_NO_AUTO_UPDATE=1 "$BREW_PREFIX/bin/brew" install gh >/dev/null 2>&1 ||
+      die "could not install gh for ${TARGET_USER} — run: brew install gh"
+  fi
   token="$(registry_token)"
   [[ -z "$token" && -n "$REGISTRY_TOKEN_FILE" && -r "$REGISTRY_TOKEN_FILE" ]] && token="$(tr -d '\r\n' <"$REGISTRY_TOKEN_FILE")"
 
