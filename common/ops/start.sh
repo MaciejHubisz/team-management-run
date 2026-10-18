@@ -507,9 +507,13 @@ done
 
 [[ "$FORCE_PULL" == 1 ]] && SKIP_BUILD=1
 
-# Refresh the run repo itself before start/update (see self_update).
+# Refresh the run repo itself before start/update (see self_update). The run
+# log keeps the console output of the last start/update (build included).
 case "$CMD" in
-  start | update) self_update ;;
+  start | update)
+    start_run_log start "${ORIG_ARGS[@]}"
+    self_update
+    ;;
 esac
 
 case "$CMD" in
