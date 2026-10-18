@@ -63,13 +63,20 @@ confirm() {
 print_version() { printf '%s\n' "${APP_NAME:-App} ${APP_VERSION:-?}"; }
 
 # Mirror everything this script prints (stdout + stderr, children included)
-# into ${TMPDIR:-/tmp}/<APP_SLUG>-<name>.log, colours stripped. One file per
+# into <APP_RUN_ROOT>/tmp/<name>.log (${TMPDIR:-/tmp}/<APP_SLUG>-<name>.log
+# when there is no run root, e.g. a standalone build), colours stripped. One file per
 # name, overwritten by the next run. Nested scripts (build.sh under start.sh)
 # inherit the parent's log instead of opening their own.
 start_run_log() {
   local name="$1"; shift
   [[ -n "$(app_env RUN_LOG)" ]] && return 0
-  local file="${TMPDIR:-/tmp}/${APP_SLUG:-app}-${name}.log"
+  local file
+  if [[ -n "${APP_RUN_ROOT:-}" ]]; then
+    file="${APP_RUN_ROOT}/tmp/${name}.log"
+    mkdir -p "${APP_RUN_ROOT}/tmp" 2>/dev/null || true
+  else
+    file="${TMPDIR:-/tmp}/${APP_SLUG:-app}-${name}.log"
+  fi
   if ! printf '# %s  %s %s\n' "$(date '+%F %T')" "$0" "$*" > "$file" 2>/dev/null; then
     warn "cannot write ${file} — run log disabled"
     return 0
