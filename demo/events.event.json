@@ -312,7 +312,7 @@
     "pk": 47,
     "fields": {
       "title": "Mecz towarzyski z Niedźwiedziami",
-      "event_type": "game",
+      "event_type": "friendly_game",
       "season": 5,
       "rink": 7,
       "hours": "1.50",
@@ -334,7 +334,7 @@
     "pk": 48,
     "fields": {
       "title": "Mecz ligowy z Orłami",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 5,
       "rink": 8,
       "hours": "1.50",
@@ -356,7 +356,7 @@
     "pk": 49,
     "fields": {
       "title": "Mecz z Tygrysami",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 5,
       "rink": 9,
       "hours": "1.50",
@@ -378,7 +378,7 @@
     "pk": 50,
     "fields": {
       "title": "Mecz z Jastrzębiami",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 5,
       "rink": 11,
       "hours": "1.50",
@@ -400,7 +400,7 @@
     "pk": 51,
     "fields": {
       "title": "Mecz z Pumami",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 5,
       "rink": 10,
       "hours": "1.50",
@@ -444,7 +444,7 @@
     "pk": 53,
     "fields": {
       "title": "Mecz odwołany z Sokołem",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 5,
       "rink": 8,
       "hours": "1.50",
@@ -488,7 +488,7 @@
     "pk": 55,
     "fields": {
       "title": "Mecz z Lwami",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 6,
       "rink": 8,
       "hours": "1.50",
@@ -532,7 +532,7 @@
     "pk": 57,
     "fields": {
       "title": "Mecz z Panterami",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 6,
       "rink": 9,
       "hours": "1.50",
@@ -620,7 +620,7 @@
     "pk": 61,
     "fields": {
       "title": "Mecz z Rysiami",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 7,
       "rink": 7,
       "hours": "1.50",
@@ -686,7 +686,7 @@
     "pk": 64,
     "fields": {
       "title": "Mecz z Wilkami",
-      "event_type": "game",
+      "event_type": "league_game",
       "season": 8,
       "rink": 11,
       "hours": "1.50",
