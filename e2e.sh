@@ -10,7 +10,7 @@
 #   ./e2e.sh --slow 800 auth    slower clicks (ms per action; default 300)
 #   ./e2e.sh --list             list all tests
 #   ./e2e.sh --build            rebuild the image from ../team-management first
-#   ./e2e.sh --pull             pull the published image instead of building
+#   ./e2e.sh --pull             pull the image from the registry (only if someone pushed it)
 #   ./e2e.sh -- -x --lf         anything after -- goes to pytest
 #
 # Results: tmp/e2e/report.html; a failed test keeps a screenshot and trace.zip
