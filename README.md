@@ -78,6 +78,19 @@ To import your own data, drop JSON files (one per table, `app.model.json`) into
 `./import/` and press **Import** on the Data page (or run
 `docker compose exec backend python manage.py import_data`).
 
+## Browser tests (e2e)
+
+```bash
+./e2e.sh            # run the browser test suite and watch it at http://localhost:7900
+./e2e.sh --window   # same, in a Chromium window on this desktop
+./e2e.sh --fast     # headless; ./e2e.sh --help for filters and options
+```
+
+Runs the `team-management-e2e` image (built from `../team-management` when it
+is present, otherwise pulled) against its own throwaway database; the running
+app and its data are not touched. Report and failure traces: `tmp/e2e/`. The
+tests themselves live in the source repo (`e2e/`, see its `docs/testing/e2e.md`).
+
 ## Service
 
 ```bash
