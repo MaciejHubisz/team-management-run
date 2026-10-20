@@ -49,5 +49,7 @@ Commands:  ./start.sh
                                 when the source repo is present)
     ./start.sh --stop           stop (data kept)
     ./start.sh --update         rebuild/pull and recreate the app
-    ./start.sh --force-recreate wipe the database and start empty
+    ./start.sh --force-recreate-demo  same as --force-recreate, then load demo data
+    ./start.sh --force-recreate wipe the data (schema is recreated), start empty;
+                                current data is exported to ./exports first
     ./start.sh --logs           follow logs

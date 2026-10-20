@@ -34,6 +34,7 @@ services:
       POSTGRES_PASSWORD: teammgmt
       REDIS_URL: redis://redis:6379/0
       HUEY_IMMEDIATE: "false"
+      TEAMMGMT_SEED_DEMO: "${TEAMMGMT_SEED_DEMO:-false}"
       TEAMMGMT_EXPORTS_DIR: /app/exports
       TEAMMGMT_IMPORT_DIR: /app/import
       TEAMMGMT_DEMO_DIR: /app/demo
