@@ -13,6 +13,7 @@
       "hours": "1.00",
       "coach_present": true,
       "is_open": true,
+      "is_locked": false,
       "players": [
         1,
         2,
@@ -53,6 +54,7 @@
       "hours": "1.00",
       "coach_present": true,
       "is_open": true,
+      "is_locked": false,
       "players": [
         15,
         16,
