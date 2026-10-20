@@ -1,13 +1,18 @@
 [
   {
-    "model": "seasons.seasonslot",
+    "model": "seasons.declaration",
     "pk": 1,
     "fields": {
       "season": 5,
+      "title": "Poniedziałkowe treningi Świdnica",
+      "description": "",
       "weekday": 0,
       "start_time": "20:00:00",
       "end_time": null,
       "rink": 7,
+      "hours": "1.00",
+      "coach_present": true,
+      "is_open": true,
       "players": [
         1,
         2,
@@ -35,14 +40,19 @@
     }
   },
   {
-    "model": "seasons.seasonslot",
+    "model": "seasons.declaration",
     "pk": 2,
     "fields": {
       "season": 5,
+      "title": "Czwartkowe treningi Wrocław",
+      "description": "",
       "weekday": 3,
       "start_time": "21:00:00",
       "end_time": null,
       "rink": 8,
+      "hours": "1.00",
+      "coach_present": true,
+      "is_open": true,
       "players": [
         15,
         16,

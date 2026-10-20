@@ -406,7 +406,7 @@
     "model": "roster.player",
     "pk": 16,
     "fields": {
-      "user": null,
+      "user": 33,
       "first_name": "Maciej",
       "last_name": "Hubisz",
       "nickname": "HUBISZ",

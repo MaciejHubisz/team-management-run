@@ -45,7 +45,8 @@ writes a safety export before every import, demo load or upload.
 
 Empty-database login: `TEAMMGMT_ADMIN_EMAIL` / `TEAMMGMT_ADMIN_PASSWORD` in `.env`
 (defaults `admin@team-management.local` / `changeme`). The demo dataset has its own
-staff logins (see the sign-in hint after start); its players have no logins (contact details only).
+staff logins (see the sign-in hint after start). Its players have no logins (contact details
+only), except Maciej Hubisz: `mhubisz91@gmail.com` / `changeme`, role player.
 
 ## Data folders
 

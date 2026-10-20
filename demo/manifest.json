@@ -12,7 +12,7 @@
     "formations.formationunit.json",
     "formations.formationmembership.json",
     "core.rink.json",
-    "seasons.seasonslot.json",
+    "seasons.declaration.json",
     "core.coach.json",
     "events.eventseries.json",
     "events.event.json",

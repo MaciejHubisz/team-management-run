@@ -28,5 +28,20 @@
       "callup_email_locked": false,
       "callup_sms_locked": false
     }
+  },
+  {
+    "model": "accounts.profile",
+    "pk": 33,
+    "fields": {
+      "user": 33,
+      "role": "player",
+      "language": "pl",
+      "theme": "light",
+      "phone": "",
+      "notify_email": true,
+      "notify_sms": false,
+      "callup_email_locked": false,
+      "callup_sms_locked": false
+    }
   }
 ]
