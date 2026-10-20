@@ -39,8 +39,6 @@ print_login_hint() {
     cat <<EOF
   admin    admin@team-management.local     changeme
   coach    coach@team-management.local     changeme
-  player   player@team-management.local    changeme
-  guest    guest@team-management.local     changeme
 EOF
   else
     email="$(env_value TEAMMGMT_ADMIN_EMAIL)"

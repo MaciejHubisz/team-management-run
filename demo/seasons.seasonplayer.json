@@ -1,12 +1,242 @@
 [
   {
     "model": "seasons.seasonplayer",
+    "pk": 1,
+    "fields": {
+      "season": 5,
+      "player": 1,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 2,
+    "fields": {
+      "season": 5,
+      "player": 2,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 3,
+    "fields": {
+      "season": 5,
+      "player": 3,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 4,
+    "fields": {
+      "season": 5,
+      "player": 4,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 5,
+    "fields": {
+      "season": 5,
+      "player": 5,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 6,
+    "fields": {
+      "season": 5,
+      "player": 6,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 7,
+    "fields": {
+      "season": 5,
+      "player": 7,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 8,
+    "fields": {
+      "season": 5,
+      "player": 8,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 9,
+    "fields": {
+      "season": 5,
+      "player": 9,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 10,
+    "fields": {
+      "season": 5,
+      "player": 10,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 11,
+    "fields": {
+      "season": 5,
+      "player": 11,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 12,
+    "fields": {
+      "season": 5,
+      "player": 12,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 13,
+    "fields": {
+      "season": 5,
+      "player": 13,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 14,
+    "fields": {
+      "season": 5,
+      "player": 14,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 15,
+    "fields": {
+      "season": 5,
+      "player": 15,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 16,
+    "fields": {
+      "season": 5,
+      "player": 16,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 17,
+    "fields": {
+      "season": 5,
+      "player": 17,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 18,
+    "fields": {
+      "season": 5,
+      "player": 18,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 19,
+    "fields": {
+      "season": 5,
+      "player": 19,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 20,
+    "fields": {
+      "season": 5,
+      "player": 21,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 21,
+    "fields": {
+      "season": 5,
+      "player": 22,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 22,
+    "fields": {
+      "season": 5,
+      "player": 23,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
+    "pk": 23,
+    "fields": {
+      "season": 5,
+      "player": 24,
+      "status": "active",
+      "joined_on": "2026-10-20"
+    }
+  },
+  {
+    "model": "seasons.seasonplayer",
     "pk": 24,
     "fields": {
       "season": 5,
-      "player": 29,
+      "player": 25,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -14,9 +244,9 @@
     "pk": 25,
     "fields": {
       "season": 5,
-      "player": 30,
+      "player": 26,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -24,9 +254,9 @@
     "pk": 26,
     "fields": {
       "season": 5,
-      "player": 31,
+      "player": 27,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -34,9 +264,9 @@
     "pk": 27,
     "fields": {
       "season": 5,
-      "player": 32,
+      "player": 28,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -44,9 +274,9 @@
     "pk": 28,
     "fields": {
       "season": 5,
-      "player": 33,
+      "player": 29,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -54,9 +284,9 @@
     "pk": 29,
     "fields": {
       "season": 5,
-      "player": 34,
+      "player": 30,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -64,9 +294,9 @@
     "pk": 30,
     "fields": {
       "season": 5,
-      "player": 35,
+      "player": 31,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -74,9 +304,9 @@
     "pk": 31,
     "fields": {
       "season": 5,
-      "player": 36,
+      "player": 32,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -84,9 +314,9 @@
     "pk": 32,
     "fields": {
       "season": 5,
-      "player": 37,
+      "player": 33,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -94,9 +324,9 @@
     "pk": 33,
     "fields": {
       "season": 5,
-      "player": 38,
+      "player": 34,
       "status": "active",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   },
   {
@@ -104,129 +334,9 @@
     "pk": 34,
     "fields": {
       "season": 5,
-      "player": 39,
+      "player": 35,
       "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 35,
-    "fields": {
-      "season": 5,
-      "player": 40,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 36,
-    "fields": {
-      "season": 5,
-      "player": 41,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 37,
-    "fields": {
-      "season": 5,
-      "player": 42,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 38,
-    "fields": {
-      "season": 5,
-      "player": 43,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 39,
-    "fields": {
-      "season": 5,
-      "player": 44,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 40,
-    "fields": {
-      "season": 6,
-      "player": 29,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 41,
-    "fields": {
-      "season": 6,
-      "player": 30,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 42,
-    "fields": {
-      "season": 6,
-      "player": 31,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 43,
-    "fields": {
-      "season": 6,
-      "player": 32,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 44,
-    "fields": {
-      "season": 6,
-      "player": 33,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 45,
-    "fields": {
-      "season": 6,
-      "player": 34,
-      "status": "active",
-      "joined_on": "2026-10-09"
-    }
-  },
-  {
-    "model": "seasons.seasonplayer",
-    "pk": 46,
-    "fields": {
-      "season": 5,
-      "player": 45,
-      "status": "deactivated",
-      "joined_on": "2026-10-09"
+      "joined_on": "2026-10-20"
     }
   }
 ]

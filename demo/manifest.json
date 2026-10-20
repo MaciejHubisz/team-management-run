@@ -1,6 +1,6 @@
 {
   "app": "team-management",
-  "exported_at": "2026-10-09T19:41:52.417457",
+  "exported_at": "2026-10-20T12:00:00.000000",
   "sections": [
     "accounts.user.json",
     "accounts.profile.json",
@@ -12,6 +12,8 @@
     "formations.formationunit.json",
     "formations.formationmembership.json",
     "core.rink.json",
+    "seasons.seasonslot.json",
+    "core.coach.json",
     "events.eventseries.json",
     "events.event.json",
     "lineups.lineup.json",
