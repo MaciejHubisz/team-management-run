@@ -83,6 +83,32 @@ services:
       redis:
         condition: service_started
 
+  backup:
+    # Hourly gzipped export bundle into auto-backups/, last 48 h kept. Only this
+    # container mounts that folder, so the web app can neither list nor delete it.
+    image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
+    command: python manage.py auto_backup --every 3600 --keep-hours 48
+    init: true
+    restart: unless-stopped
+    cpus: 0.5
+    environment:
+      DJANGO_SETTINGS_MODULE: config.settings.docker
+      POSTGRES_HOST: db
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: teammgmt
+      POSTGRES_USER: teammgmt
+      POSTGRES_PASSWORD: teammgmt
+      TEAMMGMT_AUTO_BACKUP_DIR: /app/auto-backups
+    env_file:
+      - .env
+    volumes:
+      - ./auto-backups:/app/auto-backups${TEAMMGMT_VOL_OPTS:-}
+    depends_on:
+      db:
+        condition: service_healthy
+      backend:
+        condition: service_healthy
+
   web:
     image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-web:${TEAMMGMT_IMAGE_TAG:-latest}
     ports:

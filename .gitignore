@@ -3,5 +3,6 @@ logs/*.log
 .env.local
 registry.env
 exports/
+auto-backups/
 import/
 tmp/

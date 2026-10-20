@@ -52,11 +52,27 @@ four logins (see the sign-in hint after start).
 | Folder      | Purpose                                        | Git |
 |-------------|------------------------------------------------|-----|
 | `exports/`  | timestamped export folders (one per export)    | ignored |
+| `auto-backups/` | hourly `.json.gz` bundles, last 48 h       | ignored |
 | `import/`   | staging folder for imports                     | ignored |
 | `demo/`     | bundled demo dataset (same layout as exports)  | committed |
 
 The Data page (admin) can also download everything as a single JSON file and
 restore from one, so a backup needs neither the database nor this folder.
+
+### Auto-backups
+
+The `backup` service writes one gzipped bundle per hour while the stack is up
+(`auto-backups/team-management-auto-<timestamp>.json.gz`, a few KB each) and
+deletes its own files older than 48 hours. It is the only container that mounts
+this folder: the web app cannot see or delete it, and `--force-recreate` does not
+touch it. The file has the same format as the Data page's single-file download.
+Disaster recovery:
+
+```bash
+# Data page → restore from file → pick the .json.gz, or:
+cp auto-backups/team-management-auto-….json.gz import/
+docker compose exec backend python manage.py import_data --bundle /app/import/team-management-auto-….json.gz
+```
 
 To import your own data, drop JSON files (one per table, `app.model.json`) into
 `./import/` and press **Import** on the Data page (or run
