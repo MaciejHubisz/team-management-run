@@ -1,0 +1,2522 @@
+[
+  {
+    "model": "notifications.notificationjob",
+    "pk": 1,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.10.2026",
+        "event_id": 1
+      },
+      "idempotency_key": "callup_created:1:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.737Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 2,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.10.2026",
+        "event_id": 1
+      },
+      "idempotency_key": "callup_created:1:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.739Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 3,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.10.2026",
+        "event_id": 1
+      },
+      "idempotency_key": "callup_created:1:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.741Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 4,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.10.2026",
+        "event_id": 1
+      },
+      "idempotency_key": "callup_created:1:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.743Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 5,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.10.2026",
+        "event_id": 1
+      },
+      "idempotency_key": "callup_created:1:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.745Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 6,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 02.11.2026",
+        "event_id": 2
+      },
+      "idempotency_key": "callup_created:2:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.771Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 7,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 02.11.2026",
+        "event_id": 2
+      },
+      "idempotency_key": "callup_created:2:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.772Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 8,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 02.11.2026",
+        "event_id": 2
+      },
+      "idempotency_key": "callup_created:2:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.774Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 9,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 02.11.2026",
+        "event_id": 2
+      },
+      "idempotency_key": "callup_created:2:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.776Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 10,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 02.11.2026",
+        "event_id": 2
+      },
+      "idempotency_key": "callup_created:2:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.778Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 11,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 09.11.2026",
+        "event_id": 3
+      },
+      "idempotency_key": "callup_created:3:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.805Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 12,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 09.11.2026",
+        "event_id": 3
+      },
+      "idempotency_key": "callup_created:3:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.806Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 13,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 09.11.2026",
+        "event_id": 3
+      },
+      "idempotency_key": "callup_created:3:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.812Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 14,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 09.11.2026",
+        "event_id": 3
+      },
+      "idempotency_key": "callup_created:3:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.813Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 15,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 09.11.2026",
+        "event_id": 3
+      },
+      "idempotency_key": "callup_created:3:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.815Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 16,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 16.11.2026",
+        "event_id": 4
+      },
+      "idempotency_key": "callup_created:4:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.838Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 17,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 16.11.2026",
+        "event_id": 4
+      },
+      "idempotency_key": "callup_created:4:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.839Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 18,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 16.11.2026",
+        "event_id": 4
+      },
+      "idempotency_key": "callup_created:4:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.841Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 19,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 16.11.2026",
+        "event_id": 4
+      },
+      "idempotency_key": "callup_created:4:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.842Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 20,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 16.11.2026",
+        "event_id": 4
+      },
+      "idempotency_key": "callup_created:4:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.843Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 21,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 23.11.2026",
+        "event_id": 5
+      },
+      "idempotency_key": "callup_created:5:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.865Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 22,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 23.11.2026",
+        "event_id": 5
+      },
+      "idempotency_key": "callup_created:5:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.867Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 23,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 23.11.2026",
+        "event_id": 5
+      },
+      "idempotency_key": "callup_created:5:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.868Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 24,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 23.11.2026",
+        "event_id": 5
+      },
+      "idempotency_key": "callup_created:5:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.870Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 25,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 23.11.2026",
+        "event_id": 5
+      },
+      "idempotency_key": "callup_created:5:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.871Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 26,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 30.11.2026",
+        "event_id": 6
+      },
+      "idempotency_key": "callup_created:6:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.893Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 27,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 30.11.2026",
+        "event_id": 6
+      },
+      "idempotency_key": "callup_created:6:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.895Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 28,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 30.11.2026",
+        "event_id": 6
+      },
+      "idempotency_key": "callup_created:6:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.897Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 29,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 30.11.2026",
+        "event_id": 6
+      },
+      "idempotency_key": "callup_created:6:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.898Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 30,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 30.11.2026",
+        "event_id": 6
+      },
+      "idempotency_key": "callup_created:6:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.899Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 31,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 07.12.2026",
+        "event_id": 7
+      },
+      "idempotency_key": "callup_created:7:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.922Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 32,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 07.12.2026",
+        "event_id": 7
+      },
+      "idempotency_key": "callup_created:7:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.923Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 33,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 07.12.2026",
+        "event_id": 7
+      },
+      "idempotency_key": "callup_created:7:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.924Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 34,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 07.12.2026",
+        "event_id": 7
+      },
+      "idempotency_key": "callup_created:7:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.926Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 35,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 07.12.2026",
+        "event_id": 7
+      },
+      "idempotency_key": "callup_created:7:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.927Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 36,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 14.12.2026",
+        "event_id": 8
+      },
+      "idempotency_key": "callup_created:8:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.952Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 37,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 14.12.2026",
+        "event_id": 8
+      },
+      "idempotency_key": "callup_created:8:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.953Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 38,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 14.12.2026",
+        "event_id": 8
+      },
+      "idempotency_key": "callup_created:8:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.954Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 39,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 14.12.2026",
+        "event_id": 8
+      },
+      "idempotency_key": "callup_created:8:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.956Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 40,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 14.12.2026",
+        "event_id": 8
+      },
+      "idempotency_key": "callup_created:8:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.958Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 41,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 21.12.2026",
+        "event_id": 9
+      },
+      "idempotency_key": "callup_created:9:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.980Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 42,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 21.12.2026",
+        "event_id": 9
+      },
+      "idempotency_key": "callup_created:9:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.982Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 43,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 21.12.2026",
+        "event_id": 9
+      },
+      "idempotency_key": "callup_created:9:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.983Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 44,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 21.12.2026",
+        "event_id": 9
+      },
+      "idempotency_key": "callup_created:9:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.985Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 45,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 21.12.2026",
+        "event_id": 9
+      },
+      "idempotency_key": "callup_created:9:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:48.986Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 46,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 28.12.2026",
+        "event_id": 10
+      },
+      "idempotency_key": "callup_created:10:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.008Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 47,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 28.12.2026",
+        "event_id": 10
+      },
+      "idempotency_key": "callup_created:10:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.010Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 48,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 28.12.2026",
+        "event_id": 10
+      },
+      "idempotency_key": "callup_created:10:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.011Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 49,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 28.12.2026",
+        "event_id": 10
+      },
+      "idempotency_key": "callup_created:10:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.012Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 50,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 28.12.2026",
+        "event_id": 10
+      },
+      "idempotency_key": "callup_created:10:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.014Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 51,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 04.01.2027",
+        "event_id": 11
+      },
+      "idempotency_key": "callup_created:11:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.034Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 52,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 04.01.2027",
+        "event_id": 11
+      },
+      "idempotency_key": "callup_created:11:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.036Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 53,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 04.01.2027",
+        "event_id": 11
+      },
+      "idempotency_key": "callup_created:11:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.037Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 54,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 04.01.2027",
+        "event_id": 11
+      },
+      "idempotency_key": "callup_created:11:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.038Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 55,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 04.01.2027",
+        "event_id": 11
+      },
+      "idempotency_key": "callup_created:11:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.040Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 56,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 11.01.2027",
+        "event_id": 12
+      },
+      "idempotency_key": "callup_created:12:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.060Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 57,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 11.01.2027",
+        "event_id": 12
+      },
+      "idempotency_key": "callup_created:12:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.062Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 58,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 11.01.2027",
+        "event_id": 12
+      },
+      "idempotency_key": "callup_created:12:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.063Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 59,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 11.01.2027",
+        "event_id": 12
+      },
+      "idempotency_key": "callup_created:12:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.064Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 60,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 11.01.2027",
+        "event_id": 12
+      },
+      "idempotency_key": "callup_created:12:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.066Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 61,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 18.01.2027",
+        "event_id": 13
+      },
+      "idempotency_key": "callup_created:13:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.086Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 62,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 18.01.2027",
+        "event_id": 13
+      },
+      "idempotency_key": "callup_created:13:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.088Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 63,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 18.01.2027",
+        "event_id": 13
+      },
+      "idempotency_key": "callup_created:13:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.089Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 64,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 18.01.2027",
+        "event_id": 13
+      },
+      "idempotency_key": "callup_created:13:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.090Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 65,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 18.01.2027",
+        "event_id": 13
+      },
+      "idempotency_key": "callup_created:13:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.092Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 66,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 25.01.2027",
+        "event_id": 14
+      },
+      "idempotency_key": "callup_created:14:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.112Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 67,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 25.01.2027",
+        "event_id": 14
+      },
+      "idempotency_key": "callup_created:14:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.113Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 68,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 25.01.2027",
+        "event_id": 14
+      },
+      "idempotency_key": "callup_created:14:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.115Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 69,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 25.01.2027",
+        "event_id": 14
+      },
+      "idempotency_key": "callup_created:14:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.116Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 70,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 25.01.2027",
+        "event_id": 14
+      },
+      "idempotency_key": "callup_created:14:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.117Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 71,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.02.2027",
+        "event_id": 15
+      },
+      "idempotency_key": "callup_created:15:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.139Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 72,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.02.2027",
+        "event_id": 15
+      },
+      "idempotency_key": "callup_created:15:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.141Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 73,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.02.2027",
+        "event_id": 15
+      },
+      "idempotency_key": "callup_created:15:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.142Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 74,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.02.2027",
+        "event_id": 15
+      },
+      "idempotency_key": "callup_created:15:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.143Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 75,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.02.2027",
+        "event_id": 15
+      },
+      "idempotency_key": "callup_created:15:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.145Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 76,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.02.2027",
+        "event_id": 16
+      },
+      "idempotency_key": "callup_created:16:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.165Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 77,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.02.2027",
+        "event_id": 16
+      },
+      "idempotency_key": "callup_created:16:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.166Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 78,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.02.2027",
+        "event_id": 16
+      },
+      "idempotency_key": "callup_created:16:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.168Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 79,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.02.2027",
+        "event_id": 16
+      },
+      "idempotency_key": "callup_created:16:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.169Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 80,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.02.2027",
+        "event_id": 16
+      },
+      "idempotency_key": "callup_created:16:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.171Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 81,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.02.2027",
+        "event_id": 17
+      },
+      "idempotency_key": "callup_created:17:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.198Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 82,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.02.2027",
+        "event_id": 17
+      },
+      "idempotency_key": "callup_created:17:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.201Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 83,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.02.2027",
+        "event_id": 17
+      },
+      "idempotency_key": "callup_created:17:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.203Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 84,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.02.2027",
+        "event_id": 17
+      },
+      "idempotency_key": "callup_created:17:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.205Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 85,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.02.2027",
+        "event_id": 17
+      },
+      "idempotency_key": "callup_created:17:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.206Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 86,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.02.2027",
+        "event_id": 18
+      },
+      "idempotency_key": "callup_created:18:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.227Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 87,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.02.2027",
+        "event_id": 18
+      },
+      "idempotency_key": "callup_created:18:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.229Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 88,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.02.2027",
+        "event_id": 18
+      },
+      "idempotency_key": "callup_created:18:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.230Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 89,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.02.2027",
+        "event_id": 18
+      },
+      "idempotency_key": "callup_created:18:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.232Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 90,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.02.2027",
+        "event_id": 18
+      },
+      "idempotency_key": "callup_created:18:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.233Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 91,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.03.2027",
+        "event_id": 19
+      },
+      "idempotency_key": "callup_created:19:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.253Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 92,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.03.2027",
+        "event_id": 19
+      },
+      "idempotency_key": "callup_created:19:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.254Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 93,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.03.2027",
+        "event_id": 19
+      },
+      "idempotency_key": "callup_created:19:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.256Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 94,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.03.2027",
+        "event_id": 19
+      },
+      "idempotency_key": "callup_created:19:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.257Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 95,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 01.03.2027",
+        "event_id": 19
+      },
+      "idempotency_key": "callup_created:19:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.258Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 96,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.03.2027",
+        "event_id": 20
+      },
+      "idempotency_key": "callup_created:20:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.279Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 97,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.03.2027",
+        "event_id": 20
+      },
+      "idempotency_key": "callup_created:20:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.280Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 98,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.03.2027",
+        "event_id": 20
+      },
+      "idempotency_key": "callup_created:20:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.282Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 99,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.03.2027",
+        "event_id": 20
+      },
+      "idempotency_key": "callup_created:20:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.283Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 100,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 08.03.2027",
+        "event_id": 20
+      },
+      "idempotency_key": "callup_created:20:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.285Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 101,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.03.2027",
+        "event_id": 21
+      },
+      "idempotency_key": "callup_created:21:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.306Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 102,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.03.2027",
+        "event_id": 21
+      },
+      "idempotency_key": "callup_created:21:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.308Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 103,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.03.2027",
+        "event_id": 21
+      },
+      "idempotency_key": "callup_created:21:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.309Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 104,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.03.2027",
+        "event_id": 21
+      },
+      "idempotency_key": "callup_created:21:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.311Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 105,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 15.03.2027",
+        "event_id": 21
+      },
+      "idempotency_key": "callup_created:21:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.312Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 106,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.03.2027",
+        "event_id": 22
+      },
+      "idempotency_key": "callup_created:22:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.333Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 107,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.03.2027",
+        "event_id": 22
+      },
+      "idempotency_key": "callup_created:22:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.335Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 108,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.03.2027",
+        "event_id": 22
+      },
+      "idempotency_key": "callup_created:22:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.337Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 109,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.03.2027",
+        "event_id": 22
+      },
+      "idempotency_key": "callup_created:22:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.338Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 110,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 22.03.2027",
+        "event_id": 22
+      },
+      "idempotency_key": "callup_created:22:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.340Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 111,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 29.03.2027",
+        "event_id": 23
+      },
+      "idempotency_key": "callup_created:23:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.360Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 112,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 29.03.2027",
+        "event_id": 23
+      },
+      "idempotency_key": "callup_created:23:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.362Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 113,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 29.03.2027",
+        "event_id": 23
+      },
+      "idempotency_key": "callup_created:23:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.363Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 114,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 29.03.2027",
+        "event_id": 23
+      },
+      "idempotency_key": "callup_created:23:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.365Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 115,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 29.03.2027",
+        "event_id": 23
+      },
+      "idempotency_key": "callup_created:23:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.366Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 116,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 05.04.2027",
+        "event_id": 24
+      },
+      "idempotency_key": "callup_created:24:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.387Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 117,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 05.04.2027",
+        "event_id": 24
+      },
+      "idempotency_key": "callup_created:24:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.389Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 118,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 05.04.2027",
+        "event_id": 24
+      },
+      "idempotency_key": "callup_created:24:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.390Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 119,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 05.04.2027",
+        "event_id": 24
+      },
+      "idempotency_key": "callup_created:24:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.391Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 120,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 05.04.2027",
+        "event_id": 24
+      },
+      "idempotency_key": "callup_created:24:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.393Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 121,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 12.04.2027",
+        "event_id": 25
+      },
+      "idempotency_key": "callup_created:25:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.413Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 122,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 12.04.2027",
+        "event_id": 25
+      },
+      "idempotency_key": "callup_created:25:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.415Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 123,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 12.04.2027",
+        "event_id": 25
+      },
+      "idempotency_key": "callup_created:25:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.416Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 124,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 12.04.2027",
+        "event_id": 25
+      },
+      "idempotency_key": "callup_created:25:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.418Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 125,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 12.04.2027",
+        "event_id": 25
+      },
+      "idempotency_key": "callup_created:25:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.419Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 126,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 19.04.2027",
+        "event_id": 26
+      },
+      "idempotency_key": "callup_created:26:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.442Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 127,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 19.04.2027",
+        "event_id": 26
+      },
+      "idempotency_key": "callup_created:26:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.443Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 128,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 19.04.2027",
+        "event_id": 26
+      },
+      "idempotency_key": "callup_created:26:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.445Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 129,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 19.04.2027",
+        "event_id": 26
+      },
+      "idempotency_key": "callup_created:26:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.446Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 130,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 19.04.2027",
+        "event_id": 26
+      },
+      "idempotency_key": "callup_created:26:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.448Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 131,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.04.2027",
+        "event_id": 27
+      },
+      "idempotency_key": "callup_created:27:0:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.469Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 132,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.04.2027",
+        "event_id": 27
+      },
+      "idempotency_key": "callup_created:27:0:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.470Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 133,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.04.2027",
+        "event_id": 27
+      },
+      "idempotency_key": "callup_created:27:0:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.472Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 134,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.04.2027",
+        "event_id": 27
+      },
+      "idempotency_key": "callup_created:27:0:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.473Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 135,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Training Poniedziałek 26.04.2027",
+        "event_id": 27
+      },
+      "idempotency_key": "callup_created:27:0:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T07:48:49.475Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 136,
+    "fields": {
+      "channel": "email",
+      "event_type": "event_updated",
+      "recipient": "wojciech.czekaj@o2.pl",
+      "recipient_player": 5,
+      "language": "pl",
+      "payload": {
+        "title": "Kladzenie Linii",
+        "event_id": 28
+      },
+      "idempotency_key": "event_updated:28:1:5:email",
+      "status": "queued",
+      "created_at": "2026-10-21T08:22:49.424Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 137,
+    "fields": {
+      "channel": "email",
+      "event_type": "event_updated",
+      "recipient": "krystian.golkowski@gmail.com",
+      "recipient_player": 11,
+      "language": "pl",
+      "payload": {
+        "title": "Kladzenie Linii",
+        "event_id": 28
+      },
+      "idempotency_key": "event_updated:28:1:11:email",
+      "status": "queued",
+      "created_at": "2026-10-21T08:22:49.453Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 138,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "mhubisz91@gmail.com",
+      "recipient_player": 16,
+      "language": "pl",
+      "payload": {
+        "title": "Kladzenie Linii",
+        "event_id": 28
+      },
+      "idempotency_key": "callup_created:28:1:16:email",
+      "status": "queued",
+      "created_at": "2026-10-21T08:22:49.596Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 139,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "rroznicki@hotmail.com",
+      "recipient_player": 32,
+      "language": "pl",
+      "payload": {
+        "title": "Kladzenie Linii",
+        "event_id": 28
+      },
+      "idempotency_key": "callup_created:28:1:32:email",
+      "status": "queued",
+      "created_at": "2026-10-21T08:22:49.627Z"
+    }
+  },
+  {
+    "model": "notifications.notificationjob",
+    "pk": 140,
+    "fields": {
+      "channel": "email",
+      "event_type": "callup_created",
+      "recipient": "piotr.wilkosz@gmail.com",
+      "recipient_player": 46,
+      "language": "pl",
+      "payload": {
+        "title": "Kladzenie Linii",
+        "event_id": 28
+      },
+      "idempotency_key": "callup_created:28:1:46:email",
+      "status": "queued",
+      "created_at": "2026-10-21T08:22:49.677Z"
+    }
+  }
+]

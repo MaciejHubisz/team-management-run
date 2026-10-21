@@ -4,7 +4,7 @@
     "pk": 31,
     "fields": {
       "password": "pbkdf2_sha256$1000000$RxJ5P03byhDlIWvtqfin0U$Mbe8uf4IgbnBXMMtP38Pvxz45aaWOL4PaQoBKTJTYTw=",
-      "last_login": null,
+      "last_login": "2026-10-21T07:49:59.145Z",
       "is_superuser": false,
       "first_name": "Admin",
       "last_name": "Root",
@@ -27,8 +27,76 @@
       "last_name": "Hubisz",
       "is_staff": false,
       "is_active": true,
-      "date_joined": "2026-10-20T12:00:00.000Z",
+      "date_joined": "2026-10-20T12:00:00Z",
       "email": "mhubisz91@gmail.com",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 34,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$btI6P4CG4RaBa5npqzvUIR$8B9HCdOrraf7CvwLPyWiXSwTUvO8/DPYfMRje7fmgV8=",
+      "last_login": "2026-10-21T07:55:07.010Z",
+      "is_superuser": false,
+      "first_name": "Wojciech",
+      "last_name": "Czekaj",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-10-21T07:38:10.838Z",
+      "email": "wojciech.czekaj@o2.pl",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 35,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$cm9yRQ1NAN4LPLhspkNFlo$wLiBgeSzbl6AM0fiTXurG2+CYdgP7r+5LGfs1v3ji7k=",
+      "last_login": "2026-10-21T07:52:31.324Z",
+      "is_superuser": false,
+      "first_name": "Piotr",
+      "last_name": "Wilkosz",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-10-21T07:38:31.878Z",
+      "email": "piotr.wilkosz@gmail.com",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 36,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$FQiLaCRCTMFor6IWgDyQGX$A3hxhG9rQ1B7HNy7oIuVL1tJ8PgWV8qMfISg4GCu9p8=",
+      "last_login": "2026-10-21T07:58:26.227Z",
+      "is_superuser": false,
+      "first_name": "Krystian",
+      "last_name": "Gołkowski",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-10-21T07:38:45.035Z",
+      "email": "krystian.golkowski@gmail.com",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 37,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$vyvBkn0nbWSYCsSRFsuiJ2$XqqlhVRyjgxfJL6ajeVYlN5qDlyTIZxbDmLsz97yGHo=",
+      "last_login": "2026-10-21T08:05:23.695Z",
+      "is_superuser": false,
+      "first_name": "Radek",
+      "last_name": "Różnicki",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-10-21T07:47:34.275Z",
+      "email": "rroznicki@hotmail.com",
       "groups": [],
       "user_permissions": []
     }

@@ -28,5 +28,65 @@
       "callup_email_locked": false,
       "callup_sms_locked": false
     }
+  },
+  {
+    "model": "accounts.profile",
+    "pk": 34,
+    "fields": {
+      "user": 34,
+      "role": "coach",
+      "language": "pl",
+      "theme": "light",
+      "phone": "+48601591666",
+      "notify_email": true,
+      "notify_sms": false,
+      "callup_email_locked": false,
+      "callup_sms_locked": false
+    }
+  },
+  {
+    "model": "accounts.profile",
+    "pk": 35,
+    "fields": {
+      "user": 35,
+      "role": "coach",
+      "language": "pl",
+      "theme": "light",
+      "phone": "+48888556664",
+      "notify_email": true,
+      "notify_sms": false,
+      "callup_email_locked": false,
+      "callup_sms_locked": false
+    }
+  },
+  {
+    "model": "accounts.profile",
+    "pk": 36,
+    "fields": {
+      "user": 36,
+      "role": "coach",
+      "language": "pl",
+      "theme": "light",
+      "phone": "+48535751133",
+      "notify_email": true,
+      "notify_sms": false,
+      "callup_email_locked": false,
+      "callup_sms_locked": false
+    }
+  },
+  {
+    "model": "accounts.profile",
+    "pk": 37,
+    "fields": {
+      "user": 37,
+      "role": "player",
+      "language": "pl",
+      "theme": "light",
+      "phone": "+48667486813",
+      "notify_email": true,
+      "notify_sms": false,
+      "callup_email_locked": false,
+      "callup_sms_locked": false
+    }
   }
 ]

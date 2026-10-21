@@ -3,7 +3,15 @@
     "model": "core.clubsettings",
     "pk": 1,
     "fields": {
-      "club_fee": 3000
+      "bank_account": "",
+      "transfer_title_template": "Hokej {season} — {player}",
+      "reminder_hours_before": 24,
+      "training_name_template": "Training {weekday} {date}",
+      "club_fee": 3000,
+      "regular_training_color": "#0284c7",
+      "custom_training_color": "#d97706",
+      "game_color": "#16a34a",
+      "join_code": ""
     }
   }
 ]

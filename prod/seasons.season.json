@@ -9,8 +9,16 @@
       "is_main": true,
       "format": "ice",
       "monthly_fee": 0,
-      "guest_fee": 0,
-      "tags": []
+      "guest_fee": 10000,
+      "tags": [],
+      "junior_share_percent": 50,
+      "junior_club_fee_percent": 100,
+      "goalie_share_percent": null,
+      "goalie_club_fee": null,
+      "goalie_game_fee": 0,
+      "share_rounding": 100,
+      "payment_due_days": 7,
+      "game_ice_cost": "hours"
     }
   }
 ]

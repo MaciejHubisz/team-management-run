@@ -1,0 +1,1010 @@
+[
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 1,
+    "fields": {
+      "lineup": 1,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 2,
+    "fields": {
+      "lineup": 1,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 3,
+    "fields": {
+      "lineup": 1,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 4,
+    "fields": {
+      "lineup": 1,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 5,
+    "fields": {
+      "lineup": 2,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 6,
+    "fields": {
+      "lineup": 2,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 7,
+    "fields": {
+      "lineup": 2,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 8,
+    "fields": {
+      "lineup": 2,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 9,
+    "fields": {
+      "lineup": 3,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 10,
+    "fields": {
+      "lineup": 3,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 11,
+    "fields": {
+      "lineup": 3,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 12,
+    "fields": {
+      "lineup": 3,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 13,
+    "fields": {
+      "lineup": 4,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 14,
+    "fields": {
+      "lineup": 4,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 15,
+    "fields": {
+      "lineup": 4,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 16,
+    "fields": {
+      "lineup": 4,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 17,
+    "fields": {
+      "lineup": 5,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 18,
+    "fields": {
+      "lineup": 5,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 19,
+    "fields": {
+      "lineup": 5,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 20,
+    "fields": {
+      "lineup": 5,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 21,
+    "fields": {
+      "lineup": 6,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 22,
+    "fields": {
+      "lineup": 6,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 23,
+    "fields": {
+      "lineup": 6,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 24,
+    "fields": {
+      "lineup": 6,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 25,
+    "fields": {
+      "lineup": 7,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 26,
+    "fields": {
+      "lineup": 7,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 27,
+    "fields": {
+      "lineup": 7,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 28,
+    "fields": {
+      "lineup": 7,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 29,
+    "fields": {
+      "lineup": 8,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 30,
+    "fields": {
+      "lineup": 8,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 31,
+    "fields": {
+      "lineup": 8,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 32,
+    "fields": {
+      "lineup": 8,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 33,
+    "fields": {
+      "lineup": 9,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 34,
+    "fields": {
+      "lineup": 9,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 35,
+    "fields": {
+      "lineup": 9,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 36,
+    "fields": {
+      "lineup": 9,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 37,
+    "fields": {
+      "lineup": 10,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 38,
+    "fields": {
+      "lineup": 10,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 39,
+    "fields": {
+      "lineup": 10,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 40,
+    "fields": {
+      "lineup": 10,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 41,
+    "fields": {
+      "lineup": 11,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 42,
+    "fields": {
+      "lineup": 11,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 43,
+    "fields": {
+      "lineup": 11,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 44,
+    "fields": {
+      "lineup": 11,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 45,
+    "fields": {
+      "lineup": 12,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 46,
+    "fields": {
+      "lineup": 12,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 47,
+    "fields": {
+      "lineup": 12,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 48,
+    "fields": {
+      "lineup": 12,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 49,
+    "fields": {
+      "lineup": 13,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 50,
+    "fields": {
+      "lineup": 13,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 51,
+    "fields": {
+      "lineup": 13,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 52,
+    "fields": {
+      "lineup": 13,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 53,
+    "fields": {
+      "lineup": 14,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 54,
+    "fields": {
+      "lineup": 14,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 55,
+    "fields": {
+      "lineup": 14,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 56,
+    "fields": {
+      "lineup": 14,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 57,
+    "fields": {
+      "lineup": 15,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 58,
+    "fields": {
+      "lineup": 15,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 59,
+    "fields": {
+      "lineup": 15,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 60,
+    "fields": {
+      "lineup": 15,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 61,
+    "fields": {
+      "lineup": 16,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 62,
+    "fields": {
+      "lineup": 16,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 63,
+    "fields": {
+      "lineup": 16,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 64,
+    "fields": {
+      "lineup": 16,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 65,
+    "fields": {
+      "lineup": 17,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 66,
+    "fields": {
+      "lineup": 17,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 67,
+    "fields": {
+      "lineup": 17,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 68,
+    "fields": {
+      "lineup": 17,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 69,
+    "fields": {
+      "lineup": 18,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 70,
+    "fields": {
+      "lineup": 18,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 71,
+    "fields": {
+      "lineup": 18,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 72,
+    "fields": {
+      "lineup": 18,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 73,
+    "fields": {
+      "lineup": 19,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 74,
+    "fields": {
+      "lineup": 19,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 75,
+    "fields": {
+      "lineup": 19,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 76,
+    "fields": {
+      "lineup": 19,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 77,
+    "fields": {
+      "lineup": 20,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 78,
+    "fields": {
+      "lineup": 20,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 79,
+    "fields": {
+      "lineup": 20,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 80,
+    "fields": {
+      "lineup": 20,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 81,
+    "fields": {
+      "lineup": 21,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 82,
+    "fields": {
+      "lineup": 21,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 83,
+    "fields": {
+      "lineup": 21,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 84,
+    "fields": {
+      "lineup": 21,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 85,
+    "fields": {
+      "lineup": 22,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 86,
+    "fields": {
+      "lineup": 22,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 87,
+    "fields": {
+      "lineup": 22,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 88,
+    "fields": {
+      "lineup": 22,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 89,
+    "fields": {
+      "lineup": 23,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 90,
+    "fields": {
+      "lineup": 23,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 91,
+    "fields": {
+      "lineup": 23,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 92,
+    "fields": {
+      "lineup": 23,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 93,
+    "fields": {
+      "lineup": 24,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 94,
+    "fields": {
+      "lineup": 24,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 95,
+    "fields": {
+      "lineup": 24,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 96,
+    "fields": {
+      "lineup": 24,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 97,
+    "fields": {
+      "lineup": 25,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 98,
+    "fields": {
+      "lineup": 25,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 99,
+    "fields": {
+      "lineup": 25,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 100,
+    "fields": {
+      "lineup": 25,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 101,
+    "fields": {
+      "lineup": 26,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 102,
+    "fields": {
+      "lineup": 26,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 103,
+    "fields": {
+      "lineup": 26,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 104,
+    "fields": {
+      "lineup": 26,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 105,
+    "fields": {
+      "lineup": 27,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 106,
+    "fields": {
+      "lineup": 27,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 107,
+    "fields": {
+      "lineup": 27,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 108,
+    "fields": {
+      "lineup": 27,
+      "code": "overtime",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 109,
+    "fields": {
+      "lineup": 28,
+      "code": "even",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 110,
+    "fields": {
+      "lineup": 28,
+      "code": "power_play",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 111,
+    "fields": {
+      "lineup": 28,
+      "code": "penalty_kill",
+      "notes": ""
+    }
+  },
+  {
+    "model": "lineups.lineupvariant",
+    "pk": 112,
+    "fields": {
+      "lineup": 28,
+      "code": "overtime",
+      "notes": ""
+    }
+  }
+]

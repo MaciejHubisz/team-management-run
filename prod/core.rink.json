@@ -7,9 +7,9 @@
       "address": "",
       "cost_per_hour": 52000,
       "cost_by_match": 0,
-      "guest_fee": 0,
+      "guest_fee": 10000,
       "is_active": true,
-      "created_at": "2026-10-21T12:00:00.000Z"
+      "created_at": "2026-10-21T12:00:00Z"
     }
   },
   {
@@ -20,9 +20,9 @@
       "address": "",
       "cost_per_hour": 60000,
       "cost_by_match": 0,
-      "guest_fee": 0,
+      "guest_fee": 10000,
       "is_active": true,
-      "created_at": "2026-10-21T12:00:00.000Z"
+      "created_at": "2026-10-21T12:00:00Z"
     }
   }
 ]

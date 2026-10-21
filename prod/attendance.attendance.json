@@ -1,0 +1,7478 @@
+[
+  {
+    "model": "attendance.attendance",
+    "pk": 1,
+    "fields": {
+      "event": 1,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 2,
+    "fields": {
+      "event": 1,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 3,
+    "fields": {
+      "event": 1,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 4,
+    "fields": {
+      "event": 1,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 5,
+    "fields": {
+      "event": 1,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 6,
+    "fields": {
+      "event": 1,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 7,
+    "fields": {
+      "event": 1,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 8,
+    "fields": {
+      "event": 1,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 9,
+    "fields": {
+      "event": 1,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 10,
+    "fields": {
+      "event": 1,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 11,
+    "fields": {
+      "event": 1,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 12,
+    "fields": {
+      "event": 1,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 14,
+    "fields": {
+      "event": 1,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 15,
+    "fields": {
+      "event": 1,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 16,
+    "fields": {
+      "event": 1,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 17,
+    "fields": {
+      "event": 1,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 18,
+    "fields": {
+      "event": 1,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.728Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 19,
+    "fields": {
+      "event": 2,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 20,
+    "fields": {
+      "event": 2,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 21,
+    "fields": {
+      "event": 2,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 22,
+    "fields": {
+      "event": 2,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 23,
+    "fields": {
+      "event": 2,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 24,
+    "fields": {
+      "event": 2,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 25,
+    "fields": {
+      "event": 2,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 26,
+    "fields": {
+      "event": 2,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 27,
+    "fields": {
+      "event": 2,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 28,
+    "fields": {
+      "event": 2,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 29,
+    "fields": {
+      "event": 2,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 30,
+    "fields": {
+      "event": 2,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 31,
+    "fields": {
+      "event": 2,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 32,
+    "fields": {
+      "event": 2,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 33,
+    "fields": {
+      "event": 2,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 34,
+    "fields": {
+      "event": 2,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 35,
+    "fields": {
+      "event": 2,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 36,
+    "fields": {
+      "event": 2,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.765Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 37,
+    "fields": {
+      "event": 3,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 38,
+    "fields": {
+      "event": 3,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 39,
+    "fields": {
+      "event": 3,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 40,
+    "fields": {
+      "event": 3,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 41,
+    "fields": {
+      "event": 3,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 42,
+    "fields": {
+      "event": 3,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 43,
+    "fields": {
+      "event": 3,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 44,
+    "fields": {
+      "event": 3,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 45,
+    "fields": {
+      "event": 3,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 46,
+    "fields": {
+      "event": 3,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 47,
+    "fields": {
+      "event": 3,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 48,
+    "fields": {
+      "event": 3,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 49,
+    "fields": {
+      "event": 3,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 50,
+    "fields": {
+      "event": 3,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 51,
+    "fields": {
+      "event": 3,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 52,
+    "fields": {
+      "event": 3,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 53,
+    "fields": {
+      "event": 3,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 54,
+    "fields": {
+      "event": 3,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.799Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 55,
+    "fields": {
+      "event": 4,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 56,
+    "fields": {
+      "event": 4,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 57,
+    "fields": {
+      "event": 4,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 58,
+    "fields": {
+      "event": 4,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 59,
+    "fields": {
+      "event": 4,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 60,
+    "fields": {
+      "event": 4,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 61,
+    "fields": {
+      "event": 4,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 62,
+    "fields": {
+      "event": 4,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 63,
+    "fields": {
+      "event": 4,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 64,
+    "fields": {
+      "event": 4,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 65,
+    "fields": {
+      "event": 4,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 66,
+    "fields": {
+      "event": 4,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 67,
+    "fields": {
+      "event": 4,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 68,
+    "fields": {
+      "event": 4,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 69,
+    "fields": {
+      "event": 4,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 70,
+    "fields": {
+      "event": 4,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 71,
+    "fields": {
+      "event": 4,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 72,
+    "fields": {
+      "event": 4,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.833Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 73,
+    "fields": {
+      "event": 5,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.860Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 74,
+    "fields": {
+      "event": 5,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.860Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 75,
+    "fields": {
+      "event": 5,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.860Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 76,
+    "fields": {
+      "event": 5,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 77,
+    "fields": {
+      "event": 5,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 78,
+    "fields": {
+      "event": 5,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 79,
+    "fields": {
+      "event": 5,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 80,
+    "fields": {
+      "event": 5,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 81,
+    "fields": {
+      "event": 5,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 82,
+    "fields": {
+      "event": 5,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 83,
+    "fields": {
+      "event": 5,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 84,
+    "fields": {
+      "event": 5,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 85,
+    "fields": {
+      "event": 5,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 86,
+    "fields": {
+      "event": 5,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 87,
+    "fields": {
+      "event": 5,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 88,
+    "fields": {
+      "event": 5,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 89,
+    "fields": {
+      "event": 5,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 90,
+    "fields": {
+      "event": 5,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.861Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 91,
+    "fields": {
+      "event": 6,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 92,
+    "fields": {
+      "event": 6,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 93,
+    "fields": {
+      "event": 6,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 94,
+    "fields": {
+      "event": 6,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 95,
+    "fields": {
+      "event": 6,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 96,
+    "fields": {
+      "event": 6,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 97,
+    "fields": {
+      "event": 6,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 98,
+    "fields": {
+      "event": 6,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 99,
+    "fields": {
+      "event": 6,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 100,
+    "fields": {
+      "event": 6,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 101,
+    "fields": {
+      "event": 6,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 102,
+    "fields": {
+      "event": 6,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 103,
+    "fields": {
+      "event": 6,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 104,
+    "fields": {
+      "event": 6,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 105,
+    "fields": {
+      "event": 6,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 106,
+    "fields": {
+      "event": 6,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 107,
+    "fields": {
+      "event": 6,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 108,
+    "fields": {
+      "event": 6,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.888Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 109,
+    "fields": {
+      "event": 7,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 110,
+    "fields": {
+      "event": 7,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 111,
+    "fields": {
+      "event": 7,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 112,
+    "fields": {
+      "event": 7,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 113,
+    "fields": {
+      "event": 7,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 114,
+    "fields": {
+      "event": 7,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 115,
+    "fields": {
+      "event": 7,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 116,
+    "fields": {
+      "event": 7,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 117,
+    "fields": {
+      "event": 7,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 118,
+    "fields": {
+      "event": 7,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 119,
+    "fields": {
+      "event": 7,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 120,
+    "fields": {
+      "event": 7,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 121,
+    "fields": {
+      "event": 7,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 122,
+    "fields": {
+      "event": 7,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 123,
+    "fields": {
+      "event": 7,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 124,
+    "fields": {
+      "event": 7,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 125,
+    "fields": {
+      "event": 7,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 126,
+    "fields": {
+      "event": 7,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.917Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 127,
+    "fields": {
+      "event": 8,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 128,
+    "fields": {
+      "event": 8,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 129,
+    "fields": {
+      "event": 8,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 130,
+    "fields": {
+      "event": 8,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 131,
+    "fields": {
+      "event": 8,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 132,
+    "fields": {
+      "event": 8,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 133,
+    "fields": {
+      "event": 8,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 134,
+    "fields": {
+      "event": 8,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 135,
+    "fields": {
+      "event": 8,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 136,
+    "fields": {
+      "event": 8,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 137,
+    "fields": {
+      "event": 8,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 138,
+    "fields": {
+      "event": 8,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 139,
+    "fields": {
+      "event": 8,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 140,
+    "fields": {
+      "event": 8,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 141,
+    "fields": {
+      "event": 8,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 142,
+    "fields": {
+      "event": 8,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 143,
+    "fields": {
+      "event": 8,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 144,
+    "fields": {
+      "event": 8,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.946Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 145,
+    "fields": {
+      "event": 9,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 146,
+    "fields": {
+      "event": 9,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 147,
+    "fields": {
+      "event": 9,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 148,
+    "fields": {
+      "event": 9,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 149,
+    "fields": {
+      "event": 9,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 150,
+    "fields": {
+      "event": 9,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 151,
+    "fields": {
+      "event": 9,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 152,
+    "fields": {
+      "event": 9,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 153,
+    "fields": {
+      "event": 9,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 154,
+    "fields": {
+      "event": 9,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 155,
+    "fields": {
+      "event": 9,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 156,
+    "fields": {
+      "event": 9,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 157,
+    "fields": {
+      "event": 9,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 158,
+    "fields": {
+      "event": 9,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 159,
+    "fields": {
+      "event": 9,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 160,
+    "fields": {
+      "event": 9,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.974Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 161,
+    "fields": {
+      "event": 9,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.975Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 162,
+    "fields": {
+      "event": 9,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:48.975Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 163,
+    "fields": {
+      "event": 10,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 164,
+    "fields": {
+      "event": 10,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 165,
+    "fields": {
+      "event": 10,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 166,
+    "fields": {
+      "event": 10,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 167,
+    "fields": {
+      "event": 10,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 168,
+    "fields": {
+      "event": 10,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 169,
+    "fields": {
+      "event": 10,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 170,
+    "fields": {
+      "event": 10,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 171,
+    "fields": {
+      "event": 10,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.003Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 172,
+    "fields": {
+      "event": 10,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 173,
+    "fields": {
+      "event": 10,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 174,
+    "fields": {
+      "event": 10,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 175,
+    "fields": {
+      "event": 10,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 176,
+    "fields": {
+      "event": 10,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 177,
+    "fields": {
+      "event": 10,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 178,
+    "fields": {
+      "event": 10,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 179,
+    "fields": {
+      "event": 10,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 180,
+    "fields": {
+      "event": 10,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.004Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 181,
+    "fields": {
+      "event": 11,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 182,
+    "fields": {
+      "event": 11,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 183,
+    "fields": {
+      "event": 11,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 184,
+    "fields": {
+      "event": 11,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 185,
+    "fields": {
+      "event": 11,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 186,
+    "fields": {
+      "event": 11,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 187,
+    "fields": {
+      "event": 11,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 188,
+    "fields": {
+      "event": 11,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 189,
+    "fields": {
+      "event": 11,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 190,
+    "fields": {
+      "event": 11,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 191,
+    "fields": {
+      "event": 11,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 192,
+    "fields": {
+      "event": 11,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 193,
+    "fields": {
+      "event": 11,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 194,
+    "fields": {
+      "event": 11,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 195,
+    "fields": {
+      "event": 11,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 196,
+    "fields": {
+      "event": 11,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 197,
+    "fields": {
+      "event": 11,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 198,
+    "fields": {
+      "event": 11,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.030Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 199,
+    "fields": {
+      "event": 12,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 200,
+    "fields": {
+      "event": 12,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 201,
+    "fields": {
+      "event": 12,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 202,
+    "fields": {
+      "event": 12,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 203,
+    "fields": {
+      "event": 12,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 204,
+    "fields": {
+      "event": 12,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 205,
+    "fields": {
+      "event": 12,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 206,
+    "fields": {
+      "event": 12,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 207,
+    "fields": {
+      "event": 12,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 208,
+    "fields": {
+      "event": 12,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 209,
+    "fields": {
+      "event": 12,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 210,
+    "fields": {
+      "event": 12,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 211,
+    "fields": {
+      "event": 12,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 212,
+    "fields": {
+      "event": 12,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 213,
+    "fields": {
+      "event": 12,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 214,
+    "fields": {
+      "event": 12,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 215,
+    "fields": {
+      "event": 12,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 216,
+    "fields": {
+      "event": 12,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.055Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 217,
+    "fields": {
+      "event": 13,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.081Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 218,
+    "fields": {
+      "event": 13,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.081Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 219,
+    "fields": {
+      "event": 13,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 220,
+    "fields": {
+      "event": 13,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 221,
+    "fields": {
+      "event": 13,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 222,
+    "fields": {
+      "event": 13,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 223,
+    "fields": {
+      "event": 13,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 224,
+    "fields": {
+      "event": 13,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 225,
+    "fields": {
+      "event": 13,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 226,
+    "fields": {
+      "event": 13,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 227,
+    "fields": {
+      "event": 13,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 228,
+    "fields": {
+      "event": 13,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 229,
+    "fields": {
+      "event": 13,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 230,
+    "fields": {
+      "event": 13,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 231,
+    "fields": {
+      "event": 13,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 232,
+    "fields": {
+      "event": 13,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 233,
+    "fields": {
+      "event": 13,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 234,
+    "fields": {
+      "event": 13,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.082Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 235,
+    "fields": {
+      "event": 14,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 236,
+    "fields": {
+      "event": 14,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 237,
+    "fields": {
+      "event": 14,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 238,
+    "fields": {
+      "event": 14,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 239,
+    "fields": {
+      "event": 14,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 240,
+    "fields": {
+      "event": 14,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 241,
+    "fields": {
+      "event": 14,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 242,
+    "fields": {
+      "event": 14,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 243,
+    "fields": {
+      "event": 14,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 244,
+    "fields": {
+      "event": 14,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 245,
+    "fields": {
+      "event": 14,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 246,
+    "fields": {
+      "event": 14,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 247,
+    "fields": {
+      "event": 14,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 248,
+    "fields": {
+      "event": 14,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 249,
+    "fields": {
+      "event": 14,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 250,
+    "fields": {
+      "event": 14,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 251,
+    "fields": {
+      "event": 14,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 252,
+    "fields": {
+      "event": 14,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.107Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 253,
+    "fields": {
+      "event": 15,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 254,
+    "fields": {
+      "event": 15,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 255,
+    "fields": {
+      "event": 15,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 256,
+    "fields": {
+      "event": 15,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 257,
+    "fields": {
+      "event": 15,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 258,
+    "fields": {
+      "event": 15,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 259,
+    "fields": {
+      "event": 15,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 260,
+    "fields": {
+      "event": 15,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 261,
+    "fields": {
+      "event": 15,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 262,
+    "fields": {
+      "event": 15,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 263,
+    "fields": {
+      "event": 15,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 264,
+    "fields": {
+      "event": 15,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.134Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 265,
+    "fields": {
+      "event": 15,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.135Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 266,
+    "fields": {
+      "event": 15,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.135Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 267,
+    "fields": {
+      "event": 15,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.135Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 268,
+    "fields": {
+      "event": 15,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.135Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 269,
+    "fields": {
+      "event": 15,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.135Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 270,
+    "fields": {
+      "event": 15,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.135Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 271,
+    "fields": {
+      "event": 16,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.160Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 272,
+    "fields": {
+      "event": 16,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.160Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 273,
+    "fields": {
+      "event": 16,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.160Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 274,
+    "fields": {
+      "event": 16,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 275,
+    "fields": {
+      "event": 16,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 276,
+    "fields": {
+      "event": 16,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 277,
+    "fields": {
+      "event": 16,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 278,
+    "fields": {
+      "event": 16,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 279,
+    "fields": {
+      "event": 16,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 280,
+    "fields": {
+      "event": 16,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 281,
+    "fields": {
+      "event": 16,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 282,
+    "fields": {
+      "event": 16,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 283,
+    "fields": {
+      "event": 16,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 284,
+    "fields": {
+      "event": 16,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 285,
+    "fields": {
+      "event": 16,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 286,
+    "fields": {
+      "event": 16,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 287,
+    "fields": {
+      "event": 16,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 288,
+    "fields": {
+      "event": 16,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.161Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 289,
+    "fields": {
+      "event": 17,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 290,
+    "fields": {
+      "event": 17,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 291,
+    "fields": {
+      "event": 17,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 292,
+    "fields": {
+      "event": 17,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 293,
+    "fields": {
+      "event": 17,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 294,
+    "fields": {
+      "event": 17,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 295,
+    "fields": {
+      "event": 17,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 296,
+    "fields": {
+      "event": 17,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 297,
+    "fields": {
+      "event": 17,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 298,
+    "fields": {
+      "event": 17,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 299,
+    "fields": {
+      "event": 17,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 300,
+    "fields": {
+      "event": 17,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 301,
+    "fields": {
+      "event": 17,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 302,
+    "fields": {
+      "event": 17,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 303,
+    "fields": {
+      "event": 17,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 304,
+    "fields": {
+      "event": 17,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 305,
+    "fields": {
+      "event": 17,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 306,
+    "fields": {
+      "event": 17,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.188Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 307,
+    "fields": {
+      "event": 18,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 308,
+    "fields": {
+      "event": 18,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 309,
+    "fields": {
+      "event": 18,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 310,
+    "fields": {
+      "event": 18,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 311,
+    "fields": {
+      "event": 18,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 312,
+    "fields": {
+      "event": 18,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 313,
+    "fields": {
+      "event": 18,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 314,
+    "fields": {
+      "event": 18,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 315,
+    "fields": {
+      "event": 18,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 316,
+    "fields": {
+      "event": 18,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 317,
+    "fields": {
+      "event": 18,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 318,
+    "fields": {
+      "event": 18,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 319,
+    "fields": {
+      "event": 18,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 320,
+    "fields": {
+      "event": 18,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 321,
+    "fields": {
+      "event": 18,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 322,
+    "fields": {
+      "event": 18,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 323,
+    "fields": {
+      "event": 18,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 324,
+    "fields": {
+      "event": 18,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.222Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 325,
+    "fields": {
+      "event": 19,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.248Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 326,
+    "fields": {
+      "event": 19,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.248Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 327,
+    "fields": {
+      "event": 19,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.248Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 328,
+    "fields": {
+      "event": 19,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.248Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 329,
+    "fields": {
+      "event": 19,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.248Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 330,
+    "fields": {
+      "event": 19,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.248Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 331,
+    "fields": {
+      "event": 19,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 332,
+    "fields": {
+      "event": 19,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 333,
+    "fields": {
+      "event": 19,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 334,
+    "fields": {
+      "event": 19,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 335,
+    "fields": {
+      "event": 19,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 336,
+    "fields": {
+      "event": 19,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 337,
+    "fields": {
+      "event": 19,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 338,
+    "fields": {
+      "event": 19,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 339,
+    "fields": {
+      "event": 19,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 340,
+    "fields": {
+      "event": 19,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 341,
+    "fields": {
+      "event": 19,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 342,
+    "fields": {
+      "event": 19,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.249Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 343,
+    "fields": {
+      "event": 20,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 344,
+    "fields": {
+      "event": 20,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 345,
+    "fields": {
+      "event": 20,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 346,
+    "fields": {
+      "event": 20,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 347,
+    "fields": {
+      "event": 20,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 348,
+    "fields": {
+      "event": 20,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 349,
+    "fields": {
+      "event": 20,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 350,
+    "fields": {
+      "event": 20,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 351,
+    "fields": {
+      "event": 20,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 352,
+    "fields": {
+      "event": 20,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 353,
+    "fields": {
+      "event": 20,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 354,
+    "fields": {
+      "event": 20,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 355,
+    "fields": {
+      "event": 20,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 356,
+    "fields": {
+      "event": 20,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 357,
+    "fields": {
+      "event": 20,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 358,
+    "fields": {
+      "event": 20,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 359,
+    "fields": {
+      "event": 20,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 360,
+    "fields": {
+      "event": 20,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.274Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 361,
+    "fields": {
+      "event": 21,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 362,
+    "fields": {
+      "event": 21,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 363,
+    "fields": {
+      "event": 21,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 364,
+    "fields": {
+      "event": 21,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 365,
+    "fields": {
+      "event": 21,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 366,
+    "fields": {
+      "event": 21,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 367,
+    "fields": {
+      "event": 21,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 368,
+    "fields": {
+      "event": 21,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 369,
+    "fields": {
+      "event": 21,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 370,
+    "fields": {
+      "event": 21,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 371,
+    "fields": {
+      "event": 21,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 372,
+    "fields": {
+      "event": 21,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 373,
+    "fields": {
+      "event": 21,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 374,
+    "fields": {
+      "event": 21,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 375,
+    "fields": {
+      "event": 21,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 376,
+    "fields": {
+      "event": 21,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 377,
+    "fields": {
+      "event": 21,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 378,
+    "fields": {
+      "event": 21,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.301Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 379,
+    "fields": {
+      "event": 22,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 380,
+    "fields": {
+      "event": 22,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 381,
+    "fields": {
+      "event": 22,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 382,
+    "fields": {
+      "event": 22,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 383,
+    "fields": {
+      "event": 22,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 384,
+    "fields": {
+      "event": 22,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 385,
+    "fields": {
+      "event": 22,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 386,
+    "fields": {
+      "event": 22,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 387,
+    "fields": {
+      "event": 22,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 388,
+    "fields": {
+      "event": 22,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 389,
+    "fields": {
+      "event": 22,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 390,
+    "fields": {
+      "event": 22,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 391,
+    "fields": {
+      "event": 22,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 392,
+    "fields": {
+      "event": 22,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 393,
+    "fields": {
+      "event": 22,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 394,
+    "fields": {
+      "event": 22,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 395,
+    "fields": {
+      "event": 22,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 396,
+    "fields": {
+      "event": 22,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.328Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 397,
+    "fields": {
+      "event": 23,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 398,
+    "fields": {
+      "event": 23,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 399,
+    "fields": {
+      "event": 23,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 400,
+    "fields": {
+      "event": 23,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 401,
+    "fields": {
+      "event": 23,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 402,
+    "fields": {
+      "event": 23,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 403,
+    "fields": {
+      "event": 23,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 404,
+    "fields": {
+      "event": 23,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 405,
+    "fields": {
+      "event": 23,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 406,
+    "fields": {
+      "event": 23,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 407,
+    "fields": {
+      "event": 23,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 408,
+    "fields": {
+      "event": 23,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 409,
+    "fields": {
+      "event": 23,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 410,
+    "fields": {
+      "event": 23,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 411,
+    "fields": {
+      "event": 23,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 412,
+    "fields": {
+      "event": 23,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 413,
+    "fields": {
+      "event": 23,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 414,
+    "fields": {
+      "event": 23,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.355Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 415,
+    "fields": {
+      "event": 24,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 416,
+    "fields": {
+      "event": 24,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 417,
+    "fields": {
+      "event": 24,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 418,
+    "fields": {
+      "event": 24,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 419,
+    "fields": {
+      "event": 24,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 420,
+    "fields": {
+      "event": 24,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 421,
+    "fields": {
+      "event": 24,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 422,
+    "fields": {
+      "event": 24,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 423,
+    "fields": {
+      "event": 24,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 424,
+    "fields": {
+      "event": 24,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 425,
+    "fields": {
+      "event": 24,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 426,
+    "fields": {
+      "event": 24,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 427,
+    "fields": {
+      "event": 24,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 428,
+    "fields": {
+      "event": 24,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 429,
+    "fields": {
+      "event": 24,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 430,
+    "fields": {
+      "event": 24,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 431,
+    "fields": {
+      "event": 24,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 432,
+    "fields": {
+      "event": 24,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.382Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 433,
+    "fields": {
+      "event": 25,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 434,
+    "fields": {
+      "event": 25,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 435,
+    "fields": {
+      "event": 25,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 436,
+    "fields": {
+      "event": 25,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 437,
+    "fields": {
+      "event": 25,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 438,
+    "fields": {
+      "event": 25,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 439,
+    "fields": {
+      "event": 25,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 440,
+    "fields": {
+      "event": 25,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 441,
+    "fields": {
+      "event": 25,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 442,
+    "fields": {
+      "event": 25,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 443,
+    "fields": {
+      "event": 25,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 444,
+    "fields": {
+      "event": 25,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 445,
+    "fields": {
+      "event": 25,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 446,
+    "fields": {
+      "event": 25,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 447,
+    "fields": {
+      "event": 25,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 448,
+    "fields": {
+      "event": 25,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 449,
+    "fields": {
+      "event": 25,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 450,
+    "fields": {
+      "event": 25,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.408Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 451,
+    "fields": {
+      "event": 26,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 452,
+    "fields": {
+      "event": 26,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 453,
+    "fields": {
+      "event": 26,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 454,
+    "fields": {
+      "event": 26,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 455,
+    "fields": {
+      "event": 26,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 456,
+    "fields": {
+      "event": 26,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 457,
+    "fields": {
+      "event": 26,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 458,
+    "fields": {
+      "event": 26,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 459,
+    "fields": {
+      "event": 26,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 460,
+    "fields": {
+      "event": 26,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 461,
+    "fields": {
+      "event": 26,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 462,
+    "fields": {
+      "event": 26,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 463,
+    "fields": {
+      "event": 26,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 464,
+    "fields": {
+      "event": 26,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 465,
+    "fields": {
+      "event": 26,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 466,
+    "fields": {
+      "event": 26,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 467,
+    "fields": {
+      "event": 26,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 468,
+    "fields": {
+      "event": 26,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.437Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 469,
+    "fields": {
+      "event": 27,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 470,
+    "fields": {
+      "event": 27,
+      "player": 5,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 471,
+    "fields": {
+      "event": 27,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 472,
+    "fields": {
+      "event": 27,
+      "player": 11,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 473,
+    "fields": {
+      "event": 27,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 474,
+    "fields": {
+      "event": 27,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 475,
+    "fields": {
+      "event": 27,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 476,
+    "fields": {
+      "event": 27,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 477,
+    "fields": {
+      "event": 27,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 478,
+    "fields": {
+      "event": 27,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 479,
+    "fields": {
+      "event": 27,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 480,
+    "fields": {
+      "event": 27,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 481,
+    "fields": {
+      "event": 27,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 482,
+    "fields": {
+      "event": 27,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 483,
+    "fields": {
+      "event": 27,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 484,
+    "fields": {
+      "event": 27,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 485,
+    "fields": {
+      "event": 27,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 486,
+    "fields": {
+      "event": 27,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T07:48:49.464Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 487,
+    "fields": {
+      "event": 28,
+      "player": 5,
+      "status": "yes",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 34,
+      "updated_at": "2026-10-21T07:56:51.726Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 488,
+    "fields": {
+      "event": 28,
+      "player": 11,
+      "status": "yes",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 36,
+      "updated_at": "2026-10-21T07:58:39.032Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 489,
+    "fields": {
+      "event": 28,
+      "player": 1,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 490,
+    "fields": {
+      "event": 28,
+      "player": 2,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 491,
+    "fields": {
+      "event": 28,
+      "player": 3,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 492,
+    "fields": {
+      "event": 28,
+      "player": 4,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 493,
+    "fields": {
+      "event": 28,
+      "player": 6,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 494,
+    "fields": {
+      "event": 28,
+      "player": 7,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 495,
+    "fields": {
+      "event": 28,
+      "player": 8,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 496,
+    "fields": {
+      "event": 28,
+      "player": 9,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 497,
+    "fields": {
+      "event": 28,
+      "player": 10,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 498,
+    "fields": {
+      "event": 28,
+      "player": 12,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 499,
+    "fields": {
+      "event": 28,
+      "player": 13,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 500,
+    "fields": {
+      "event": 28,
+      "player": 14,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 501,
+    "fields": {
+      "event": 28,
+      "player": 15,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 502,
+    "fields": {
+      "event": 28,
+      "player": 16,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 503,
+    "fields": {
+      "event": 28,
+      "player": 17,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 504,
+    "fields": {
+      "event": 28,
+      "player": 18,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 505,
+    "fields": {
+      "event": 28,
+      "player": 19,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 506,
+    "fields": {
+      "event": 28,
+      "player": 20,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 507,
+    "fields": {
+      "event": 28,
+      "player": 21,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 508,
+    "fields": {
+      "event": 28,
+      "player": 22,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 509,
+    "fields": {
+      "event": 28,
+      "player": 23,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 510,
+    "fields": {
+      "event": 28,
+      "player": 24,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 511,
+    "fields": {
+      "event": 28,
+      "player": 25,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 512,
+    "fields": {
+      "event": 28,
+      "player": 26,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 513,
+    "fields": {
+      "event": 28,
+      "player": 27,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 514,
+    "fields": {
+      "event": 28,
+      "player": 28,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 515,
+    "fields": {
+      "event": 28,
+      "player": 29,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.524Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 516,
+    "fields": {
+      "event": 28,
+      "player": 30,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 517,
+    "fields": {
+      "event": 28,
+      "player": 31,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 518,
+    "fields": {
+      "event": 28,
+      "player": 32,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 519,
+    "fields": {
+      "event": 28,
+      "player": 33,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 520,
+    "fields": {
+      "event": 28,
+      "player": 34,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 521,
+    "fields": {
+      "event": 28,
+      "player": 35,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 522,
+    "fields": {
+      "event": 28,
+      "player": 36,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 523,
+    "fields": {
+      "event": 28,
+      "player": 37,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 524,
+    "fields": {
+      "event": 28,
+      "player": 38,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 525,
+    "fields": {
+      "event": 28,
+      "player": 39,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 526,
+    "fields": {
+      "event": 28,
+      "player": 40,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 527,
+    "fields": {
+      "event": 28,
+      "player": 41,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 528,
+    "fields": {
+      "event": 28,
+      "player": 42,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 529,
+    "fields": {
+      "event": 28,
+      "player": 43,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 530,
+    "fields": {
+      "event": 28,
+      "player": 44,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 531,
+    "fields": {
+      "event": 28,
+      "player": 45,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 532,
+    "fields": {
+      "event": 28,
+      "player": 46,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 533,
+    "fields": {
+      "event": 28,
+      "player": 47,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 534,
+    "fields": {
+      "event": 28,
+      "player": 48,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  },
+  {
+    "model": "attendance.attendance",
+    "pk": 535,
+    "fields": {
+      "event": 28,
+      "player": 49,
+      "status": "unanswered",
+      "reason": null,
+      "session_paid": false,
+      "invited": true,
+      "set_by": 31,
+      "updated_at": "2026-10-21T08:22:49.525Z"
+    }
+  }
+]

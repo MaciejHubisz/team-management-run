@@ -1,14 +1,33 @@
 {
   "app": "team-management",
-  "exported_at": "2026-10-21T12:00:00.000000",
+  "exported_at": "2026-10-21T11:01:56.819370",
   "sections": [
     "accounts.user.json",
     "accounts.profile.json",
     "core.clubsettings.json",
+    "core.integrationkey.json",
     "roster.player.json",
+    "roster.invitationlist.json",
+    "roster.joinrequest.json",
     "seasons.season.json",
+    "seasons.seasonplayer.json",
+    "formations.formationunit.json",
+    "formations.formationmembership.json",
     "core.rink.json",
     "seasons.declaration.json",
-    "core.coach.json"
+    "core.coach.json",
+    "events.eventseries.json",
+    "events.event.json",
+    "lineups.lineup.json",
+    "lineups.lineupvariant.json",
+    "lineups.lineupslot.json",
+    "attendance.attendance.json",
+    "comments.eventcomment.json",
+    "payments.payment.json",
+    "accounting.expense.json",
+    "accounting.income.json",
+    "notifications.notificationjob.json",
+    "integrations.integrationchannel.json",
+    "integrations.outboundmessage.json"
   ]
 }

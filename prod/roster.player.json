@@ -15,14 +15,15 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/aleksandrovich-matsvei.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/10222137/avatar/2a670acf63324a36a340b3087c11c062/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -41,14 +42,15 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/antkowiak-dawid.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/8482589/avatar/11047395/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -64,14 +66,15 @@
       "date_of_birth": "1997-12-31",
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/balasa-karol.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/7319376/avatar/66d130bd9001478da7bd74d8a44985a4/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -89,21 +92,22 @@
       "positions": [
         "left_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/bratek-lukasz.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5779998/avatar/032c9706d2644ac796ebbfedfa986172/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
     "model": "roster.player",
     "pk": 5,
     "fields": {
-      "user": null,
+      "user": 34,
       "first_name": "Wojciech",
       "last_name": "Czekaj",
       "nickname": "Czekas",
@@ -115,14 +119,15 @@
         "left_defense",
         "right_defense"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/czekaj-wojciech.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5748541/avatar/f69726ae36074ed281d31e86941d155f/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-21T07:39:57.344Z"
     }
   },
   {
@@ -140,14 +145,15 @@
       "positions": [
         "goalie"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/delfel-aleksander.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/10146981/avatar/ecf945fbb4834d68808ab65df171cab9/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -163,14 +169,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -189,14 +196,15 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/gawas-bartlomiej.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/8479502/avatar/ff65463369cf46aa858f608cb235c6fe/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -212,14 +220,15 @@
       "date_of_birth": "2012-04-15",
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": true,
-      "notes": "",
       "photo": "pictures/players/gawron-tomasz.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/10103913/avatar/775837ba656c48e792d585e833631d94/original.jpg",
+      "kind": "member",
+      "is_junior": true,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -235,21 +244,22 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
     "model": "roster.player",
     "pk": 11,
     "fields": {
-      "user": null,
+      "user": 36,
       "first_name": "Krystian",
       "last_name": "Gołkowski",
       "nickname": "",
@@ -260,14 +270,15 @@
       "positions": [
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/golkowski-krystian.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770132/avatar/55b408aecc7b47dc94a49976a7a0445c/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-21T07:39:42.218Z"
     }
   },
   {
@@ -283,14 +294,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -308,14 +320,15 @@
       "positions": [
         "left_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/gwizdz-grzegorz.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5780522/avatar/975cdf7c0ef84eb99996e37d60789001/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -333,14 +346,15 @@
       "positions": [
         "left_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -358,14 +372,15 @@
       "positions": [
         "goalie"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/holub-aliaksandr.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/10259729/avatar/96d730ece2f14cebb99b19040e14e563/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -384,14 +399,15 @@
         "left_defense",
         "right_defense"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -407,14 +423,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -433,14 +450,15 @@
         "left_defense",
         "right_defense"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/kropielnicki-jakub.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5828265/avatar/a2fadbbbe88640ce9739c3e026276558/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -459,14 +477,15 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": true,
-      "notes": "",
       "photo": "pictures/players/kundirenko-nikita.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/10066261/avatar/03738964d0a3406fb665df4c2906113a/original.jpg",
+      "kind": "member",
+      "is_junior": true,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -484,14 +503,15 @@
       "positions": [
         "goalie"
       ],
-      "kind": "guest",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/laszak-marcin.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7257674/avatar/f3342e301ffe44958b0ecc5907d7a09b/original.jpg",
+      "kind": "guest",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -510,14 +530,15 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/masar-lubomir.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/8516415/avatar/10c059ee64854f5dbf42a1773f53d2a8/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -536,14 +557,15 @@
         "left_defense",
         "right_defense"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "Listed as 'CZECHU Marcin' in the source list.",
       "photo": "pictures/players/matysek-marcin.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770193/avatar/b31db6c5b06940719de37ccadb7468ef/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "Listed as 'CZECHU Marcin' in the source list.",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -561,14 +583,15 @@
       "positions": [
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/morawski-karol.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770459/avatar/3d999646a89f40c7bb93b8159a0a62b7/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -584,14 +607,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -609,14 +633,15 @@
       "positions": [
         "left_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/napierala-wojciech.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/5770804/avatar/35edb0d376504b3d96e60029e2efa1a5/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -632,14 +657,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -655,14 +681,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -681,14 +708,15 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/patron-krzysztof.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/6280955/avatar/e7e44ab3fd86470eb0e9fd5996f4a968/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -704,14 +732,15 @@
       "date_of_birth": null,
       "jersey_number": 79,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/patron-tomasz.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7024848/avatar/37658ee934554040a832658bd3db8d8a/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -727,14 +756,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -750,21 +780,22 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
     "model": "roster.player",
     "pk": 32,
     "fields": {
-      "user": null,
+      "user": 37,
       "first_name": "Radek",
       "last_name": "Różnicki",
       "nickname": "",
@@ -776,14 +807,15 @@
         "left_defense",
         "right_defense"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/roznicki-radek.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770133/avatar/15d9eb7f43df44f2ac175a0b7b678a59/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-21T07:47:34.325Z"
     }
   },
   {
@@ -799,14 +831,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/skuratovych-nikita.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/10123399/avatar/af93ee5f3d8f4519a54e8bf69e5162c9/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -822,14 +855,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -848,14 +882,15 @@
         "left_defense",
         "right_defense"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/t-tomek.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5771169/avatar/50593b04d1dc4caea7063bf3c2a10d75/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -871,14 +906,15 @@
       "date_of_birth": "2008-01-22",
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/tasz-michal.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7143623/avatar/d849ec6d50ac4205af06c8fb64e9cc32/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -894,14 +930,15 @@
       "date_of_birth": "1981-02-16",
       "jersey_number": 81,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/tasz-lukasz.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7105737/avatar/76f7b890eb644f6681e94c8ad1dd2183/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -917,14 +954,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -940,14 +978,15 @@
       "date_of_birth": "2004-08-22",
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/tsalko-matsvei.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/10014680/avatar/d6eb75f28354490ab2094e426e8ae6cc/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -966,14 +1005,15 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/turek-bartosz.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/5786237/avatar/756f94cea6654ee68a9e2dc22dccf627/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -989,14 +1029,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/turek-grzegorz.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/7138805/avatar/4ec5904d57c643f497b561945fed27b1/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -1015,14 +1056,15 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/wanat-greg.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/5770131/avatar/e6f79d42451247e5bbf6c6ee133685b5/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -1040,14 +1082,15 @@
       "positions": [
         "center"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/wensker-janek.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770710/avatar/d2fab032acba42d18e0b3b39e270faac/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -1063,14 +1106,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/wensker-krzychu.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5778074/avatar/5f06ee3c6d934b94b8f7a139eef8a121/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -1089,21 +1133,22 @@
         "left_wing",
         "right_wing"
       ],
-      "kind": "member",
-      "is_junior": true,
-      "notes": "",
       "photo": "pictures/players/wilkosz-franciszek.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7130974/avatar/112ded76aa0f487691efa09319a40aa9/original.jpg",
+      "kind": "member",
+      "is_junior": true,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
     "model": "roster.player",
     "pk": 46,
     "fields": {
-      "user": null,
+      "user": 35,
       "first_name": "Piotr",
       "last_name": "Wilkosz",
       "nickname": "Czerkawski",
@@ -1114,14 +1159,15 @@
       "positions": [
         "center"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/wilkosz-piotr.jpg",
       "photo_source_url": "https://media2.sporteasy.net/account/5748401/avatar/c999127d66024cee8221d6dd491311ab/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-21T07:39:26.284Z"
     }
   },
   {
@@ -1140,14 +1186,15 @@
         "left_defense",
         "right_defense"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -1165,14 +1212,15 @@
       "positions": [
         "goalie"
       ],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "pictures/players/zagrodnik-slawek.jpg",
       "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770256/avatar/69ddff761fc7409caabe95f73741b740/original.jpg",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   },
   {
@@ -1188,14 +1236,15 @@
       "date_of_birth": null,
       "jersey_number": null,
       "positions": [],
-      "kind": "member",
-      "is_junior": false,
-      "notes": "",
       "photo": "",
       "photo_source_url": "",
+      "kind": "member",
+      "is_junior": false,
       "status": "active",
-      "created_at": "2026-10-20T12:00:00.000Z",
-      "updated_at": "2026-10-20T12:00:00.000Z"
+      "notes": "",
+      "invited_at": null,
+      "created_at": "2026-10-20T12:00:00Z",
+      "updated_at": "2026-10-20T12:00:00Z"
     }
   }
 ]

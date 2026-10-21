@@ -1,0 +1,25 @@
+[
+  {
+    "model": "events.eventseries",
+    "pk": 1,
+    "fields": {
+      "title": "Poniedziałek Świdnica",
+      "event_type": "training",
+      "location": "",
+      "season": 1,
+      "rink": 1,
+      "hours": "2.00",
+      "coach_present": true,
+      "freq": "weekly",
+      "weekdays": [
+        0
+      ],
+      "starts_on": "2026-10-26",
+      "until": "2027-04-30",
+      "start_time": "20:30:00",
+      "end_time": "22:30:00",
+      "invitations_days_before": null,
+      "declaration": 1
+    }
+  }
+]

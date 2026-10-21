@@ -1,0 +1,47 @@
+[
+  {
+    "model": "formations.formationmembership",
+    "pk": 1,
+    "fields": {
+      "unit": 1,
+      "player": 9,
+      "sort_order": 0
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 2,
+    "fields": {
+      "unit": 1,
+      "player": 7,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 3,
+    "fields": {
+      "unit": 1,
+      "player": 13,
+      "sort_order": 2
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 4,
+    "fields": {
+      "unit": 1,
+      "player": 8,
+      "sort_order": 3
+    }
+  },
+  {
+    "model": "formations.formationmembership",
+    "pk": 5,
+    "fields": {
+      "unit": 1,
+      "player": 12,
+      "sort_order": 4
+    }
+  }
+]

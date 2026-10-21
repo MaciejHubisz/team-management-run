@@ -1,0 +1,226 @@
+[
+  {
+    "model": "lineups.lineup",
+    "pk": 1,
+    "fields": {
+      "event": 1,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 2,
+    "fields": {
+      "event": 2,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 3,
+    "fields": {
+      "event": 3,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 4,
+    "fields": {
+      "event": 4,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 5,
+    "fields": {
+      "event": 5,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 6,
+    "fields": {
+      "event": 6,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 7,
+    "fields": {
+      "event": 7,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 8,
+    "fields": {
+      "event": 8,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 9,
+    "fields": {
+      "event": 9,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 10,
+    "fields": {
+      "event": 10,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 11,
+    "fields": {
+      "event": 11,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 12,
+    "fields": {
+      "event": 12,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 13,
+    "fields": {
+      "event": 13,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 14,
+    "fields": {
+      "event": 14,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 15,
+    "fields": {
+      "event": 15,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 16,
+    "fields": {
+      "event": 16,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 17,
+    "fields": {
+      "event": 17,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 18,
+    "fields": {
+      "event": 18,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 19,
+    "fields": {
+      "event": 19,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 20,
+    "fields": {
+      "event": 20,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 21,
+    "fields": {
+      "event": 21,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 22,
+    "fields": {
+      "event": 22,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 23,
+    "fields": {
+      "event": 23,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 24,
+    "fields": {
+      "event": 24,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 25,
+    "fields": {
+      "event": 25,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 26,
+    "fields": {
+      "event": 26,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 27,
+    "fields": {
+      "event": 27,
+      "published_at": null
+    }
+  },
+  {
+    "model": "lineups.lineup",
+    "pk": 28,
+    "fields": {
+      "event": 28,
+      "published_at": null
+    }
+  }
+]

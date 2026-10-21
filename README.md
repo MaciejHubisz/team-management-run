@@ -78,10 +78,9 @@ cp auto-backups/team-management-auto-….json.gz import/
 docker compose exec backend python manage.py import_data --bundle /app/import/team-management-auto-….json.gz
 ```
 
-`prod/` is the real starting data for the club: the demo roster, the
-Świdnica and Wrocław rinks, season Zima 2026, the Monday Świdnica and Thursday
-Wrocław declarations, coach Aleks and the monthly club fee. It carries the admin
-login (same as the demo, change its password) and Maciej Hubisz's player login.
+`prod/` is the real club data: roster, rinks, season Zima 2026 with its declarations, formations, events,
+lineups, attendance and notifications. It carries the admin login (change its
+password), three coach logins and two player logins.
 Load it with **Load production data** on the Data page,
 `docker compose exec backend python manage.py load_prod`, or start from scratch
 with `./start.sh --force-recreate-prod` (sign in as `admin` / `changeme`).

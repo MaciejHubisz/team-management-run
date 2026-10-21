@@ -1,0 +1,24 @@
+[
+  {
+    "model": "formations.formationunit",
+    "pk": 1,
+    "fields": {
+      "unit_type": "attack",
+      "name": "Pierwszy skład",
+      "format": "ice",
+      "tags": [],
+      "status": "active"
+    }
+  },
+  {
+    "model": "formations.formationunit",
+    "pk": 2,
+    "fields": {
+      "unit_type": "attack",
+      "name": "Drugi skłąd",
+      "format": "ice",
+      "tags": [],
+      "status": "active"
+    }
+  }
+]
