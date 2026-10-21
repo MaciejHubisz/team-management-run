@@ -12,10 +12,12 @@ Commands:  ./start.sh
     player  own attendance and own payments, read team content
     guest   same as player for now
 
-  Built-in logins (password "changeme", change them in Settings):
+  Starting logins (password "changeme", change it in Settings):
 
-    admin@team-management.local     coach@team-management.local
-    player@team-management.local    guest@team-management.local
+    fresh database   admin@team-management.local
+                     (TEAMMGMT_ADMIN_EMAIL / TEAMMGMT_ADMIN_PASSWORD in .env)
+    demo data        admin, coach
+    production data  admin (the club's coach and player logins come with it)
 
   Language: Polish is the default. Switch PL / EN / CS in the top bar.
 
@@ -58,4 +60,5 @@ Commands:  ./start.sh
     ./start.sh --force-recreate-prod  same as --force-recreate, then load ./prod/ data
     ./start.sh --force-recreate wipe the data (schema is recreated), start empty;
                                 current data is exported to ./exports first
+    ./start.sh --status         show container status
     ./start.sh --logs           follow logs
