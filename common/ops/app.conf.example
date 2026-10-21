@@ -53,3 +53,7 @@ APP_DEPLOY_DOC="docs/deploy.md"
 
 # Image used to empty a data volume in place.
 APP_WIPE_IMAGE="docker.io/library/postgres:16-alpine"
+
+# Seconds `compose up` may wait for containers (health checks included) before
+# the start fails with their logs. <PREFIX>_UP_TIMEOUT in .env overrides it.
+APP_UP_TIMEOUT="300"

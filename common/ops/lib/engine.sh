@@ -192,6 +192,28 @@ compose() {
   "${COMPOSE[@]}" -f "$ROOT/${APP_COMPOSE_FILE:-docker-compose.yml}" "$@"
 }
 
+# `compose up` waits on depends_on health conditions with no limit, so a service
+# that exits while starting (failed migration, bad seed data) would hang the
+# script forever. Bound the wait and show the logs instead.
+# Podman's conmon keeps the stdio it was started with for the container's life,
+# so `up` writes to a file, not to the run-log pipe: otherwise that pipe never
+# closes and a caller over ssh (the deploy job) waits forever.
+compose_up() {
+  local secs out status=0
+  secs="$(app_env UP_TIMEOUT)"; secs="${secs:-${APP_UP_TIMEOUT:-300}}"
+  out="$(mktemp)"
+  timeout -k 10 "$secs" "${COMPOSE[@]}" -f "$ROOT/${APP_COMPOSE_FILE:-docker-compose.yml}" up "$@" \
+    </dev/null >"$out" 2>&1 || status=$?
+  cat "$out"
+  rm -f "$out"
+  [[ "$status" == 0 ]] && return 0
+  compose logs --tail 40 || true
+  if [[ "$status" == 124 || "$status" == 137 ]]; then
+    die "containers not ready after ${secs}s (${APP_ENV_PREFIX:-APP}_UP_TIMEOUT) — see the logs above"
+  fi
+  die "compose up failed (exit $status) — see the logs above"
+}
+
 # Local image id for a ref, or empty when the image is not present.
 image_id() {
   "$ENGINE" image inspect --format '{{.Id}}' "$1" 2>/dev/null || true

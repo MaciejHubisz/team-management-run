@@ -238,15 +238,15 @@ cmd_start() {
     # podman-compose's `down -v` only removes volumes labelled with the current
     # compose project. wipe_data() guarantees the data is gone either way.
     wipe_data
-    compose up --force-recreate --no-build -d
+    compose_up --force-recreate --no-build -d
   elif [[ "$FORCE_UP" == 1 || "$image_changed" == 1 ]]; then
     if [[ "$image_changed" == 1 ]]; then
       say "${DIM}New images — recreating app containers.${RESET}"
     fi
     # Recreate only the stateless app services; the database volume is kept.
-    compose up --force-recreate --no-build -d "${APP_SERVICES[@]}"
+    compose_up --force-recreate --no-build -d "${APP_SERVICES[@]}"
   else
-    compose up --no-build -d
+    compose_up --no-build -d
   fi
 
   if ! wait_until_up; then
