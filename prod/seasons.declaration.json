@@ -1,0 +1,40 @@
+[
+  {
+    "model": "seasons.declaration",
+    "pk": 1,
+    "fields": {
+      "season": 1,
+      "title": "Poniedziałek Świdnica",
+      "description": "",
+      "weekday": 0,
+      "start_time": "20:30:00",
+      "end_time": "22:30:00",
+      "starts_on": "2026-10-26",
+      "rink": 1,
+      "hours": "2.00",
+      "coach_present": true,
+      "is_open": true,
+      "is_locked": false,
+      "players": []
+    }
+  },
+  {
+    "model": "seasons.declaration",
+    "pk": 2,
+    "fields": {
+      "season": 1,
+      "title": "Czwartek Wrocław",
+      "description": "",
+      "weekday": 3,
+      "start_time": "20:00:00",
+      "end_time": "22:00:00",
+      "starts_on": null,
+      "rink": 2,
+      "hours": "2.00",
+      "coach_present": true,
+      "is_open": true,
+      "is_locked": false,
+      "players": []
+    }
+  }
+]

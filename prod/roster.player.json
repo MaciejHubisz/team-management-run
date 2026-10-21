@@ -1,0 +1,1250 @@
+[
+  {
+    "model": "roster.player",
+    "pk": 1,
+    "fields": {
+      "user": null,
+      "first_name": "Matsvei",
+      "last_name": "Aleksandrovich",
+      "nickname": "Matt",
+      "email": "matvei3126@gmail.com",
+      "phone": "+33519564815",
+      "date_of_birth": "2002-10-26",
+      "jersey_number": null,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/aleksandrovich-matsvei.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/10222137/avatar/2a670acf63324a36a340b3087c11c062/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 2,
+    "fields": {
+      "user": null,
+      "first_name": "Dawid",
+      "last_name": "Antkowiak",
+      "nickname": "Antek",
+      "email": "davemirage@wp.pl",
+      "phone": "+48697670295",
+      "date_of_birth": "1977-08-26",
+      "jersey_number": 26,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/antkowiak-dawid.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/8482589/avatar/11047395/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 3,
+    "fields": {
+      "user": null,
+      "first_name": "Karol",
+      "last_name": "Balasa",
+      "nickname": "",
+      "email": "rudylisu21@gmail.com",
+      "phone": "",
+      "date_of_birth": "1997-12-31",
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/balasa-karol.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/7319376/avatar/66d130bd9001478da7bd74d8a44985a4/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 4,
+    "fields": {
+      "user": null,
+      "first_name": "Lukasz",
+      "last_name": "Bratek",
+      "nickname": "Lukasz B. 47",
+      "email": "bratek.lukasz+se@gmail.com",
+      "phone": "+48660430136",
+      "date_of_birth": "1979-02-16",
+      "jersey_number": 47,
+      "positions": [
+        "left_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/bratek-lukasz.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5779998/avatar/032c9706d2644ac796ebbfedfa986172/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 5,
+    "fields": {
+      "user": null,
+      "first_name": "Wojciech",
+      "last_name": "Czekaj",
+      "nickname": "Czekas",
+      "email": "wojciech.czekaj@o2.pl",
+      "phone": "+48601591666",
+      "date_of_birth": "1983-04-29",
+      "jersey_number": 69,
+      "positions": [
+        "left_defense",
+        "right_defense"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/czekaj-wojciech.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5748541/avatar/f69726ae36074ed281d31e86941d155f/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 6,
+    "fields": {
+      "user": null,
+      "first_name": "Aleksander",
+      "last_name": "Delfel",
+      "nickname": "",
+      "email": "olek.delfel@gmail.com",
+      "phone": "+48663506483",
+      "date_of_birth": "2007-06-01",
+      "jersey_number": null,
+      "positions": [
+        "goalie"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/delfel-aleksander.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/10146981/avatar/ecf945fbb4834d68808ab65df171cab9/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 7,
+    "fields": {
+      "user": null,
+      "first_name": "Marek",
+      "last_name": "Dworzyński",
+      "nickname": "",
+      "email": "MarekDworzynski97@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 8,
+    "fields": {
+      "user": null,
+      "first_name": "Bartłomiej",
+      "last_name": "Gawas",
+      "nickname": "",
+      "email": "Nhl668@o2.pl",
+      "phone": "+48507833694",
+      "date_of_birth": "1978-10-02",
+      "jersey_number": 66,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/gawas-bartlomiej.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/8479502/avatar/ff65463369cf46aa858f608cb235c6fe/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 9,
+    "fields": {
+      "user": null,
+      "first_name": "Tomasz",
+      "last_name": "Gawron",
+      "nickname": "",
+      "email": "tomekglop@gmail.com",
+      "phone": "+48731093693",
+      "date_of_birth": "2012-04-15",
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": true,
+      "notes": "",
+      "photo": "pictures/players/gawron-tomasz.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/10103913/avatar/775837ba656c48e792d585e833631d94/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 10,
+    "fields": {
+      "user": null,
+      "first_name": "Michal Czech",
+      "last_name": "Gosc",
+      "nickname": "",
+      "email": "",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 11,
+    "fields": {
+      "user": null,
+      "first_name": "Krystian",
+      "last_name": "Gołkowski",
+      "nickname": "",
+      "email": "krystian.golkowski@gmail.com",
+      "phone": "+48535751133",
+      "date_of_birth": "1974-02-24",
+      "jersey_number": 23,
+      "positions": [
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/golkowski-krystian.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770132/avatar/55b408aecc7b47dc94a49976a7a0445c/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 12,
+    "fields": {
+      "user": null,
+      "first_name": "Krystian",
+      "last_name": "Graca",
+      "nickname": "",
+      "email": "megakrismort@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 13,
+    "fields": {
+      "user": null,
+      "first_name": "Grzegorz",
+      "last_name": "Gwiżdż",
+      "nickname": "Rzeźnik",
+      "email": "grzegorz753@op.pl",
+      "phone": "+48530145999",
+      "date_of_birth": "1998-02-20",
+      "jersey_number": 4,
+      "positions": [
+        "left_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/gwizdz-grzegorz.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5780522/avatar/975cdf7c0ef84eb99996e37d60789001/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 14,
+    "fields": {
+      "user": null,
+      "first_name": "Jerzy",
+      "last_name": "Gwiżdż",
+      "nickname": "",
+      "email": "j.gwizdz@vp.pl",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [
+        "left_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 15,
+    "fields": {
+      "user": null,
+      "first_name": "Aliaksandr",
+      "last_name": "Holub",
+      "nickname": "",
+      "email": "aholub79@icloud.com",
+      "phone": "+48504776929",
+      "date_of_birth": "1979-01-21",
+      "jersey_number": null,
+      "positions": [
+        "goalie"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/holub-aliaksandr.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/10259729/avatar/96d730ece2f14cebb99b19040e14e563/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 16,
+    "fields": {
+      "user": 33,
+      "first_name": "Maciej",
+      "last_name": "Hubisz",
+      "nickname": "HUBISZ",
+      "email": "mhubisz91@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": 41,
+      "positions": [
+        "left_defense",
+        "right_defense"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 17,
+    "fields": {
+      "user": null,
+      "first_name": "Dima",
+      "last_name": "Kolesnyk",
+      "nickname": "",
+      "email": "Agrohelpjdpl@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 18,
+    "fields": {
+      "user": null,
+      "first_name": "Jakub",
+      "last_name": "Kropielnicki",
+      "nickname": "Messiah",
+      "email": "kuba.kropielnicki@gmail.com",
+      "phone": "+48692993817",
+      "date_of_birth": "1981-05-17",
+      "jersey_number": 44,
+      "positions": [
+        "left_defense",
+        "right_defense"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/kropielnicki-jakub.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5828265/avatar/a2fadbbbe88640ce9739c3e026276558/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 19,
+    "fields": {
+      "user": null,
+      "first_name": "Nikita",
+      "last_name": "Kundirenko",
+      "nickname": "",
+      "email": "babelkwas02@gmail.com",
+      "phone": "+48889803559",
+      "date_of_birth": "2009-09-10",
+      "jersey_number": 18,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": true,
+      "notes": "",
+      "photo": "pictures/players/kundirenko-nikita.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/10066261/avatar/03738964d0a3406fb665df4c2906113a/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 20,
+    "fields": {
+      "user": null,
+      "first_name": "Marcin",
+      "last_name": "Laszak",
+      "nickname": "Tygrys 🐯",
+      "email": "",
+      "phone": "+48721146884",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [
+        "goalie"
+      ],
+      "kind": "guest",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/laszak-marcin.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7257674/avatar/f3342e301ffe44958b0ecc5907d7a09b/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 21,
+    "fields": {
+      "user": null,
+      "first_name": "Lubomir",
+      "last_name": "Masar",
+      "nickname": "",
+      "email": "83lubomir83@azet.sk",
+      "phone": "",
+      "date_of_birth": "1983-09-20",
+      "jersey_number": 83,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/masar-lubomir.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/8516415/avatar/10c059ee64854f5dbf42a1773f53d2a8/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 22,
+    "fields": {
+      "user": null,
+      "first_name": "Marcin",
+      "last_name": "Matysek",
+      "nickname": "MATYSEK",
+      "email": "marcin.matysek@iq-finance.pl",
+      "phone": "+48885686860",
+      "date_of_birth": "1982-10-15",
+      "jersey_number": 89,
+      "positions": [
+        "left_defense",
+        "right_defense"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "Listed as 'CZECHU Marcin' in the source list.",
+      "photo": "pictures/players/matysek-marcin.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770193/avatar/b31db6c5b06940719de37ccadb7468ef/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 23,
+    "fields": {
+      "user": null,
+      "first_name": "Karol",
+      "last_name": "Morawski",
+      "nickname": "",
+      "email": "karolmorawski.86@gmail.com",
+      "phone": "+48792976065",
+      "date_of_birth": "1986-04-26",
+      "jersey_number": 86,
+      "positions": [
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/morawski-karol.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770459/avatar/3d999646a89f40c7bb93b8159a0a62b7/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 24,
+    "fields": {
+      "user": null,
+      "first_name": "Andrew",
+      "last_name": "Muetze",
+      "nickname": "",
+      "email": "andrewmuetze@hotmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 25,
+    "fields": {
+      "user": null,
+      "first_name": "Wojciech",
+      "last_name": "Napierała",
+      "nickname": "Wojtas",
+      "email": "woj.na@op.pl",
+      "phone": "+48600394649",
+      "date_of_birth": "1975-12-27",
+      "jersey_number": 27,
+      "positions": [
+        "left_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/napierala-wojciech.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/5770804/avatar/35edb0d376504b3d96e60029e2efa1a5/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 26,
+    "fields": {
+      "user": null,
+      "first_name": "Mateusz",
+      "last_name": "Neuwelt",
+      "nickname": "",
+      "email": "mateuszneuwelt@outlook.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 27,
+    "fields": {
+      "user": null,
+      "first_name": "Ivan",
+      "last_name": "Oleksiuk",
+      "nickname": "",
+      "email": "oleksyukss17@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 28,
+    "fields": {
+      "user": null,
+      "first_name": "Krzysztof",
+      "last_name": "Patron",
+      "nickname": "Loczek",
+      "email": "kris.stream70@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": 17,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/patron-krzysztof.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/6280955/avatar/e7e44ab3fd86470eb0e9fd5996f4a968/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 29,
+    "fields": {
+      "user": null,
+      "first_name": "Tomasz",
+      "last_name": "Patron",
+      "nickname": "PATRON",
+      "email": "patronto@poczta.fm",
+      "phone": "+48608661883",
+      "date_of_birth": null,
+      "jersey_number": 79,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/patron-tomasz.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7024848/avatar/37658ee934554040a832658bd3db8d8a/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 30,
+    "fields": {
+      "user": null,
+      "first_name": "Marek",
+      "last_name": "Polak",
+      "nickname": "",
+      "email": "m.jan.polak@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 31,
+    "fields": {
+      "user": null,
+      "first_name": "Dawid",
+      "last_name": "Puk",
+      "nickname": "",
+      "email": "dawid.puk97@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 32,
+    "fields": {
+      "user": null,
+      "first_name": "Radek",
+      "last_name": "Różnicki",
+      "nickname": "",
+      "email": "rroznicki@hotmail.com",
+      "phone": "+48667486813",
+      "date_of_birth": "1987-01-16",
+      "jersey_number": 7,
+      "positions": [
+        "left_defense",
+        "right_defense"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/roznicki-radek.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770133/avatar/15d9eb7f43df44f2ac175a0b7b678a59/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 33,
+    "fields": {
+      "user": null,
+      "first_name": "Nikita",
+      "last_name": "Skuratovych",
+      "nickname": "",
+      "email": "nikitastrtjr@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/skuratovych-nikita.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/10123399/avatar/af93ee5f3d8f4519a54e8bf69e5162c9/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 34,
+    "fields": {
+      "user": null,
+      "first_name": "Jakub",
+      "last_name": "Szumiło",
+      "nickname": "",
+      "email": "jakubszu01@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 35,
+    "fields": {
+      "user": null,
+      "first_name": "Tomek",
+      "last_name": "T.",
+      "nickname": "",
+      "email": "tomektomiczek@gmail.com",
+      "phone": "+48607946076",
+      "date_of_birth": "1985-11-08",
+      "jersey_number": 8,
+      "positions": [
+        "left_defense",
+        "right_defense"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/t-tomek.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5771169/avatar/50593b04d1dc4caea7063bf3c2a10d75/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 36,
+    "fields": {
+      "user": null,
+      "first_name": "Michał",
+      "last_name": "Tasz",
+      "nickname": "Tasior",
+      "email": "michal@tasz.eu",
+      "phone": "+48734443482",
+      "date_of_birth": "2008-01-22",
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/tasz-michal.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7143623/avatar/d849ec6d50ac4205af06c8fb64e9cc32/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 37,
+    "fields": {
+      "user": null,
+      "first_name": "Łukasz",
+      "last_name": "Tasz",
+      "nickname": "Hardcorowy",
+      "email": "lukasz.tasz@gmail.com",
+      "phone": "+48662248198",
+      "date_of_birth": "1981-02-16",
+      "jersey_number": 81,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/tasz-lukasz.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7105737/avatar/76f7b890eb644f6681e94c8ad1dd2183/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 38,
+    "fields": {
+      "user": null,
+      "first_name": "Sebastian",
+      "last_name": "Timm",
+      "nickname": "",
+      "email": "seti292015@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 39,
+    "fields": {
+      "user": null,
+      "first_name": "Matsvei",
+      "last_name": "Tsalko",
+      "nickname": "",
+      "email": "matvey.friz@gmail.com",
+      "phone": "+48694636298",
+      "date_of_birth": "2004-08-22",
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/tsalko-matsvei.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/10014680/avatar/d6eb75f28354490ab2094e426e8ae6cc/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 40,
+    "fields": {
+      "user": null,
+      "first_name": "Bartosz",
+      "last_name": "Turek",
+      "nickname": "Drzewko",
+      "email": "batekkatek@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": 10,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/turek-bartosz.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/5786237/avatar/756f94cea6654ee68a9e2dc22dccf627/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 41,
+    "fields": {
+      "user": null,
+      "first_name": "Grzegorz",
+      "last_name": "Turek",
+      "nickname": "",
+      "email": "grzegorztturek@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/turek-grzegorz.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/7138805/avatar/4ec5904d57c643f497b561945fed27b1/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 42,
+    "fields": {
+      "user": null,
+      "first_name": "Greg",
+      "last_name": "Wanat",
+      "nickname": "Greg",
+      "email": "gregwanat@gmail.com",
+      "phone": "+48535297714",
+      "date_of_birth": "1975-03-20",
+      "jersey_number": 87,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/wanat-greg.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/5770131/avatar/e6f79d42451247e5bbf6c6ee133685b5/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 43,
+    "fields": {
+      "user": null,
+      "first_name": "Janek",
+      "last_name": "Wensker",
+      "nickname": "JANKO",
+      "email": "1921686@gmail.com",
+      "phone": "+48509002055",
+      "date_of_birth": "1992-09-24",
+      "jersey_number": 33,
+      "positions": [
+        "center"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/wensker-janek.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770710/avatar/d2fab032acba42d18e0b3b39e270faac/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 44,
+    "fields": {
+      "user": null,
+      "first_name": "Krzychu",
+      "last_name": "Wensker",
+      "nickname": "",
+      "email": "kwens@icloud.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/wensker-krzychu.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5778074/avatar/5f06ee3c6d934b94b8f7a139eef8a121/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 45,
+    "fields": {
+      "user": null,
+      "first_name": "Franciszek",
+      "last_name": "Wilkosz",
+      "nickname": "",
+      "email": "franciszek.wilkosz@gmail.com",
+      "phone": "+48733222229",
+      "date_of_birth": "2009-06-22",
+      "jersey_number": 99,
+      "positions": [
+        "left_wing",
+        "right_wing"
+      ],
+      "kind": "member",
+      "is_junior": true,
+      "notes": "",
+      "photo": "pictures/players/wilkosz-franciszek.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/7130974/avatar/112ded76aa0f487691efa09319a40aa9/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 46,
+    "fields": {
+      "user": null,
+      "first_name": "Piotr",
+      "last_name": "Wilkosz",
+      "nickname": "Czerkawski",
+      "email": "piotr.wilkosz@gmail.com",
+      "phone": "+48888556664",
+      "date_of_birth": "1979-05-07",
+      "jersey_number": 21,
+      "positions": [
+        "center"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/wilkosz-piotr.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/account/5748401/avatar/c999127d66024cee8221d6dd491311ab/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 47,
+    "fields": {
+      "user": null,
+      "first_name": "Jacek",
+      "last_name": "Wolski",
+      "nickname": "",
+      "email": "jacek.wolski.wroclaw@gmail.com",
+      "phone": "+48578440759",
+      "date_of_birth": "1966-04-14",
+      "jersey_number": null,
+      "positions": [
+        "left_defense",
+        "right_defense"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 48,
+    "fields": {
+      "user": null,
+      "first_name": "Sławek",
+      "last_name": "Zagrodnik",
+      "nickname": "Slavo",
+      "email": "zagrodnikslawek@gmail.com",
+      "phone": "+48724600902",
+      "date_of_birth": "1984-02-15",
+      "jersey_number": 30,
+      "positions": [
+        "goalie"
+      ],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "pictures/players/zagrodnik-slawek.jpg",
+      "photo_source_url": "https://media2.sporteasy.net/team/1754106/members/5770256/avatar/69ddff761fc7409caabe95f73741b740/original.jpg",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  {
+    "model": "roster.player",
+    "pk": 49,
+    "fields": {
+      "user": null,
+      "first_name": "Michal",
+      "last_name": "Zapas",
+      "nickname": "",
+      "email": "michalzapasnik71@gmail.com",
+      "phone": "",
+      "date_of_birth": null,
+      "jersey_number": null,
+      "positions": [],
+      "kind": "member",
+      "is_junior": false,
+      "notes": "",
+      "photo": "",
+      "photo_source_url": "",
+      "is_ready": false,
+      "status": "active",
+      "created_at": "2026-10-20T12:00:00.000Z",
+      "updated_at": "2026-10-20T12:00:00.000Z"
+    }
+  }
+]

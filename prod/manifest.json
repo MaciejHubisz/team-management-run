@@ -1,0 +1,14 @@
+{
+  "app": "team-management",
+  "exported_at": "2026-10-21T12:00:00.000000",
+  "sections": [
+    "accounts.user.json",
+    "accounts.profile.json",
+    "core.clubsettings.json",
+    "roster.player.json",
+    "seasons.season.json",
+    "core.rink.json",
+    "seasons.declaration.json",
+    "core.coach.json"
+  ]
+}

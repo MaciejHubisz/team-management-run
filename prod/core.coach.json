@@ -1,0 +1,12 @@
+[
+  {
+    "model": "core.coach",
+    "pk": 1,
+    "fields": {
+      "name": "Aleks",
+      "rate_per_event": 25000,
+      "is_active": true,
+      "created_at": "2026-10-21T12:00:00.000Z"
+    }
+  }
+]

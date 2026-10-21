@@ -6,6 +6,7 @@
 #   ./start.sh --start
 #   ./start.sh --stop
 #   ./start.sh --update
+#   ./start.sh --force-recreate-demo | --force-recreate-prod
 #   ./start.sh --help
 set -euo pipefail
 
@@ -17,7 +18,7 @@ is_start_command() {
   local arg
   for arg in "$@"; do
     case "$arg" in
-      start | --start | update | --update | --force-recreate | --force-recreate-demo | --reset) return 0 ;;
+      start | --start | update | --update | --force-recreate | --force-recreate-demo | --force-recreate-prod | --reset) return 0 ;;
     esac
   done
   return 1
@@ -35,6 +36,11 @@ print_login_hint() {
   printf '\nSign in  http://localhost:%s/\n\n' "$port"
   if ! is_reset_command "$@"; then
     return 0
+  elif [[ "${TEAMMGMT_SEED_PROD:-false}" == true ]]; then
+    cat <<EOF
+  admin    admin                           changeme   (change it in Settings)
+  player   mhubisz91@gmail.com
+EOF
   elif [[ "$seed" == true ]]; then
     cat <<EOF
   admin    admin@team-management.local     changeme
@@ -52,7 +58,7 @@ is_reset_command() {
   local arg
   for arg in "$@"; do
     case "$arg" in
-      --force-recreate | --force-recreate-demo | --reset) return 0 ;;
+      --force-recreate | --force-recreate-demo | --force-recreate-prod | --reset) return 0 ;;
     esac
   done
   return 1
@@ -68,7 +74,8 @@ restore_exports() {
 }
 
 # A reset empties the exports folder too. Take a last JSON export from the
-# running backend first (not for the demo reset, which replaces data on purpose),
+# running backend first (not for the demo reset, which replaces data on purpose;
+# the prod reset does export, since it may replace real data),
 # then set the folder aside and put it back after.
 protect_exports() {
   local engine="" cid e
@@ -99,15 +106,22 @@ entry="$ROOT/common/ops/start.sh"
   exit 1
 }
 
-# --force-recreate-demo is --force-recreate plus the demo dataset; the shared
-# lifecycle script only knows the first, and the backend reads the seed switch.
-export TEAMMGMT_SEED_DEMO=false
+# --force-recreate-demo / --force-recreate-prod are --force-recreate plus the
+# demo / production dataset; the shared lifecycle script only knows the first,
+# and the backend reads the seed switch.
+export TEAMMGMT_SEED_DEMO=false TEAMMGMT_SEED_PROD=false
 args=()
 for arg in "$@"; do
-  if [[ "$arg" == --force-recreate-demo ]]; then
-    export TEAMMGMT_SEED_DEMO=true
-    arg=--force-recreate
-  fi
+  case "$arg" in
+    --force-recreate-demo)
+      export TEAMMGMT_SEED_DEMO=true
+      arg=--force-recreate
+      ;;
+    --force-recreate-prod)
+      export TEAMMGMT_SEED_PROD=true
+      arg=--force-recreate
+      ;;
+  esac
   args+=("$arg")
 done
 set -- "${args[@]}"

@@ -1,0 +1,9 @@
+[
+  {
+    "model": "core.clubsettings",
+    "pk": 1,
+    "fields": {
+      "club_fee": 3000
+    }
+  }
+]

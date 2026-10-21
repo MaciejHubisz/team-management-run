@@ -1,0 +1,16 @@
+[
+  {
+    "model": "seasons.season",
+    "pk": 1,
+    "fields": {
+      "name": "Zima 2026",
+      "starts_on": "2026-10-22",
+      "ends_on": "2027-04-30",
+      "is_main": true,
+      "format": "ice",
+      "monthly_fee": 0,
+      "guest_fee": 0,
+      "tags": []
+    }
+  }
+]

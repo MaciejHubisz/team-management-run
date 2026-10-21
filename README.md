@@ -21,6 +21,7 @@ first; otherwise they are pulled from the configured registry.
 ./start.sh --update
 ./start.sh --force-recreate        # recreate the database from scratch, empty
 ./start.sh --force-recreate-demo   # same, then load the demo dataset
+./start.sh --force-recreate-prod   # same, then load the production dataset
 ```
 
 The console output of the last `--start` / `--update` (build included) is saved
@@ -37,9 +38,10 @@ The app containers (`backend`, `worker`, `web`) are stateless:
 | `--start`, `--update`, `--stop` | untouched (migrations apply new schema on backend start) |
 | `--force-recreate` | database recreated from scratch by migrations, **no rows** except one admin login |
 | `--force-recreate-demo` | identical, then the demo dataset is loaded |
+| `--force-recreate-prod` | identical, then the production dataset (`prod/`) is loaded |
 
 Before `--force-recreate` the script exports the running database to
-`exports/`; `--force-recreate-demo` skips that export. Both keep the existing
+`exports/` (`--force-recreate-prod` too); `--force-recreate-demo` skips that export. Both keep the existing
 `exports/` folder across the wipe. The Data page also
 writes a safety export before every import, demo load or upload.
 
@@ -56,6 +58,7 @@ only), except Maciej Hubisz: `mhubisz91@gmail.com` / `changeme`, role player.
 | `auto-backups/` | hourly `.json.gz` bundles, last 48 h       | ignored |
 | `import/`   | staging folder for imports                     | ignored |
 | `demo/`     | bundled demo dataset (same layout as exports)  | committed |
+| `prod/`     | production starting dataset (same layout)      | committed |
 
 The Data page (admin) can also download everything as a single JSON file and
 restore from one, so a backup needs neither the database nor this folder.
@@ -74,6 +77,14 @@ Disaster recovery:
 cp auto-backups/team-management-auto-….json.gz import/
 docker compose exec backend python manage.py import_data --bundle /app/import/team-management-auto-….json.gz
 ```
+
+`prod/` is the real starting data for the club: the demo roster, the
+Świdnica and Wrocław rinks, season Zima 2026, the Monday Świdnica and Thursday
+Wrocław declarations, coach Aleks and the monthly club fee. It carries the admin
+login (same as the demo, change its password) and Maciej Hubisz's player login.
+Load it with **Load production data** on the Data page,
+`docker compose exec backend python manage.py load_prod`, or start from scratch
+with `./start.sh --force-recreate-prod` (sign in as `admin` / `changeme`).
 
 To import your own data, drop JSON files (one per table, `app.model.json`) into
 `./import/` and press **Import** on the Data page (or run

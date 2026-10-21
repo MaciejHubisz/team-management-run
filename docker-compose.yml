@@ -35,15 +35,18 @@ services:
       REDIS_URL: redis://redis:6379/0
       HUEY_IMMEDIATE: "false"
       TEAMMGMT_SEED_DEMO: "${TEAMMGMT_SEED_DEMO:-false}"
+      TEAMMGMT_SEED_PROD: "${TEAMMGMT_SEED_PROD:-false}"
       TEAMMGMT_EXPORTS_DIR: /app/exports
       TEAMMGMT_IMPORT_DIR: /app/import
       TEAMMGMT_DEMO_DIR: /app/demo
+      TEAMMGMT_PROD_DIR: /app/prod
     env_file:
       - .env
     volumes:
       - ./exports:/app/exports${TEAMMGMT_VOL_OPTS:-}
       - ./import:/app/import${TEAMMGMT_VOL_OPTS:-}
       - ./demo:/app/demo:ro${TEAMMGMT_VOL_OPTS_RO:-}
+      - ./prod:/app/prod:ro${TEAMMGMT_VOL_OPTS_RO:-}
     depends_on:
       db:
         condition: service_healthy
