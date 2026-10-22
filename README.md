@@ -69,7 +69,7 @@ The app containers (`backend`, `worker`, `web`) are stateless:
 
 Before `--force-recreate` the script exports the running database to
 `exports/` (`--force-recreate-prod` too); `--force-recreate-demo` skips that export. Both keep the existing
-`exports/` folder across the wipe. The Data page also
+`exports/` folder across the wipe. Settings → Backup also
 writes a safety export before every import, demo load or upload.
 
 Empty-database login: `TEAMMGMT_ADMIN_EMAIL` / `TEAMMGMT_ADMIN_PASSWORD` in `.env`
@@ -87,7 +87,7 @@ only), except Maciej Hubisz: `mhubisz91@gmail.com` / `changeme`, role player.
 | `demo/`     | bundled demo dataset (same layout as exports)  | committed |
 | `prod/`     | production starting dataset (same layout)      | committed |
 
-The Data page (admin) can also download everything as a single JSON file and
+Settings → Backup (admin) can also download everything as a single JSON file and
 restore from one, so a backup needs neither the database nor this folder.
 
 ### Auto-backups
@@ -96,11 +96,11 @@ The `backup` service writes one gzipped bundle per hour while the stack is up
 (`auto-backups/team-management-auto-<timestamp>.json.gz`, a few KB each) and
 deletes its own files older than 48 hours. It is the only container that mounts
 this folder: the web app cannot see or delete it, and `--force-recreate` does not
-touch it. The file has the same format as the Data page's single-file download.
+touch it. The file has the same format as the Settings → Backup single-file download.
 Disaster recovery:
 
 ```bash
-# Data page → restore from file → pick the .json.gz, or:
+# Settings → Backup → restore from file → pick the .json.gz, or:
 cp auto-backups/team-management-auto-….json.gz import/
 docker compose exec backend python manage.py import_data --bundle /app/import/team-management-auto-….json.gz
 ```
@@ -108,12 +108,12 @@ docker compose exec backend python manage.py import_data --bundle /app/import/te
 `prod/` is the real club data: roster, rinks, season Zima 2026 with its declarations, formations, events,
 lineups, attendance and notifications. It carries the admin login (change its
 password), three coach logins and two player logins.
-Load it with **Load production data** on the Data page,
+Load it with **Load production data** on Settings → Backup,
 `docker compose exec backend python manage.py load_prod`, or start from scratch
 with `./start.sh --force-recreate-prod` (sign in as `admin` / `changeme`).
 
 To import your own data, drop JSON files (one per table, `app.model.json`) into
-`./import/` and press **Import** on the Data page (or run
+`./import/` and press **Import** on Settings → Backup (or run
 `docker compose exec backend python manage.py import_data`).
 
 ## Browser tests (e2e)

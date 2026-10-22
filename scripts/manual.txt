@@ -24,7 +24,7 @@ Commands:  ./start.sh
 ────────────────────────────────────────────────────────
 2. Data export / import / demo
 
-  The app exposes a Data page (admin only) with four actions:
+  The app exposes a Settings → Backup page (admin only) with four actions:
 
     Export      writes the full dataset as JSON files into
                 ./exports/<timestamp>/ (one file per table)
