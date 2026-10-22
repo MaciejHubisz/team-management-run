@@ -24,6 +24,20 @@ first; otherwise they are pulled from the configured registry.
 ./start.sh --force-recreate-prod   # same, then load the production dataset
 ```
 
+## Configuration
+
+Everything is in one file, [`.env`](.env): image tag, container port, public
+domain and TLS, Django URLs and hosts, database credentials, auto-backup
+schedule, email provider, systemd service and CI deploy target. The start
+script, the host setup script, `e2e.sh`, and every container read it.
+`docker-compose.yml` holds only wiring.
+
+Secrets stay out of the committed `.env`. They go in `registry.env`, which is
+gitignored, written by `scripts/setup-server-as-root.sh` with mode 600, and
+loaded after `.env`. It holds the ghcr.io token and, optionally,
+`DJANGO_SECRET_KEY` and the email password. The image itself is configured in
+the source repo's `app.conf`.
+
 The console output of the last `--start` / `--update` (build included) is saved
 to `tmp/start.log` in this folder (git-ignored); a standalone `../team-management/build.sh`
 saves to `/tmp/team-management-build.log`. Each run overwrites its file.

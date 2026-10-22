@@ -1,7 +1,8 @@
 # team-management public site. Served by nginx in front of the Caddy web
 # container, which forwards to the Django backend.
 #
-# The setup script substitutes __DOMAIN__ and __PORT__ from scripts/admin/admin.env.
+# The setup script substitutes __DOMAIN__ and __PORT__ from .env
+# (TEAMMGMT_DOMAIN, TEAMMGMT_PORT).
 # This is the HTTP-only block. When TLS is enabled, certbot --nginx adds the
 # listen 443 / ssl_* lines and the port 80 -> 443 redirect to the installed copy.
 server {

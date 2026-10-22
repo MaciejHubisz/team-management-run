@@ -12,7 +12,10 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 export APP_RUN_ROOT="$ROOT"
-export APP_CONFIG="${APP_CONFIG:-$ROOT/app.conf}"
+# All configuration lives in .env (see its header).
+export APP_CONFIG="${APP_CONFIG:-$ROOT/.env}"
+# shellcheck disable=SC1090
+[[ -f "$APP_CONFIG" ]] && source "$APP_CONFIG"
 
 is_start_command() {
   local arg
@@ -24,14 +27,9 @@ is_start_command() {
   return 1
 }
 
-env_value() {
-  sed -n "s/^[[:space:]]*$1[[:space:]]*=[[:space:]]*//p" "$ROOT/.env" 2>/dev/null | tail -n1
-}
-
 print_login_hint() {
   local port seed email
-  port="$(env_value TEAMMGMT_PORT)"
-  port="${port:-8000}"
+  port="${TEAMMGMT_PORT:-8000}"
   seed="${TEAMMGMT_SEED_DEMO:-false}"
   printf '\nSign in  http://localhost:%s/\n\n' "$port"
   if ! is_reset_command "$@"; then
@@ -47,8 +45,8 @@ EOF
   coach    coach@team-management.local     changeme
 EOF
   else
-    email="$(env_value TEAMMGMT_ADMIN_EMAIL)"
-    printf '  admin    %s\n' "${email:-admin@team-management.local}"
+    email="${TEAMMGMT_ADMIN_EMAIL:-admin@team-management.local}"
+    printf '  admin    %s\n' "$email"
     echo "  password changeme (or TEAMMGMT_ADMIN_PASSWORD from .env)"
     echo "  A fresh database holds only this login; add data from the Data page."
   fi

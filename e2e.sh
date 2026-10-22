@@ -20,7 +20,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC1091
-source "$ROOT/app.conf"
+source "$ROOT/.env"
 SRC="${TEAMMGMT_SRC:-$ROOT/../${APP_SRC_DIR}}"
 IMAGE="${TEAMMGMT_IMAGE_PREFIX:-$APP_IMAGE_PREFIX}-e2e:${TEAMMGMT_E2E_TAG:-latest}"
 PORT="${TEAMMGMT_E2E_PORT:-7900}"
