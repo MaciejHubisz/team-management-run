@@ -22,8 +22,9 @@ services:
     image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.docker
-      # A secret: set it in registry.env (gitignored), not in .env.
+      # Secrets: set them in registry.env (gitignored), not in .env.
       DJANGO_SECRET_KEY: "${DJANGO_SECRET_KEY:-dev-insecure-secret-key}"
+      EMAIL_HOST_PASSWORD: "${EMAIL_HOST_PASSWORD:-}"
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"
       REDIS_URL: redis://redis:6379/0
@@ -62,6 +63,8 @@ services:
     image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
     command: python -m huey.bin.huey_consumer config.huey.huey
     environment:
+      # Secret: from registry.env (gitignored), like DJANGO_SECRET_KEY.
+      EMAIL_HOST_PASSWORD: "${EMAIL_HOST_PASSWORD:-}"
       DJANGO_SETTINGS_MODULE: config.settings.docker
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"

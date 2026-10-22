@@ -38,6 +38,19 @@ loaded after `.env`. It holds the ghcr.io token and, optionally,
 `DJANGO_SECRET_KEY` and the email password. The image itself is configured in
 the source repo's `app.conf`.
 
+### Email
+
+Set `EMAIL_HOST`, `EMAIL_PORT` and `EMAIL_HOST_USER` in `.env`, put
+`EMAIL_HOST_PASSWORD=…` in `registry.env`, and run `./start.sh --update`. Then
+check the settings with a test message:
+
+```bash
+docker compose exec backend python manage.py send_test_email you@example.com
+```
+
+With `EMAIL_HOST` empty, emails are only logged. The `worker` container sends
+them and retries a failed send 3 times, 2 minutes apart.
+
 The console output of the last `--start` / `--update` (build included) is saved
 to `tmp/start.log` in this folder (git-ignored); a standalone `../team-management/build.sh`
 saves to `/tmp/team-management-build.log`. Each run overwrites its file.
