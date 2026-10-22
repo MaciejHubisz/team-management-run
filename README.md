@@ -62,7 +62,8 @@ a queue in the database until the server accepts it. The `worker` container
 tries it at once, then retries 1, 2, 5, 10 and 30 minutes later, then hourly.
 A sign-in link stops being retried when the link expires (30 minutes),
 anything else after 48 hours. Settings → Integrations → Email queue shows what
-is waiting and why, and has a "Send now" button.
+is waiting and why, and has a "Send now" button. Failed emails stay listed
+until a later email goes out or you press "Clear failed".
 
 The console output of the last `--start` / `--update` (build included) is saved
 to `tmp/start.log` in this folder (git-ignored); a standalone `../team-management/build.sh`
