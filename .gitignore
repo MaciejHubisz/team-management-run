@@ -2,6 +2,7 @@ logs/*.log
 *.log
 .env.local
 registry.env
+secrets.env
 exports/
 auto-backups/
 import/

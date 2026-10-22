@@ -32,16 +32,25 @@ schedule, email provider, systemd service and CI deploy target. The start
 script, the host setup script, `e2e.sh`, and every container read it.
 `docker-compose.yml` holds only wiring.
 
-Secrets stay out of the committed `.env`. They go in `registry.env`, which is
-gitignored, written by `scripts/setup-server-as-root.sh` with mode 600, and
-loaded after `.env`. It holds the ghcr.io token and, optionally,
-`DJANGO_SECRET_KEY` and the email password. The image itself is configured in
-the source repo's `app.conf`.
+Secrets stay out of the committed `.env`. They go in `secrets.env`, which is
+gitignored and created by `./start.sh` on its first run (mode 600, every key
+commented out). Every container and script reads it after `.env`:
+
+```bash
+DJANGO_SECRET_KEY=…          # python3 -c "import secrets; print(secrets.token_urlsafe(50))"
+EMAIL_HOST_PASSWORD=…        # password of the EMAIL_HOST_USER account
+TEAMMGMT_REGISTRY_TOKEN=…    # read:packages token for the private ghcr.io images
+```
+
+Changing `DJANGO_SECRET_KEY` signs everyone out once. When the host setup
+script asks for a registry token, it saves the token in `registry.env`, which
+is also gitignored. The image itself is configured in the source repo's
+`app.conf`.
 
 ### Email
 
 Set `EMAIL_HOST`, `EMAIL_PORT` and `EMAIL_HOST_USER` in `.env`, put
-`EMAIL_HOST_PASSWORD=…` in `registry.env`, and run `./start.sh --update`. Then
+`EMAIL_HOST_PASSWORD=…` in `secrets.env`, and run `./start.sh --update`. Then
 check the settings with a test message:
 
 ```bash

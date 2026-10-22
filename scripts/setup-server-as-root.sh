@@ -9,6 +9,13 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 export APP_RUN_ROOT="$ROOT"
 export APP_CONFIG="${APP_CONFIG:-$ROOT/.env}"
+# Secrets (registry token, …) from the gitignored secrets.env, if present.
+if [[ -f "$ROOT/secrets.env" ]]; then
+  set -a
+  # shellcheck disable=SC1091
+  source "$ROOT/secrets.env"
+  set +a
+fi
 
 entry="$ROOT/common/ops/setup-server-as-root.sh"
 [[ -f "$entry" ]] || {

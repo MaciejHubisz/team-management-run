@@ -12,10 +12,35 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 export APP_RUN_ROOT="$ROOT"
-# All configuration lives in .env (see its header).
+# All configuration lives in .env (see its header); passwords and keys live in
+# secrets.env (gitignored, mode 600), created here on first run.
 export APP_CONFIG="${APP_CONFIG:-$ROOT/.env}"
 # shellcheck disable=SC1090
 [[ -f "$APP_CONFIG" ]] && source "$APP_CONFIG"
+SECRETS="$ROOT/secrets.env"
+if [[ ! -f "$SECRETS" ]]; then
+  (umask 077 && cat >"$SECRETS") <<'EOF'
+# team-management secrets. Not in git (.gitignore); keep it private (mode 600).
+# Every container reads this file after .env, and ./start.sh exports it.
+# Uncomment a line and fill it in, then ./start.sh --update.
+
+# Django signing key (sessions, sign-in links). Changing it signs everyone out
+# once. Generate one with:
+#   python3 -c "import secrets; print(secrets.token_urlsafe(50))"
+# DJANGO_SECRET_KEY=
+
+# Password of the email account in .env (EMAIL_HOST_USER).
+# EMAIL_HOST_PASSWORD=
+
+# Read token (read:packages) for the private images on ghcr.io.
+# TEAMMGMT_REGISTRY_TOKEN=
+EOF
+  echo "Created secrets.env (gitignored): fill in the passwords and keys there." >&2
+fi
+set -a
+# shellcheck disable=SC1090
+source "$SECRETS"
+set +a
 
 is_start_command() {
   local arg

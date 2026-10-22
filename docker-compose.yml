@@ -1,5 +1,6 @@
 # Pre-built images only. No source, schema, or dumps in this folder.
-# Wiring only: every setting (ports, URLs, credentials, image tag) lives in .env.
+# Wiring only: every setting (ports, URLs, image tag) lives in .env, every
+# secret (passwords, keys) in secrets.env (gitignored); containers read both.
 name: team-management
 
 services:
@@ -7,6 +8,8 @@ services:
     image: docker.io/library/postgres:16-alpine
     env_file:
       - .env
+      - path: secrets.env
+        required: false
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
@@ -22,9 +25,6 @@ services:
     image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
     environment:
       DJANGO_SETTINGS_MODULE: config.settings.docker
-      # Secrets: set them in registry.env (gitignored), not in .env.
-      DJANGO_SECRET_KEY: "${DJANGO_SECRET_KEY:-dev-insecure-secret-key}"
-      EMAIL_HOST_PASSWORD: "${EMAIL_HOST_PASSWORD:-}"
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"
       REDIS_URL: redis://redis:6379/0
@@ -37,6 +37,8 @@ services:
       TEAMMGMT_PROD_DIR: /app/prod
     env_file:
       - .env
+      - path: secrets.env
+        required: false
     volumes:
       - ./exports:/app/exports${TEAMMGMT_VOL_OPTS:-}
       - ./import:/app/import${TEAMMGMT_VOL_OPTS:-}
@@ -63,8 +65,6 @@ services:
     image: ${TEAMMGMT_IMAGE_PREFIX:-ghcr.io/maciejhubisz/team-management}-backend:${TEAMMGMT_IMAGE_TAG:-latest}
     command: python -m huey.bin.huey_consumer config.huey.huey
     environment:
-      # Secret: from registry.env (gitignored), like DJANGO_SECRET_KEY.
-      EMAIL_HOST_PASSWORD: "${EMAIL_HOST_PASSWORD:-}"
       DJANGO_SETTINGS_MODULE: config.settings.docker
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"
@@ -72,6 +72,8 @@ services:
       HUEY_IMMEDIATE: "false"
     env_file:
       - .env
+      - path: secrets.env
+        required: false
     depends_on:
       db:
         condition: service_healthy
@@ -96,6 +98,8 @@ services:
       TEAMMGMT_AUTO_BACKUP_DIR: /app/auto-backups
     env_file:
       - .env
+      - path: secrets.env
+        required: false
     volumes:
       - ./auto-backups:/app/auto-backups${TEAMMGMT_VOL_OPTS:-}
     depends_on:
