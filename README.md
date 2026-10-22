@@ -57,8 +57,12 @@ check the settings with a test message:
 docker compose exec backend python manage.py send_test_email you@example.com
 ```
 
-With `EMAIL_HOST` empty, emails are only logged. The `worker` container sends
-them and retries a failed send 3 times, 2 minutes apart.
+With `EMAIL_HOST` empty, emails are only logged. Otherwise every email waits in
+a queue in the database until the server accepts it. The `worker` container
+tries it at once, then retries 1, 2, 5, 10 and 30 minutes later, then hourly.
+A sign-in link stops being retried when the link expires (30 minutes),
+anything else after 48 hours. Settings → Integrations → Email queue shows what
+is waiting and why, and has a "Send now" button.
 
 The console output of the last `--start` / `--update` (build included) is saved
 to `tmp/start.log` in this folder (git-ignored); a standalone `../team-management/build.sh`
