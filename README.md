@@ -27,8 +27,8 @@ first; otherwise they are pulled from the configured registry.
 ## Configuration
 
 Everything is in one file, [`.env`](.env): image tag, container port, public
-domain and TLS, Django URLs and hosts, database credentials, auto-backup
-schedule, email provider, systemd service and CI deploy target. The start
+domain and TLS, Django URLs and hosts, cache, database credentials,
+auto-backup schedule, email provider, systemd service and CI deploy target. The start
 script, the host setup script, `e2e.sh`, and every container read it.
 `docker-compose.yml` holds only wiring.
 
@@ -46,6 +46,15 @@ Changing `DJANGO_SECRET_KEY` signs everyone out once. When the host setup
 script asks for a registry token, it saves the token in `registry.env`, which
 is also gitignored. The image itself is configured in the source repo's
 `app.conf`.
+
+### Cache
+
+Database reads and sessions are cached in the `redis` container (DB 1; the
+Huey queue uses DB 0). Every write invalidates exactly what it changed, so
+nothing needs flushing after an edit or an import. The `CACHE_*` lines in
+`.env` choose the backend (`dummy` turns it off), the entry lifetime and what
+is cached; change them and run `./start.sh --update`. Sessions live in the
+cache too, so the site needs the `redis` container up.
 
 ### Email
 
