@@ -15,7 +15,9 @@ Commands:  ./start.sh
   Starting logins (password "changeme", change it in Settings):
 
     fresh database   admin@team-management.local
-                     (TEAMMGMT_ADMIN_EMAIL / TEAMMGMT_ADMIN_PASSWORD in .env)
+                     (TEAMMGMT_ADMIN_EMAIL / TEAMMGMT_ADMIN_PASSWORD in .env;
+                     without it a random password is printed once in
+                     "docker compose logs backend")
     demo data        admin, coach
     production data  admin (the club's coach and player logins come with it)
 

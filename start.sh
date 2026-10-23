@@ -72,7 +72,8 @@ EOF
   else
     email="${TEAMMGMT_ADMIN_EMAIL:-admin@team-management.local}"
     printf '  admin    %s\n' "$email"
-    echo "  password changeme (or TEAMMGMT_ADMIN_PASSWORD from .env)"
+    echo "  password TEAMMGMT_ADMIN_PASSWORD from .env, or the generated one:"
+    echo "    docker compose logs backend | grep 'Generated admin password'"
     echo "  A fresh database holds only this login; add data from the Data page."
   fi
 }

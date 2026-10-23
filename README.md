@@ -96,7 +96,8 @@ Before `--force-recreate` the script exports the running database to
 writes a safety export before every import, demo load or upload.
 
 Empty-database login: `TEAMMGMT_ADMIN_EMAIL` / `TEAMMGMT_ADMIN_PASSWORD` in `.env`
-(defaults `admin@team-management.local` / `changeme`). The demo dataset has its own
+(default email `admin@team-management.local`; without a password a random one is
+generated and printed once: `docker compose logs backend | grep 'Generated admin password'`). The demo dataset has its own
 staff logins (see the sign-in hint after start). Its players have no logins (contact details
 only), except Maciej Hubisz: `mhubisz91@gmail.com` / `changeme`, role player.
 
