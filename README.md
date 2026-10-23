@@ -74,6 +74,17 @@ anything else after 48 hours. Settings → Integrations → Email queue shows wh
 is waiting and why, and has a "Send now" button. Failed emails stay listed
 until a later email goes out or you press "Clear failed".
 
+### Google sign-in
+
+Players register only from an invitation; Google is an extra way to do it and
+to sign in afterwards. In Google Cloud Console create an OAuth client of type
+"Web application" (consent screen: External, scopes `openid`, `email`,
+`profile`) with the authorized redirect URI `SITE_URL/accounts/google/callback/`
+(`https://odynce.nfy.pl/accounts/google/callback/`). Put `GOOGLE_CLIENT_ID=…` in
+`.env` and `GOOGLE_CLIENT_SECRET=…` in `secrets.env`, then `./start.sh --update`.
+The login page and the invitation page then show "Continue with Google". A
+Google account without an invitation gets no login.
+
 The console output of the last `--start` / `--update` (build included) is saved
 to `tmp/start.log` in this folder (git-ignored); a standalone `../team-management/build.sh`
 saves to `/tmp/team-management-build.log`. Each run overwrites its file.

@@ -32,6 +32,9 @@ if [[ ! -f "$SECRETS" ]]; then
 # Password of the email account in .env (EMAIL_HOST_USER).
 # EMAIL_HOST_PASSWORD=
 
+# Google sign-in client secret (the client id is GOOGLE_CLIENT_ID in .env).
+# GOOGLE_CLIENT_SECRET=
+
 # Read token (read:packages) for the private images on ghcr.io.
 # TEAMMGMT_REGISTRY_TOKEN=
 EOF
