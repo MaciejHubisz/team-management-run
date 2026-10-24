@@ -144,17 +144,20 @@ only), except Maciej Hubisz: `mhubisz91@gmail.com` / `changeme`, role player.
 |-------------|------------------------------------------------|-----|
 | `exports/`  | timestamped export folders (one per export)    | ignored |
 | `auto-backups/` | hourly `.json.gz` bundles, last 48 h       | ignored |
+| `media/`    | uploaded profile photos (`players/<id>/<hash>.webp`, served only to signed-in users) | ignored |
 | `import/`   | staging folder for imports                     | ignored |
 | `demo/`     | bundled demo dataset (same layout as exports)  | committed |
 | `prod/`     | production starting dataset (same layout)      | committed |
 
 Settings → Backup (admin) can also download everything as a single JSON file and
 restore from one, so a backup needs neither the database nor this folder.
+Exports, bundles and auto-backups carry the uploaded photos too (base64, about
+30 KB each), and a restore puts `media/` back to exactly what the backup holds.
 
 ### Auto-backups
 
 The `backup` service writes one gzipped bundle per hour while the stack is up
-(`auto-backups/team-management-auto-<timestamp>.json.gz`, a few KB each) and
+(`auto-backups/team-management-auto-<timestamp>.json.gz`, a few KB each plus about 30 KB per uploaded photo) and
 deletes its own files older than 48 hours. It is the only container that mounts
 this folder: the web app cannot see or delete it, and `--force-recreate` does not
 touch it. The file has the same format as the Settings → Backup single-file download.

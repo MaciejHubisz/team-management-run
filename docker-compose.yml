@@ -35,6 +35,7 @@ services:
       TEAMMGMT_IMPORT_DIR: /app/import
       TEAMMGMT_DEMO_DIR: /app/demo
       TEAMMGMT_PROD_DIR: /app/prod
+      TEAMMGMT_MEDIA_DIR: /app/media
     env_file:
       - .env
       - path: secrets.env
@@ -44,6 +45,7 @@ services:
       - ./import:/app/import${TEAMMGMT_VOL_OPTS:-}
       - ./demo:/app/demo:ro${TEAMMGMT_VOL_OPTS_RO:-}
       - ./prod:/app/prod:ro${TEAMMGMT_VOL_OPTS_RO:-}
+      - ./media:/app/media${TEAMMGMT_VOL_OPTS:-}
     depends_on:
       db:
         condition: service_healthy
@@ -96,12 +98,15 @@ services:
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"
       TEAMMGMT_AUTO_BACKUP_DIR: /app/auto-backups
+      TEAMMGMT_MEDIA_DIR: /app/media
     env_file:
       - .env
       - path: secrets.env
         required: false
     volumes:
       - ./auto-backups:/app/auto-backups${TEAMMGMT_VOL_OPTS:-}
+      # Read-only: the bundles carry the uploaded profile photos.
+      - ./media:/app/media:ro${TEAMMGMT_VOL_OPTS_RO:-}
     depends_on:
       db:
         condition: service_healthy
