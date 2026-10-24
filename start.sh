@@ -35,6 +35,9 @@ if [[ ! -f "$SECRETS" ]]; then
 # Google sign-in client secret (the client id is GOOGLE_CLIENT_ID in .env).
 # GOOGLE_CLIENT_SECRET=
 
+# Facebook sign-in app secret (the app id is FACEBOOK_APP_ID in .env).
+# FACEBOOK_APP_SECRET=
+
 # Read token (read:packages) for the private images on ghcr.io.
 # TEAMMGMT_REGISTRY_TOKEN=
 EOF

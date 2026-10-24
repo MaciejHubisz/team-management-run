@@ -85,6 +85,32 @@ to sign in afterwards. In Google Cloud Console create an OAuth client of type
 The login page and the invitation page then show "Continue with Google". A
 Google account without an invitation gets no login.
 
+### Facebook sign-in
+
+Same rules as Google: an extra way to register from an invitation and to sign
+in afterwards; a Facebook account without an invitation gets no login.
+
+1. On developers.facebook.com create an app (use case "Authenticate and
+   request data from users with Facebook Login", type Consumer).
+2. Use cases → Facebook Login → Permissions: add `email` (`public_profile` is
+   there already).
+3. Facebook Login → Settings: Client OAuth login and Web OAuth login on,
+   Enforce HTTPS on, Valid OAuth Redirect URIs
+   `SITE_URL/accounts/facebook/callback/`
+   (`https://odynce.nfy.pl/accounts/facebook/callback/`).
+4. App settings → Basic: App domains `odynce.nfy.pl`, Privacy Policy URL
+   `https://odynce.nfy.pl/legal/privacy/`, User data deletion: "Data deletion
+   instructions URL" pointing to the same privacy page (deleting data is a
+   request to the admin there). Copy the App ID and App Secret.
+5. Put `FACEBOOK_APP_ID=…` in `.env` and `FACEBOOK_APP_SECRET=…` in
+   `secrets.env`, then `./start.sh --update`.
+6. Switch the app to Live (App Mode). In Development only people with a role
+   on the app (admins, developers, testers) can sign in.
+
+The login page and the invitation page then show "Continue with Facebook".
+Facebook sends no "email verified" flag, and a person can refuse to share the
+email: such a sign-in is refused with "Facebook sign-in did not finish".
+
 The console output of the last `--start` / `--update` (build included) is saved
 to `tmp/start.log` in this folder (git-ignored); a standalone `../team-management/build.sh`
 saves to `/tmp/team-management-build.log`. Each run overwrites its file.
